@@ -1,0 +1,2422 @@
+{
+    "Sheet1": [
+        {
+            "SKU": "R001",
+            "QTY": "29",
+            "Stock_Location": "BRE-183331000001",
+            "Shelve_No": "A2-01-01"
+        },
+        {
+            "SKU": "R001",
+            "QTY": "60",
+            "Stock_Location": "BRE-183331000002",
+            "Shelve_No": "A2-01-01"
+        },
+        {
+            "SKU": "R001",
+            "QTY": "26",
+            "Stock_Location": "BRE-183331000003",
+            "Shelve_No": "A2-01-01"
+        },
+        {
+            "SKU": "R002",
+            "QTY": "64",
+            "Stock_Location": "BRE-183331000004",
+            "Shelve_No": "A2-01-02"
+        },
+        {
+            "SKU": "R002",
+            "QTY": "64",
+            "Stock_Location": "BRE-183331000005",
+            "Shelve_No": "A2-01-02"
+        },
+        {
+            "SKU": "R003",
+            "QTY": "64",
+            "Stock_Location": "BRE-183331000007",
+            "Shelve_No": "A2-01-03"
+        },
+        {
+            "SKU": "R003",
+            "QTY": "24",
+            "Stock_Location": "BRE-183331000008",
+            "Shelve_No": "A2-01-03"
+        },
+        {
+            "SKU": "R004",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000011",
+            "Shelve_No": "A2-01-04"
+        },
+        {
+            "SKU": "R004",
+            "QTY": "64",
+            "Stock_Location": "BRE-183331000010",
+            "Shelve_No": "A2-01-04"
+        },
+        {
+            "SKU": "R004",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000012",
+            "Shelve_No": "A2-01-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000019",
+            "Shelve_No": "A2-02-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "28",
+            "Stock_Location": "BRE-183331000024",
+            "Shelve_No": "A2-02-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "24",
+            "Stock_Location": "BRE-183331000044",
+            "Shelve_No": "A2-03-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331000039",
+            "Shelve_No": "A2-03-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000058",
+            "Shelve_No": "A2-04-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000059",
+            "Shelve_No": "A2-04-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000060",
+            "Shelve_No": "A2-04-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000055",
+            "Shelve_No": "A2-04-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000056",
+            "Shelve_No": "A2-04-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000057",
+            "Shelve_No": "A2-04-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000052",
+            "Shelve_No": "A2-04-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000053",
+            "Shelve_No": "A2-04-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000054",
+            "Shelve_No": "A2-04-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000049",
+            "Shelve_No": "A2-04-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000050",
+            "Shelve_No": "A2-04-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000051",
+            "Shelve_No": "A2-04-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "33",
+            "Stock_Location": "BRE-183331000047",
+            "Shelve_No": "A2-04-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000048",
+            "Shelve_No": "A2-04-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "30",
+            "Stock_Location": "BRE-183331000046",
+            "Shelve_No": "A2-04-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000073",
+            "Shelve_No": "A2-05-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000074",
+            "Shelve_No": "A2-05-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000075",
+            "Shelve_No": "A2-05-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000070",
+            "Shelve_No": "A2-05-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000071",
+            "Shelve_No": "A2-05-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000072",
+            "Shelve_No": "A2-05-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000067",
+            "Shelve_No": "A2-05-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000068",
+            "Shelve_No": "A2-05-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000069",
+            "Shelve_No": "A2-05-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000064",
+            "Shelve_No": "A2-05-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000065",
+            "Shelve_No": "A2-05-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000066",
+            "Shelve_No": "A2-05-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000061",
+            "Shelve_No": "A2-05-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000062",
+            "Shelve_No": "A2-05-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000063",
+            "Shelve_No": "A2-05-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000088",
+            "Shelve_No": "A2-06-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000089",
+            "Shelve_No": "A2-06-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000090",
+            "Shelve_No": "A2-06-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000087",
+            "Shelve_No": "A2-06-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000086",
+            "Shelve_No": "A2-06-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000085",
+            "Shelve_No": "A2-06-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000084",
+            "Shelve_No": "A2-06-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000083",
+            "Shelve_No": "A2-06-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000082",
+            "Shelve_No": "A2-06-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000081",
+            "Shelve_No": "A2-06-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000080",
+            "Shelve_No": "A2-06-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000079",
+            "Shelve_No": "A2-06-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000078",
+            "Shelve_No": "A2-06-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000077",
+            "Shelve_No": "A2-06-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000076",
+            "Shelve_No": "A2-06-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "50",
+            "Stock_Location": "BRE-183331000104",
+            "Shelve_No": "A2-07-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000103",
+            "Shelve_No": "A2-07-05"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000102",
+            "Shelve_No": "A2-07-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000101",
+            "Shelve_No": "A2-07-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000100",
+            "Shelve_No": "A2-07-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000099",
+            "Shelve_No": "A2-07-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000098",
+            "Shelve_No": "A2-07-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000097",
+            "Shelve_No": "A2-07-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000096",
+            "Shelve_No": "A2-07-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000095",
+            "Shelve_No": "A2-07-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000094",
+            "Shelve_No": "A2-07-02"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000093",
+            "Shelve_No": "A2-07-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000092",
+            "Shelve_No": "A2-07-01"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "54",
+            "Stock_Location": "BRE-183331000091",
+            "Shelve_No": "A2-07-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331000133",
+            "Shelve_No": "A2-09-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000134",
+            "Shelve_No": "A2-09-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000135",
+            "Shelve_No": "A2-09-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000136",
+            "Shelve_No": "A2-10-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000137",
+            "Shelve_No": "A2-10-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000138",
+            "Shelve_No": "A2-10-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000139",
+            "Shelve_No": "A2-10-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000140",
+            "Shelve_No": "A2-10-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000141",
+            "Shelve_No": "A2-10-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000144",
+            "Shelve_No": "A2-10-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000143",
+            "Shelve_No": "A2-10-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000142",
+            "Shelve_No": "A2-10-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000145",
+            "Shelve_No": "A2-10-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000146",
+            "Shelve_No": "A2-10-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000147",
+            "Shelve_No": "A2-10-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000148",
+            "Shelve_No": "A2-10-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000149",
+            "Shelve_No": "A2-10-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000150",
+            "Shelve_No": "A2-10-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000300",
+            "Shelve_No": "A3-10-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000299",
+            "Shelve_No": "A3-10-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000298",
+            "Shelve_No": "A3-10-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000297",
+            "Shelve_No": "A3-10-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000296",
+            "Shelve_No": "A3-10-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000295",
+            "Shelve_No": "A3-10-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000292",
+            "Shelve_No": "A3-10-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000293",
+            "Shelve_No": "A3-10-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000294",
+            "Shelve_No": "A3-10-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000289",
+            "Shelve_No": "A3-10-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000290",
+            "Shelve_No": "A3-10-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000291",
+            "Shelve_No": "A3-10-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000286",
+            "Shelve_No": "A3-10-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000287",
+            "Shelve_No": "A3-10-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000288",
+            "Shelve_No": "A3-10-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000283",
+            "Shelve_No": "A3-09-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000284",
+            "Shelve_No": "A3-09-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000285",
+            "Shelve_No": "A3-09-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000280",
+            "Shelve_No": "A3-09-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000281",
+            "Shelve_No": "A3-09-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000282",
+            "Shelve_No": "A3-09-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000279",
+            "Shelve_No": "A3-09-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000278",
+            "Shelve_No": "A3-09-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000277",
+            "Shelve_No": "A3-09-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000276",
+            "Shelve_No": "A3-09-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000275",
+            "Shelve_No": "A3-09-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000274",
+            "Shelve_No": "A3-09-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000271",
+            "Shelve_No": "A3-09-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000272",
+            "Shelve_No": "A3-09-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000273",
+            "Shelve_No": "A3-09-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000268",
+            "Shelve_No": "A3-08-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000269",
+            "Shelve_No": "A3-08-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000270",
+            "Shelve_No": "A3-08-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000267",
+            "Shelve_No": "A3-08-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000266",
+            "Shelve_No": "A3-08-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000265",
+            "Shelve_No": "A3-08-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000262",
+            "Shelve_No": "A3-08-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000263",
+            "Shelve_No": "A3-08-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000264",
+            "Shelve_No": "A3-08-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000261",
+            "Shelve_No": "A3-08-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000260",
+            "Shelve_No": "A3-08-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000259",
+            "Shelve_No": "A3-08-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000256",
+            "Shelve_No": "A3-08-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000257",
+            "Shelve_No": "A3-08-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000258",
+            "Shelve_No": "A3-08-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000255",
+            "Shelve_No": "A3-07-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000254",
+            "Shelve_No": "A3-07-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000253",
+            "Shelve_No": "A3-07-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000240",
+            "Shelve_No": "A3-06-05"
+        },
+        {
+            "SKU": "EXtra1",
+            "QTY": "5",
+            "Stock_Location": "BRE-183331000192",
+            "Shelve_No": "A3-03-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000189",
+            "Shelve_No": "A3-03-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000188",
+            "Shelve_No": "A3-03-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000187",
+            "Shelve_No": "A3-03-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000186",
+            "Shelve_No": "A3-03-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000185",
+            "Shelve_No": "A3-03-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000184",
+            "Shelve_No": "A3-03-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000183",
+            "Shelve_No": "A3-03-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000182",
+            "Shelve_No": "A3-03-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000181",
+            "Shelve_No": "A3-03-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000180",
+            "Shelve_No": "A3-02-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000179",
+            "Shelve_No": "A3-02-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000178",
+            "Shelve_No": "A3-02-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000177",
+            "Shelve_No": "A3-02-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000176",
+            "Shelve_No": "A3-02-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000175",
+            "Shelve_No": "A3-02-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000174",
+            "Shelve_No": "A3-02-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000173",
+            "Shelve_No": "A3-02-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000172",
+            "Shelve_No": "A3-02-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000171",
+            "Shelve_No": "A3-02-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000170",
+            "Shelve_No": "A3-02-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000169",
+            "Shelve_No": "A3-02-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000166",
+            "Shelve_No": "A3-02-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000167",
+            "Shelve_No": "A3-02-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000168",
+            "Shelve_No": "A3-02-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000163",
+            "Shelve_No": "A3-01-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000164",
+            "Shelve_No": "A3-01-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000165",
+            "Shelve_No": "A3-01-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000160",
+            "Shelve_No": "A3-01-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000161",
+            "Shelve_No": "A3-01-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000162",
+            "Shelve_No": "A3-01-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000157",
+            "Shelve_No": "A3-01-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000158",
+            "Shelve_No": "A3-01-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000159",
+            "Shelve_No": "A3-01-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000154",
+            "Shelve_No": "A3-01-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000155",
+            "Shelve_No": "A3-01-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000156",
+            "Shelve_No": "A3-01-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000153",
+            "Shelve_No": "A3-01-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000152",
+            "Shelve_No": "A3-01-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000151",
+            "Shelve_No": "A3-01-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000373",
+            "Shelve_No": "A4-05-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000374",
+            "Shelve_No": "A4-05-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000375",
+            "Shelve_No": "A4-05-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000372",
+            "Shelve_No": "A4-05-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000371",
+            "Shelve_No": "A4-05-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000370",
+            "Shelve_No": "A4-05-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000367",
+            "Shelve_No": "A4-05-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000368",
+            "Shelve_No": "A4-05-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000369",
+            "Shelve_No": "A4-05-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000366",
+            "Shelve_No": "A4-05-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000365",
+            "Shelve_No": "A4-05-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000364",
+            "Shelve_No": "A4-05-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000361",
+            "Shelve_No": "A4-05-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000362",
+            "Shelve_No": "A4-05-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000363",
+            "Shelve_No": "A4-05-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000360",
+            "Shelve_No": "A4-04-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000359",
+            "Shelve_No": "A4-04-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000358",
+            "Shelve_No": "A4-04-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000355",
+            "Shelve_No": "A4-04-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000356",
+            "Shelve_No": "A4-04-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000357",
+            "Shelve_No": "A4-04-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000354",
+            "Shelve_No": "A4-04-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000353",
+            "Shelve_No": "A4-04-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000352",
+            "Shelve_No": "A4-04-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000349",
+            "Shelve_No": "A4-04-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000350",
+            "Shelve_No": "A4-04-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000351",
+            "Shelve_No": "A4-04-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000348",
+            "Shelve_No": "A4-04-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000347",
+            "Shelve_No": "A4-04-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000346",
+            "Shelve_No": "A4-04-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000345",
+            "Shelve_No": "A4-03-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000344",
+            "Shelve_No": "A4-03-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000343",
+            "Shelve_No": "A4-03-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000340",
+            "Shelve_No": "A4-03-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000341",
+            "Shelve_No": "A4-03-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000342",
+            "Shelve_No": "A4-03-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000339",
+            "Shelve_No": "A4-03-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000338",
+            "Shelve_No": "A4-03-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000337",
+            "Shelve_No": "A4-03-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000334",
+            "Shelve_No": "A4-03-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000335",
+            "Shelve_No": "A4-03-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000336",
+            "Shelve_No": "A4-03-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000333",
+            "Shelve_No": "A4-03-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000332",
+            "Shelve_No": "A4-03-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000331",
+            "Shelve_No": "A4-03-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000330",
+            "Shelve_No": "A4-02-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000329",
+            "Shelve_No": "A4-02-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000328",
+            "Shelve_No": "A4-02-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000325",
+            "Shelve_No": "A4-02-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000326",
+            "Shelve_No": "A4-02-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000327",
+            "Shelve_No": "A4-02-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000324",
+            "Shelve_No": "A4-02-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000323",
+            "Shelve_No": "A4-02-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000322",
+            "Shelve_No": "A4-02-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000319",
+            "Shelve_No": "A4-02-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000320",
+            "Shelve_No": "A4-02-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000321",
+            "Shelve_No": "A4-02-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000318",
+            "Shelve_No": "A4-02-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000317",
+            "Shelve_No": "A4-02-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000316",
+            "Shelve_No": "A4-02-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000315",
+            "Shelve_No": "A4-01-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000314",
+            "Shelve_No": "A4-01-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000313",
+            "Shelve_No": "A4-01-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000310",
+            "Shelve_No": "A4-01-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000311",
+            "Shelve_No": "A4-01-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000312",
+            "Shelve_No": "A4-01-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000309",
+            "Shelve_No": "A4-01-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000308",
+            "Shelve_No": "A4-01-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000307",
+            "Shelve_No": "A4-01-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000304",
+            "Shelve_No": "A4-01-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000305",
+            "Shelve_No": "A4-01-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000306",
+            "Shelve_No": "A4-01-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000303",
+            "Shelve_No": "A4-01-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000302",
+            "Shelve_No": "A4-01-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000301",
+            "Shelve_No": "A4-01-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000381",
+            "Shelve_No": "A5-01-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000380",
+            "Shelve_No": "A5-01-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000379",
+            "Shelve_No": "A5-01-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000378",
+            "Shelve_No": "A5-01-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000377",
+            "Shelve_No": "A5-01-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000376",
+            "Shelve_No": "A5-01-01"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000548",
+            "Shelve_No": "A7-04-01"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000766",
+            "Shelve_No": "A8-08-04"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000672",
+            "Shelve_No": "A8-02-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "6",
+            "Stock_Location": "BRE-183331000673",
+            "Shelve_No": "A8-02-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000671",
+            "Shelve_No": "A8-02-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000670",
+            "Shelve_No": "A8-02-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000669",
+            "Shelve_No": "A8-02-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000668",
+            "Shelve_No": "A8-02-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000667",
+            "Shelve_No": "A8-02-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000666",
+            "Shelve_No": "A8-02-01"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000660",
+            "Shelve_No": "A8-01-04"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331000659",
+            "Shelve_No": "A8-01-03"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331000658",
+            "Shelve_No": "A8-01-03"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331000657",
+            "Shelve_No": "A8-01-03"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000656",
+            "Shelve_No": "A8-01-02"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000655",
+            "Shelve_No": "A8-01-02"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000654",
+            "Shelve_No": "A8-01-02"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000653",
+            "Shelve_No": "A8-01-01"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000652",
+            "Shelve_No": "A8-01-01"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000651",
+            "Shelve_No": "A8-01-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000858",
+            "Shelve_No": "A9-04-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000859",
+            "Shelve_No": "A9-04-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000860",
+            "Shelve_No": "A9-04-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000873",
+            "Shelve_No": "A9-05-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000874",
+            "Shelve_No": "A9-05-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000875",
+            "Shelve_No": "A9-05-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000870",
+            "Shelve_No": "A9-05-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000871",
+            "Shelve_No": "A9-05-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000872",
+            "Shelve_No": "A9-05-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000867",
+            "Shelve_No": "A9-05-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000868",
+            "Shelve_No": "A9-05-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000869",
+            "Shelve_No": "A9-05-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000864",
+            "Shelve_No": "A9-05-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000865",
+            "Shelve_No": "A9-05-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000866",
+            "Shelve_No": "A9-05-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000863",
+            "Shelve_No": "A9-05-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000862",
+            "Shelve_No": "A9-05-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000861",
+            "Shelve_No": "A9-05-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000888",
+            "Shelve_No": "A9-06-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000889",
+            "Shelve_No": "A9-06-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000890",
+            "Shelve_No": "A9-06-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000885",
+            "Shelve_No": "A9-06-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000886",
+            "Shelve_No": "A9-06-04"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000887",
+            "Shelve_No": "A9-06-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000882",
+            "Shelve_No": "A9-06-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000883",
+            "Shelve_No": "A9-06-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331000884",
+            "Shelve_No": "A9-06-03"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000879",
+            "Shelve_No": "A9-06-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000880",
+            "Shelve_No": "A9-06-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000881",
+            "Shelve_No": "A9-06-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000876",
+            "Shelve_No": "A9-06-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000877",
+            "Shelve_No": "A9-06-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000878",
+            "Shelve_No": "A9-06-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000903",
+            "Shelve_No": "A9-07-05"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000896",
+            "Shelve_No": "A9-07-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000894",
+            "Shelve_No": "A9-07-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000895",
+            "Shelve_No": "A9-07-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000893",
+            "Shelve_No": "A9-07-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000892",
+            "Shelve_No": "A9-07-01"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000891",
+            "Shelve_No": "A9-07-01"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000963",
+            "Shelve_No": "A13-01-05"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000964",
+            "Shelve_No": "A13-01-05"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000965",
+            "Shelve_No": "A13-01-05"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000962",
+            "Shelve_No": "A13-01-04"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000961",
+            "Shelve_No": "A13-01-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000960",
+            "Shelve_No": "A13-01-04"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000959",
+            "Shelve_No": "A13-01-03"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000958",
+            "Shelve_No": "A13-01-03"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000957",
+            "Shelve_No": "A13-01-03"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000956",
+            "Shelve_No": "A13-01-02"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000955",
+            "Shelve_No": "A13-01-02"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000954",
+            "Shelve_No": "A13-01-02"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000951",
+            "Shelve_No": "A13-01-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000952",
+            "Shelve_No": "A13-01-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000953",
+            "Shelve_No": "A13-01-01"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000978",
+            "Shelve_No": "A13-02-05"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331000979",
+            "Shelve_No": "A13-02-05"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000980",
+            "Shelve_No": "A13-02-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000975",
+            "Shelve_No": "A13-02-04"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000976",
+            "Shelve_No": "A13-02-04"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000977",
+            "Shelve_No": "A13-02-04"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000972",
+            "Shelve_No": "A13-02-03"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000973",
+            "Shelve_No": "A13-02-03"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331000974",
+            "Shelve_No": "A13-02-03"
+        },
+        {
+            "SKU": "W002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000969",
+            "Shelve_No": "A13-02-02"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000970",
+            "Shelve_No": "A13-02-02"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000971",
+            "Shelve_No": "A13-02-02"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000966",
+            "Shelve_No": "A13-02-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000967",
+            "Shelve_No": "A13-02-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000968",
+            "Shelve_No": "A13-02-01"
+        },
+        {
+            "SKU": "W002",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000993",
+            "Shelve_No": "A13-03-05"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000994",
+            "Shelve_No": "A13-03-05"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000995",
+            "Shelve_No": "A13-03-05"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000990",
+            "Shelve_No": "A13-03-04"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000991",
+            "Shelve_No": "A13-03-04"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000992",
+            "Shelve_No": "A13-03-04"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000989",
+            "Shelve_No": "A13-03-03"
+        },
+        {
+            "SKU": "W002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000988",
+            "Shelve_No": "A13-03-03"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000987",
+            "Shelve_No": "A13-03-03"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000984",
+            "Shelve_No": "A13-03-02"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000985",
+            "Shelve_No": "A13-03-02"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000986",
+            "Shelve_No": "A13-03-02"
+        },
+        {
+            "SKU": "W002",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331000981",
+            "Shelve_No": "A13-03-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000982",
+            "Shelve_No": "A13-03-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000983",
+            "Shelve_No": "A13-03-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001008",
+            "Shelve_No": "A13-04-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001009",
+            "Shelve_No": "A13-04-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001010",
+            "Shelve_No": "A13-04-05"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001005",
+            "Shelve_No": "A13-04-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001006",
+            "Shelve_No": "A13-04-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001007",
+            "Shelve_No": "A13-04-04"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001004",
+            "Shelve_No": "A13-04-03"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331001003",
+            "Shelve_No": "A13-04-03"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001001",
+            "Shelve_No": "A13-04-02"
+        },
+        {
+            "SKU": "W002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001000",
+            "Shelve_No": "A13-04-02"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000999",
+            "Shelve_No": "A13-04-02"
+        },
+        {
+            "SKU": "W002",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000996",
+            "Shelve_No": "A13-04-01"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331000997",
+            "Shelve_No": "A13-04-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331000998",
+            "Shelve_No": "A13-04-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331001023",
+            "Shelve_No": "A13-05-05"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331001024",
+            "Shelve_No": "A13-05-05"
+        },
+        {
+            "SKU": "W001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331001025",
+            "Shelve_No": "A13-05-05"
+        },
+        {
+            "SKU": "W002",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331001020",
+            "Shelve_No": "A13-05-04"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331001021",
+            "Shelve_No": "A13-05-04"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001022",
+            "Shelve_No": "A13-05-04"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001017",
+            "Shelve_No": "A13-05-03"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001018",
+            "Shelve_No": "A13-05-03"
+        },
+        {
+            "SKU": "ES001",
+            "QTY": "17",
+            "Stock_Location": "BRE-183331001019",
+            "Shelve_No": "A13-05-03"
+        },
+        {
+            "SKU": "W002",
+            "QTY": "1",
+            "Stock_Location": "BRE-183331001016",
+            "Shelve_No": "A13-05-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001015",
+            "Shelve_No": "A13-05-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001014",
+            "Shelve_No": "A13-05-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001013",
+            "Shelve_No": "A13-05-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001012",
+            "Shelve_No": "A13-05-01"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001011",
+            "Shelve_No": "A13-05-01"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331001032",
+            "Shelve_No": "A13-06-03"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001033",
+            "Shelve_No": "A13-06-03"
+        },
+        {
+            "SKU": "M002",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331001029",
+            "Shelve_No": "A13-06-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001030",
+            "Shelve_No": "A13-06-02"
+        },
+        {
+            "SKU": "M001",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331001031",
+            "Shelve_No": "A13-06-02"
+        },
+        {
+            "SKU": "Q002",
+            "QTY": "2",
+            "Stock_Location": "BRE-183331001026",
+            "Shelve_No": "A13-06-01"
+        },
+        {
+            "SKU": "W002",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001027",
+            "Shelve_No": "A13-06-01"
+        },
+        {
+            "SKU": "Q001",
+            "QTY": "3",
+            "Stock_Location": "BRE-183331001028",
+            "Shelve_No": "A13-06-01"
+        }
+    ]
+}

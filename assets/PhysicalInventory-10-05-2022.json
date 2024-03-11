@@ -1,0 +1,6183 @@
+{
+    "Sheet1": [
+        {
+            "SKU": "9555274503623",
+            "QTY": "12",
+            "Stock_Location": "EZE-190338001504",
+            "Shelve_No": "A15-01-03"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "20",
+            "Stock_Location": "EZE-190338000880",
+            "Shelve_No": "A15-01-03"
+        },
+        {
+            "SKU": "4760062102536",
+            "QTY": "29",
+            "Stock_Location": "EZE-190338000881",
+            "Shelve_No": "A15-01-03"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "34",
+            "Stock_Location": "EZE-190338000877",
+            "Shelve_No": "A15-01-02"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "26",
+            "Stock_Location": "EZE-190338000878",
+            "Shelve_No": "A15-01-02"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "28",
+            "Stock_Location": "EZE-190338000879",
+            "Shelve_No": "A15-01-02"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "20",
+            "Stock_Location": "EZE-190338000874",
+            "Shelve_No": "A15-01-01"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "28",
+            "Stock_Location": "EZE-190338000875",
+            "Shelve_No": "A15-01-01"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "25",
+            "Stock_Location": "EZE-190338000876",
+            "Shelve_No": "A15-01-01"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "27",
+            "Stock_Location": "EZE-190338000885",
+            "Shelve_No": "A15-02-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "48",
+            "Stock_Location": "EZE-190338000883",
+            "Shelve_No": "A15-02-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "12",
+            "Stock_Location": "EZE-190338000884",
+            "Shelve_No": "A15-02-02"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "35",
+            "Stock_Location": "EZE-190338000938",
+            "Shelve_No": "A15-02-02"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "31",
+            "Stock_Location": "EZE-190338000779",
+            "Shelve_No": "A15-02-01"
+        },
+        {
+            "SKU": "6237005463361",
+            "QTY": "28",
+            "Stock_Location": "EZE-190338000882",
+            "Shelve_No": "A15-02-01"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "24",
+            "Stock_Location": "EZE-190338000937",
+            "Shelve_No": "A15-03-05"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000936",
+            "Shelve_No": "A15-03-04"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000935",
+            "Shelve_No": "A15-03-03"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000934",
+            "Shelve_No": "A15-03-02"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000933",
+            "Shelve_No": "A15-03-01"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000932",
+            "Shelve_No": "A15-04-05"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000931",
+            "Shelve_No": "A15-04-04"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000930",
+            "Shelve_No": "A15-04-03"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000929",
+            "Shelve_No": "A15-04-02"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000928",
+            "Shelve_No": "A15-04-01"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000927",
+            "Shelve_No": "A15-05-05"
+        },
+        {
+            "SKU": "6253810440052",
+            "QTY": "18",
+            "Stock_Location": "EZE-190338000926",
+            "Shelve_No": "A15-05-04"
+        },
+        {
+            "SKU": "6253810440052-1",
+            "QTY": "2",
+            "Stock_Location": "EZE-190338000925",
+            "Shelve_No": "A15-05-03"
+        },
+        {
+            "SKU": "6253810440052-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000924",
+            "Shelve_No": "A15-05-02"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "138",
+            "Stock_Location": "EZE-190338000923",
+            "Shelve_No": "A15-05-01"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000922",
+            "Shelve_No": "A15-06-05"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000921",
+            "Shelve_No": "A15-06-04"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000920",
+            "Shelve_No": "A15-06-03"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000919",
+            "Shelve_No": "A15-06-02"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000918",
+            "Shelve_No": "A15-06-01"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000917",
+            "Shelve_No": "A15-07-05"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000916",
+            "Shelve_No": "A15-07-04"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000915",
+            "Shelve_No": "A15-07-03"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000914",
+            "Shelve_No": "A15-07-02"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000913",
+            "Shelve_No": "A15-07-01"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000818",
+            "Shelve_No": "A15-08-05"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000819",
+            "Shelve_No": "A15-08-04"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000820",
+            "Shelve_No": "A15-08-03"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000816",
+            "Shelve_No": "A15-08-02"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000817",
+            "Shelve_No": "A15-08-01"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "96",
+            "Stock_Location": "EZE-190338000815",
+            "Shelve_No": "A15-09-05"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "43",
+            "Stock_Location": "EZE-190338000814",
+            "Shelve_No": "A15-09-04"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000813",
+            "Shelve_No": "A15-09-03"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000812",
+            "Shelve_No": "A15-09-02"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "144",
+            "Stock_Location": "EZE-190338000811",
+            "Shelve_No": "A15-09-01"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "79",
+            "Stock_Location": "EZE-190338000808",
+            "Shelve_No": "A15-10-03"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "56",
+            "Stock_Location": "EZE-190338000807",
+            "Shelve_No": "A15-10-02"
+        },
+        {
+            "SKU": "4760062101805",
+            "QTY": "2",
+            "Stock_Location": "EZE-190338000806",
+            "Shelve_No": "A15-10-01"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000793",
+            "Shelve_No": "A16-01-05"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000792",
+            "Shelve_No": "A16-01-04"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000791",
+            "Shelve_No": "A16-01-03"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000790",
+            "Shelve_No": "A16-01-02"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000789",
+            "Shelve_No": "A16-01-01"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000798",
+            "Shelve_No": "A16-02-05"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000797",
+            "Shelve_No": "A16-02-04"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000796",
+            "Shelve_No": "A16-02-03"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000795",
+            "Shelve_No": "A16-02-02"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000794",
+            "Shelve_No": "A16-02-01"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338001510",
+            "Shelve_No": "A16-03-05"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338001511",
+            "Shelve_No": "A16-03-04"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338001512",
+            "Shelve_No": "A16-03-03"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338001513",
+            "Shelve_No": "A16-03-02"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000799",
+            "Shelve_No": "A16-03-01"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338001508",
+            "Shelve_No": "A16-04-01"
+        },
+        {
+            "SKU": "6253810440076-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338001509",
+            "Shelve_No": "A16-04-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338000892",
+            "Shelve_No": "A16-06-05"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338000891",
+            "Shelve_No": "A16-06-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338000890",
+            "Shelve_No": "A16-06-03"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000889",
+            "Shelve_No": "A16-06-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "2",
+            "Stock_Location": "EZE-190338000896",
+            "Shelve_No": "A16-07-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338000895",
+            "Shelve_No": "A16-07-03"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338000894",
+            "Shelve_No": "A16-07-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338000893",
+            "Shelve_No": "A16-07-01"
+        },
+        {
+            "SKU": "4760062100303",
+            "QTY": "11",
+            "Stock_Location": "EZE-190338000901",
+            "Shelve_No": "A16-08-04"
+        },
+        {
+            "SKU": "4760062100303",
+            "QTY": "230",
+            "Stock_Location": "EZE-190338000900",
+            "Shelve_No": "A16-08-03"
+        },
+        {
+            "SKU": "54760062100308",
+            "QTY": "9",
+            "Stock_Location": "EZE-190338000899",
+            "Shelve_No": "A16-08-02"
+        },
+        {
+            "SKU": "54760062100308",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000898",
+            "Shelve_No": "A16-08-01"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "27",
+            "Stock_Location": "EZE-190338000908",
+            "Shelve_No": "A16-10-01"
+        },
+        {
+            "SKU": "103",
+            "QTY": "120",
+            "Stock_Location": "EZE-190338000783",
+            "Shelve_No": "A17-01-03"
+        },
+        {
+            "SKU": "9555274508871",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000781",
+            "Shelve_No": "A17-01-03"
+        },
+        {
+            "SKU": "103",
+            "QTY": "120",
+            "Stock_Location": "EZE-190338000784",
+            "Shelve_No": "A17-01-04"
+        },
+        {
+            "SKU": "103",
+            "QTY": "120",
+            "Stock_Location": "EZE-190338000785",
+            "Shelve_No": "A17-01-05"
+        },
+        {
+            "SKU": "103",
+            "QTY": "120",
+            "Stock_Location": "EZE-190338000786",
+            "Shelve_No": "A17-01-05"
+        },
+        {
+            "SKU": "103",
+            "QTY": "120",
+            "Stock_Location": "EZE-190338000787",
+            "Shelve_No": "A17-01-05"
+        },
+        {
+            "SKU": "4760062100303",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000941",
+            "Shelve_No": "A17-02-03"
+        },
+        {
+            "SKU": "4760062100303",
+            "QTY": "1",
+            "Stock_Location": "EZE-190338000940",
+            "Shelve_No": "A17-02-03"
+        },
+        {
+            "SKU": "9555274508253",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000939",
+            "Shelve_No": "A17-02-03"
+        },
+        {
+            "SKU": "24760001708111",
+            "QTY": "1",
+            "Stock_Location": "EZE-190338000356",
+            "Shelve_No": "A17-02-02"
+        },
+        {
+            "SKU": "4760065704652-1",
+            "QTY": "1",
+            "Stock_Location": "EZE-190338000350",
+            "Shelve_No": "A17-03-01"
+        },
+        {
+            "SKU": "4760065704652-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000349",
+            "Shelve_No": "A17-04-05"
+        },
+        {
+            "SKU": "4760065704652-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000348",
+            "Shelve_No": "A17-04-04"
+        },
+        {
+            "SKU": "4760065704652-1",
+            "QTY": "2",
+            "Stock_Location": "EZE-190338000347",
+            "Shelve_No": "A17-04-03"
+        },
+        {
+            "SKU": "24760065710220",
+            "QTY": "2",
+            "Stock_Location": "EZE-190338000346",
+            "Shelve_No": "A17-04-02"
+        },
+        {
+            "SKU": "24760065710220",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000345",
+            "Shelve_No": "A17-04-01"
+        },
+        {
+            "SKU": "103",
+            "QTY": "40",
+            "Stock_Location": "EZE-190338000788",
+            "Shelve_No": "A17-05-04"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000342",
+            "Shelve_No": "A17-05-03"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000341",
+            "Shelve_No": "A17-05-02"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000340",
+            "Shelve_No": "A17-05-01"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000339",
+            "Shelve_No": "A17-06-05"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000338",
+            "Shelve_No": "A17-06-04"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000337",
+            "Shelve_No": "A17-06-03"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000336",
+            "Shelve_No": "A17-06-02"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000335",
+            "Shelve_No": "A17-06-01"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000334",
+            "Shelve_No": "A17-07-05"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000333",
+            "Shelve_No": "A17-07-04"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000332",
+            "Shelve_No": "A17-07-03"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000331",
+            "Shelve_No": "A17-07-02"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000330",
+            "Shelve_No": "A17-07-01"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000329",
+            "Shelve_No": "A17-08-05"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000328",
+            "Shelve_No": "A17-08-04"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000327",
+            "Shelve_No": "A17-08-03"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000326",
+            "Shelve_No": "A17-08-02"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000325",
+            "Shelve_No": "A17-08-01"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000324",
+            "Shelve_No": "A17-09-05"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000323",
+            "Shelve_No": "A17-09-04"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000322",
+            "Shelve_No": "A17-09-03"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000321",
+            "Shelve_No": "A17-09-02"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000320",
+            "Shelve_No": "A17-09-01"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000319",
+            "Shelve_No": "A17-10-05"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000318",
+            "Shelve_No": "A17-10-04"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000317",
+            "Shelve_No": "A17-10-03"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000316",
+            "Shelve_No": "A17-10-02"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000315",
+            "Shelve_No": "A17-10-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000269",
+            "Shelve_No": "A18-01-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000268",
+            "Shelve_No": "A18-01-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000267",
+            "Shelve_No": "A18-01-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000266",
+            "Shelve_No": "A18-01-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000265",
+            "Shelve_No": "A18-01-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000274",
+            "Shelve_No": "A18-02-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000273",
+            "Shelve_No": "A18-02-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000272",
+            "Shelve_No": "A18-02-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000271",
+            "Shelve_No": "A18-02-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000270",
+            "Shelve_No": "A18-02-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000279",
+            "Shelve_No": "A18-03-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000278",
+            "Shelve_No": "A18-03-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000277",
+            "Shelve_No": "A18-03-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000276",
+            "Shelve_No": "A18-03-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000275",
+            "Shelve_No": "A18-03-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000284",
+            "Shelve_No": "A18-04-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000283",
+            "Shelve_No": "A18-04-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000282",
+            "Shelve_No": "A18-04-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000281",
+            "Shelve_No": "A18-04-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000280",
+            "Shelve_No": "A18-04-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000289",
+            "Shelve_No": "A18-05-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000288",
+            "Shelve_No": "A18-05-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000287",
+            "Shelve_No": "A18-05-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000286",
+            "Shelve_No": "A18-05-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000285",
+            "Shelve_No": "A18-05-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000294",
+            "Shelve_No": "A18-06-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000293",
+            "Shelve_No": "A18-06-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000292",
+            "Shelve_No": "A18-06-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000291",
+            "Shelve_No": "A18-06-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000290",
+            "Shelve_No": "A18-06-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000299",
+            "Shelve_No": "A18-07-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000298",
+            "Shelve_No": "A18-07-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000297",
+            "Shelve_No": "A18-07-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000296",
+            "Shelve_No": "A18-07-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000295",
+            "Shelve_No": "A18-07-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "1",
+            "Stock_Location": "EZE-190338000300",
+            "Shelve_No": "A18-08-01"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000301",
+            "Shelve_No": "A18-08-02"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000302",
+            "Shelve_No": "A18-08-03"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000303",
+            "Shelve_No": "A18-08-04"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000304",
+            "Shelve_No": "A18-08-05"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000305",
+            "Shelve_No": "A18-09-01"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000306",
+            "Shelve_No": "A18-09-02"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000307",
+            "Shelve_No": "A18-09-03"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000308",
+            "Shelve_No": "A18-09-04"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000309",
+            "Shelve_No": "A18-09-05"
+        },
+        {
+            "SKU": "24760062103537-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000311",
+            "Shelve_No": "A18-10-02"
+        },
+        {
+            "SKU": "4760062103533",
+            "QTY": "64",
+            "Stock_Location": "EZE-190338000312",
+            "Shelve_No": "A18-10-03"
+        },
+        {
+            "SKU": "4760062103533",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338000313",
+            "Shelve_No": "A18-10-04"
+        },
+        {
+            "SKU": "4760062103533",
+            "QTY": "35",
+            "Stock_Location": "EZE-190338000314",
+            "Shelve_No": "A18-10-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000310",
+            "Shelve_No": "A18-10-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000264",
+            "Shelve_No": "A19-01-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000263",
+            "Shelve_No": "A19-01-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000262",
+            "Shelve_No": "A19-01-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000261",
+            "Shelve_No": "A19-01-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000260",
+            "Shelve_No": "A19-01-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000259",
+            "Shelve_No": "A19-02-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000258",
+            "Shelve_No": "A19-02-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000257",
+            "Shelve_No": "A19-02-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000256",
+            "Shelve_No": "A19-02-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000255",
+            "Shelve_No": "A19-02-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000254",
+            "Shelve_No": "A19-03-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000253",
+            "Shelve_No": "A19-03-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000252",
+            "Shelve_No": "A19-03-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000251",
+            "Shelve_No": "A19-03-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000250",
+            "Shelve_No": "A19-03-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000249",
+            "Shelve_No": "A19-04-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000248",
+            "Shelve_No": "A19-04-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000247",
+            "Shelve_No": "A19-04-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000246",
+            "Shelve_No": "A19-04-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000245",
+            "Shelve_No": "A19-04-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000244",
+            "Shelve_No": "A19-05-05"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000243",
+            "Shelve_No": "A19-05-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000242",
+            "Shelve_No": "A19-05-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000241",
+            "Shelve_No": "A19-05-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000239",
+            "Shelve_No": "A19-06-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000238",
+            "Shelve_No": "A19-06-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000237",
+            "Shelve_No": "A19-06-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000236",
+            "Shelve_No": "A19-06-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000235",
+            "Shelve_No": "A19-06-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000234",
+            "Shelve_No": "A19-07-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000233",
+            "Shelve_No": "A19-07-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000231",
+            "Shelve_No": "A19-07-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000230",
+            "Shelve_No": "A19-07-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000229",
+            "Shelve_No": "A19-08-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000228",
+            "Shelve_No": "A19-08-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000227",
+            "Shelve_No": "A19-08-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000226",
+            "Shelve_No": "A19-08-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000225",
+            "Shelve_No": "A19-08-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000224",
+            "Shelve_No": "A19-09-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000223",
+            "Shelve_No": "A19-09-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000222",
+            "Shelve_No": "A19-09-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000221",
+            "Shelve_No": "A19-09-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000220",
+            "Shelve_No": "A19-09-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000219",
+            "Shelve_No": "A19-10-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000218",
+            "Shelve_No": "A19-10-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000217",
+            "Shelve_No": "A19-10-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001502",
+            "Shelve_No": "A19-10-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001501",
+            "Shelve_No": "A19-10-01"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "28",
+            "Stock_Location": "EZE-190338001505",
+            "Shelve_No": "A20-01-01"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "168",
+            "Stock_Location": "EZE-190338001506",
+            "Shelve_No": "A20-01-02"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338001507",
+            "Shelve_No": "A20-01-03"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000173",
+            "Shelve_No": "A20-01-04"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "120",
+            "Stock_Location": "EZE-190338000174",
+            "Shelve_No": "A20-01-05"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000175",
+            "Shelve_No": "A20-02-01"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000176",
+            "Shelve_No": "A20-02-02"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000177",
+            "Shelve_No": "A20-02-03"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000178",
+            "Shelve_No": "A20-02-04"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000179",
+            "Shelve_No": "A20-02-05"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000180",
+            "Shelve_No": "A20-03-01"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000181",
+            "Shelve_No": "A20-03-02"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "138",
+            "Stock_Location": "EZE-190338000182",
+            "Shelve_No": "A20-03-03"
+        },
+        {
+            "SKU": "4760068001710",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000185",
+            "Shelve_No": "A20-04-01"
+        },
+        {
+            "SKU": "4760068001710",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000186",
+            "Shelve_No": "A20-04-02"
+        },
+        {
+            "SKU": "4760068001710",
+            "QTY": "96",
+            "Stock_Location": "EZE-190338000187",
+            "Shelve_No": "A20-04-03"
+        },
+        {
+            "SKU": "4760068001710",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000188",
+            "Shelve_No": "A20-04-04"
+        },
+        {
+            "SKU": "4760068001710",
+            "QTY": "140",
+            "Stock_Location": "EZE-190338000189",
+            "Shelve_No": "A20-04-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000190",
+            "Shelve_No": "A20-05-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "12",
+            "Stock_Location": "EZE-190338000191",
+            "Shelve_No": "A20-05-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000193",
+            "Shelve_No": "A20-05-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000194",
+            "Shelve_No": "A20-05-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000195",
+            "Shelve_No": "A20-06-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000196",
+            "Shelve_No": "A20-06-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000197",
+            "Shelve_No": "A20-06-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000198",
+            "Shelve_No": "A20-06-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000199",
+            "Shelve_No": "A20-06-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000200",
+            "Shelve_No": "A20-07-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000201",
+            "Shelve_No": "A20-07-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "24",
+            "Stock_Location": "EZE-190338000202",
+            "Shelve_No": "A20-07-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000203",
+            "Shelve_No": "A20-07-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000204",
+            "Shelve_No": "A20-07-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000205",
+            "Shelve_No": "A20-08-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000206",
+            "Shelve_No": "A20-08-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000207",
+            "Shelve_No": "A20-08-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000208",
+            "Shelve_No": "A20-08-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000209",
+            "Shelve_No": "A20-08-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000210",
+            "Shelve_No": "A20-09-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000211",
+            "Shelve_No": "A20-09-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000212",
+            "Shelve_No": "A20-09-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000213",
+            "Shelve_No": "A20-09-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000214",
+            "Shelve_No": "A20-09-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "12",
+            "Stock_Location": "EZE-190338000405",
+            "Shelve_No": "A20-10-04"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "32",
+            "Stock_Location": "EZE-190338000404",
+            "Shelve_No": "A20-10-03"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "128",
+            "Stock_Location": "EZE-190338000216",
+            "Shelve_No": "A20-10-02"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000215",
+            "Shelve_No": "A20-10-01"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000150",
+            "Shelve_No": "A21-10-05"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000149",
+            "Shelve_No": "A21-10-04"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000148",
+            "Shelve_No": "A21-10-03"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000147",
+            "Shelve_No": "A21-10-02"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000146",
+            "Shelve_No": "A21-10-01"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000145",
+            "Shelve_No": "A21-09-05"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000144",
+            "Shelve_No": "A21-09-04"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000143",
+            "Shelve_No": "A21-09-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "24",
+            "Stock_Location": "EZE-190338000142",
+            "Shelve_No": "A21-09-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000141",
+            "Shelve_No": "A21-09-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000140",
+            "Shelve_No": "A21-08-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000139",
+            "Shelve_No": "A21-08-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000138",
+            "Shelve_No": "A21-08-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000137",
+            "Shelve_No": "A21-08-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000136",
+            "Shelve_No": "A21-08-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000135",
+            "Shelve_No": "A21-07-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000134",
+            "Shelve_No": "A21-07-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000133",
+            "Shelve_No": "A21-07-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000132",
+            "Shelve_No": "A21-07-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000131",
+            "Shelve_No": "A21-07-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "27",
+            "Stock_Location": "EZE-190338000130",
+            "Shelve_No": "A21-06-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "21",
+            "Stock_Location": "EZE-190338000129",
+            "Shelve_No": "A21-06-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "20",
+            "Stock_Location": "EZE-190338000128",
+            "Shelve_No": "A21-06-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "25",
+            "Stock_Location": "EZE-190338000127",
+            "Shelve_No": "A21-06-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "15",
+            "Stock_Location": "EZE-190338000126",
+            "Shelve_No": "A21-06-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000125",
+            "Shelve_No": "A21-05-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000124",
+            "Shelve_No": "A21-05-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000123",
+            "Shelve_No": "A21-05-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000122",
+            "Shelve_No": "A21-05-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000121",
+            "Shelve_No": "A21-05-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000120",
+            "Shelve_No": "A21-04-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000119",
+            "Shelve_No": "A21-04-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000118",
+            "Shelve_No": "A21-04-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000117",
+            "Shelve_No": "A21-04-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000116",
+            "Shelve_No": "A21-04-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000115",
+            "Shelve_No": "A21-03-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000114",
+            "Shelve_No": "A21-03-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000113",
+            "Shelve_No": "A21-03-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000112",
+            "Shelve_No": "A21-03-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000111",
+            "Shelve_No": "A21-03-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000110",
+            "Shelve_No": "A21-02-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000109",
+            "Shelve_No": "A21-02-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000108",
+            "Shelve_No": "A21-02-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000107",
+            "Shelve_No": "A21-02-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000106",
+            "Shelve_No": "A21-02-01"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000105",
+            "Shelve_No": "A21-01-05"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000104",
+            "Shelve_No": "A21-01-04"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000103",
+            "Shelve_No": "A21-01-03"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000102",
+            "Shelve_No": "A21-01-02"
+        },
+        {
+            "SKU": "4760065704652",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000101",
+            "Shelve_No": "A21-01-01"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "28",
+            "Stock_Location": "EZE-190338000055",
+            "Shelve_No": "A22-01-05"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "42",
+            "Stock_Location": "EZE-190338000054",
+            "Shelve_No": "A22-01-04"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "48",
+            "Stock_Location": "EZE-190338000053",
+            "Shelve_No": "A22-01-03"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "40",
+            "Stock_Location": "EZE-190338000052",
+            "Shelve_No": "A22-01-02"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "24",
+            "Stock_Location": "EZE-190338000060",
+            "Shelve_No": "A22-02-05"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "27",
+            "Stock_Location": "EZE-190338000059",
+            "Shelve_No": "A22-02-04"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "58",
+            "Stock_Location": "EZE-190338000058",
+            "Shelve_No": "A22-02-03"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "41",
+            "Stock_Location": "EZE-190338000057",
+            "Shelve_No": "A22-02-02"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "15",
+            "Stock_Location": "EZE-190338000056",
+            "Shelve_No": "A22-02-01"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "8",
+            "Stock_Location": "EZE-190338000061",
+            "Shelve_No": "A22-03-01"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "26",
+            "Stock_Location": "EZE-190338000062",
+            "Shelve_No": "A22-03-02"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "25",
+            "Stock_Location": "EZE-190338000063",
+            "Shelve_No": "A22-03-03"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338000064",
+            "Shelve_No": "A22-03-04"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "25",
+            "Stock_Location": "EZE-190338000065",
+            "Shelve_No": "A22-03-05"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000070",
+            "Shelve_No": "A22-04-05"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000069",
+            "Shelve_No": "A22-04-04"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000068",
+            "Shelve_No": "A22-04-03"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000067",
+            "Shelve_No": "A22-04-02"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000066",
+            "Shelve_No": "A22-04-01"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000075",
+            "Shelve_No": "A22-05-05"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "168",
+            "Stock_Location": "EZE-190338000074",
+            "Shelve_No": "A22-05-04"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "58",
+            "Stock_Location": "EZE-190338000073",
+            "Shelve_No": "A22-05-03"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000072",
+            "Shelve_No": "A22-05-02"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000071",
+            "Shelve_No": "A22-05-01"
+        },
+        {
+            "SKU": "4760065710226",
+            "QTY": "192",
+            "Stock_Location": "EZE-190338000076",
+            "Shelve_No": "A22-06-01"
+        },
+        {
+            "SKU": "4760068001710",
+            "QTY": "169",
+            "Stock_Location": "EZE-190338000077",
+            "Shelve_No": "A22-06-02"
+        },
+        {
+            "SKU": "4760068001710",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000078",
+            "Shelve_No": "A22-06-03"
+        },
+        {
+            "SKU": "4760068001710",
+            "QTY": "40",
+            "Stock_Location": "EZE-190338000079",
+            "Shelve_No": "A22-06-04"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "174",
+            "Stock_Location": "EZE-190338000081",
+            "Shelve_No": "A22-07-01"
+        },
+        {
+            "SKU": "4760018504759",
+            "QTY": "115",
+            "Stock_Location": "EZE-190338000082",
+            "Shelve_No": "A22-07-02"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "96",
+            "Stock_Location": "EZE-190338000087",
+            "Shelve_No": "A22-08-02"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "98",
+            "Stock_Location": "EZE-190338000088",
+            "Shelve_No": "A22-08-03"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000089",
+            "Shelve_No": "A22-08-04"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000090",
+            "Shelve_No": "A22-08-05"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000091",
+            "Shelve_No": "A22-09-01"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000092",
+            "Shelve_No": "A22-09-02"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000093",
+            "Shelve_No": "A22-09-03"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000094",
+            "Shelve_No": "A22-09-04"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000095",
+            "Shelve_No": "A22-09-05"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000096",
+            "Shelve_No": "A22-10-01"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000097",
+            "Shelve_No": "A22-10-02"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "86",
+            "Stock_Location": "EZE-190338000098",
+            "Shelve_No": "A22-10-03"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000100",
+            "Shelve_No": "A22-10-05"
+        },
+        {
+            "SKU": "4607012351999",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000099",
+            "Shelve_No": "A22-10-04"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "34",
+            "Stock_Location": "EZE-190338000047",
+            "Shelve_No": "A23-10-02"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "120",
+            "Stock_Location": "EZE-190338000048",
+            "Shelve_No": "A23-10-03"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000049",
+            "Shelve_No": "A23-10-04"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000050",
+            "Shelve_No": "A23-10-05"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000041",
+            "Shelve_No": "A23-09-01"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000042",
+            "Shelve_No": "A23-09-02"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000043",
+            "Shelve_No": "A23-09-03"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000044",
+            "Shelve_No": "A23-09-04"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000045",
+            "Shelve_No": "A23-09-05"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000040",
+            "Shelve_No": "A23-08-05"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000039",
+            "Shelve_No": "A23-08-04"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000038",
+            "Shelve_No": "A23-08-03"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000037",
+            "Shelve_No": "A23-08-02"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000036",
+            "Shelve_No": "A23-08-01"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000035",
+            "Shelve_No": "A23-07-05"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000034",
+            "Shelve_No": "A23-07-04"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000033",
+            "Shelve_No": "A23-07-03"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000032",
+            "Shelve_No": "A23-07-02"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000031",
+            "Shelve_No": "A23-07-01"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000030",
+            "Shelve_No": "A23-06-05"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000029",
+            "Shelve_No": "A23-06-04"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "133",
+            "Stock_Location": "EZE-190338000028",
+            "Shelve_No": "A23-06-03"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "128",
+            "Stock_Location": "EZE-190338000027",
+            "Shelve_No": "A23-06-02"
+        },
+        {
+            "SKU": "4607012351005",
+            "QTY": "160",
+            "Stock_Location": "EZE-190338000026",
+            "Shelve_No": "A23-06-01"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "26",
+            "Stock_Location": "EZE-190338000005",
+            "Shelve_No": "A23-01-05"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000004",
+            "Shelve_No": "A23-01-04"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "62",
+            "Stock_Location": "EZE-190338000003",
+            "Shelve_No": "A23-01-03"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "61",
+            "Stock_Location": "EZE-190338000002",
+            "Shelve_No": "A23-01-02"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "43",
+            "Stock_Location": "EZE-190338000001",
+            "Shelve_No": "A23-01-01"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "44",
+            "Stock_Location": "EZE-190338000009",
+            "Shelve_No": "A23-02-04"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "61",
+            "Stock_Location": "EZE-190338000008",
+            "Shelve_No": "A23-02-03"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "61",
+            "Stock_Location": "EZE-190338000007",
+            "Shelve_No": "A23-02-02"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "49",
+            "Stock_Location": "EZE-190338000006",
+            "Shelve_No": "A23-02-01"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338000013",
+            "Shelve_No": "A23-03-03"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "9",
+            "Stock_Location": "EZE-190338000012",
+            "Shelve_No": "A23-03-02"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "45",
+            "Stock_Location": "EZE-190338000011",
+            "Shelve_No": "A23-03-01"
+        },
+        {
+            "SKU": "4760062101805",
+            "QTY": "117",
+            "Stock_Location": "EZE-190338000019",
+            "Shelve_No": "A23-04-04"
+        },
+        {
+            "SKU": "4760062101805",
+            "QTY": "42",
+            "Stock_Location": "EZE-190338000017",
+            "Shelve_No": "A23-04-02"
+        },
+        {
+            "SKU": "4760062100495",
+            "QTY": "72",
+            "Stock_Location": "EZE-190338000018",
+            "Shelve_No": "A23-04-03"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "39",
+            "Stock_Location": "EZE-190338001335",
+            "Shelve_No": "B24-02-02"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "16",
+            "Stock_Location": "EZE-190338001336",
+            "Shelve_No": "B24-02-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "89",
+            "Stock_Location": "EZE-190338001337",
+            "Shelve_No": "B24-02-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001339",
+            "Shelve_No": "B24-01-01"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001340",
+            "Shelve_No": "B24-01-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001341",
+            "Shelve_No": "B24-01-03"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001342",
+            "Shelve_No": "B24-01-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001328",
+            "Shelve_No": "B23-08-05"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001327",
+            "Shelve_No": "B23-08-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001326",
+            "Shelve_No": "B23-08-03"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001325",
+            "Shelve_No": "B23-08-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001324",
+            "Shelve_No": "B23-08-01"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001323",
+            "Shelve_No": "B23-07-05"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001322",
+            "Shelve_No": "B23-07-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001321",
+            "Shelve_No": "B23-07-03"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001320",
+            "Shelve_No": "B23-07-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001319",
+            "Shelve_No": "B23-07-01"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001318",
+            "Shelve_No": "B23-06-05"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001317",
+            "Shelve_No": "B23-06-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001316",
+            "Shelve_No": "B23-06-03"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001315",
+            "Shelve_No": "B23-06-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001314",
+            "Shelve_No": "B23-06-01"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001313",
+            "Shelve_No": "B23-05-05"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001312",
+            "Shelve_No": "B23-05-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001311",
+            "Shelve_No": "B23-05-03"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001310",
+            "Shelve_No": "B23-05-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338001309",
+            "Shelve_No": "B23-05-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "12",
+            "Stock_Location": "EZE-190338000657",
+            "Shelve_No": "B3-05-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "32",
+            "Stock_Location": "EZE-190338000658",
+            "Shelve_No": "B3-05-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000659",
+            "Shelve_No": "B3-05-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000660",
+            "Shelve_No": "B3-05-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000661",
+            "Shelve_No": "B3-06-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000662",
+            "Shelve_No": "B3-06-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000663",
+            "Shelve_No": "B3-06-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000664",
+            "Shelve_No": "B3-06-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000665",
+            "Shelve_No": "B3-06-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000666",
+            "Shelve_No": "B3-07-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000667",
+            "Shelve_No": "B3-07-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000668",
+            "Shelve_No": "B3-07-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000669",
+            "Shelve_No": "B3-07-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000670",
+            "Shelve_No": "B3-07-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000671",
+            "Shelve_No": "B3-08-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000672",
+            "Shelve_No": "B3-08-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000673",
+            "Shelve_No": "B3-08-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000674",
+            "Shelve_No": "B3-08-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000675",
+            "Shelve_No": "B3-08-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000625",
+            "Shelve_No": "B4-01-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000624",
+            "Shelve_No": "B4-01-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000623",
+            "Shelve_No": "B4-01-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000622",
+            "Shelve_No": "B4-01-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000621",
+            "Shelve_No": "B4-01-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000630",
+            "Shelve_No": "B4-02-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000629",
+            "Shelve_No": "B4-02-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000628",
+            "Shelve_No": "B4-02-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000627",
+            "Shelve_No": "B4-02-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000626",
+            "Shelve_No": "B4-02-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000635",
+            "Shelve_No": "B4-03-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000634",
+            "Shelve_No": "B4-03-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000633",
+            "Shelve_No": "B4-03-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000632",
+            "Shelve_No": "B4-03-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000631",
+            "Shelve_No": "B4-03-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000620",
+            "Shelve_No": "B5-03-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000619",
+            "Shelve_No": "B5-03-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000618",
+            "Shelve_No": "B5-03-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000617",
+            "Shelve_No": "B5-03-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000616",
+            "Shelve_No": "B5-03-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000615",
+            "Shelve_No": "B5-02-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000614",
+            "Shelve_No": "B5-02-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000613",
+            "Shelve_No": "B5-02-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000612",
+            "Shelve_No": "B5-02-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000611",
+            "Shelve_No": "B5-02-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000610",
+            "Shelve_No": "B5-01-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000609",
+            "Shelve_No": "B5-01-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000608",
+            "Shelve_No": "B5-01-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000607",
+            "Shelve_No": "B5-01-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000606",
+            "Shelve_No": "B5-01-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000603",
+            "Shelve_No": "B6-08-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000602",
+            "Shelve_No": "B6-08-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000601",
+            "Shelve_No": "B6-08-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000600",
+            "Shelve_No": "B6-08-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000599",
+            "Shelve_No": "B6-08-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000598",
+            "Shelve_No": "B6-07-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000597",
+            "Shelve_No": "B6-07-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000596",
+            "Shelve_No": "B6-07-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000595",
+            "Shelve_No": "B6-07-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000594",
+            "Shelve_No": "B6-07-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000593",
+            "Shelve_No": "B6-06-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000592",
+            "Shelve_No": "B6-06-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000591",
+            "Shelve_No": "B6-06-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000590",
+            "Shelve_No": "B6-06-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000589",
+            "Shelve_No": "B6-06-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000588",
+            "Shelve_No": "B6-05-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000587",
+            "Shelve_No": "B6-05-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000586",
+            "Shelve_No": "B6-05-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000585",
+            "Shelve_No": "B6-05-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000584",
+            "Shelve_No": "B6-05-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000583",
+            "Shelve_No": "B6-04-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000582",
+            "Shelve_No": "B6-04-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000581",
+            "Shelve_No": "B6-04-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000580",
+            "Shelve_No": "B6-04-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000579",
+            "Shelve_No": "B6-04-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000578",
+            "Shelve_No": "B6-03-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000577",
+            "Shelve_No": "B6-03-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000576",
+            "Shelve_No": "B6-03-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000575",
+            "Shelve_No": "B6-03-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000574",
+            "Shelve_No": "B6-03-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000573",
+            "Shelve_No": "B6-02-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000572",
+            "Shelve_No": "B6-02-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000571",
+            "Shelve_No": "B6-02-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000570",
+            "Shelve_No": "B6-02-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000569",
+            "Shelve_No": "B6-02-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000568",
+            "Shelve_No": "B6-01-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000567",
+            "Shelve_No": "B6-01-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000566",
+            "Shelve_No": "B6-01-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000565",
+            "Shelve_No": "B6-01-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000564",
+            "Shelve_No": "B6-01-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000528",
+            "Shelve_No": "B7-01-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000527",
+            "Shelve_No": "B7-01-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000526",
+            "Shelve_No": "B7-01-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000525",
+            "Shelve_No": "B7-01-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000524",
+            "Shelve_No": "B7-01-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000533",
+            "Shelve_No": "B7-02-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000532",
+            "Shelve_No": "B7-02-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000531",
+            "Shelve_No": "B7-02-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000530",
+            "Shelve_No": "B7-02-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000529",
+            "Shelve_No": "B7-02-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000538",
+            "Shelve_No": "B7-03-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000537",
+            "Shelve_No": "B7-03-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000536",
+            "Shelve_No": "B7-03-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000535",
+            "Shelve_No": "B7-03-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000534",
+            "Shelve_No": "B7-03-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000543",
+            "Shelve_No": "B7-04-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "24",
+            "Stock_Location": "EZE-190338000542",
+            "Shelve_No": "B7-04-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000541",
+            "Shelve_No": "B7-04-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000540",
+            "Shelve_No": "B7-04-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000539",
+            "Shelve_No": "B7-04-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000548",
+            "Shelve_No": "B7-05-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000547",
+            "Shelve_No": "B7-05-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000546",
+            "Shelve_No": "B7-05-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000545",
+            "Shelve_No": "B7-05-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000544",
+            "Shelve_No": "B7-05-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000553",
+            "Shelve_No": "B7-06-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000552",
+            "Shelve_No": "B7-06-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000551",
+            "Shelve_No": "B7-06-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000550",
+            "Shelve_No": "B7-06-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000558",
+            "Shelve_No": "B7-07-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000557",
+            "Shelve_No": "B7-07-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000556",
+            "Shelve_No": "B7-07-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000555",
+            "Shelve_No": "B7-07-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000554",
+            "Shelve_No": "B7-07-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000563",
+            "Shelve_No": "B7-08-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000562",
+            "Shelve_No": "B7-08-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000561",
+            "Shelve_No": "B7-08-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000560",
+            "Shelve_No": "B7-08-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000559",
+            "Shelve_No": "B7-08-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000523",
+            "Shelve_No": "B8-08-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000522",
+            "Shelve_No": "B8-08-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000521",
+            "Shelve_No": "B8-08-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000520",
+            "Shelve_No": "B8-08-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000519",
+            "Shelve_No": "B8-08-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000518",
+            "Shelve_No": "B8-07-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000517",
+            "Shelve_No": "B8-07-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000516",
+            "Shelve_No": "B8-07-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000515",
+            "Shelve_No": "B8-07-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000514",
+            "Shelve_No": "B8-07-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000513",
+            "Shelve_No": "B8-06-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000512",
+            "Shelve_No": "B8-06-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000511",
+            "Shelve_No": "B8-06-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000510",
+            "Shelve_No": "B8-06-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000509",
+            "Shelve_No": "B8-06-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000508",
+            "Shelve_No": "B8-05-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000507",
+            "Shelve_No": "B8-05-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000506",
+            "Shelve_No": "B8-05-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000505",
+            "Shelve_No": "B8-05-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000504",
+            "Shelve_No": "B8-05-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000503",
+            "Shelve_No": "B8-04-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000502",
+            "Shelve_No": "B8-04-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000501",
+            "Shelve_No": "B8-04-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001434",
+            "Shelve_No": "B8-04-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001433",
+            "Shelve_No": "B8-04-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001432",
+            "Shelve_No": "B8-03-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001431",
+            "Shelve_No": "B8-03-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001430",
+            "Shelve_No": "B8-03-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001429",
+            "Shelve_No": "B8-03-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001428",
+            "Shelve_No": "B8-03-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001503",
+            "Shelve_No": "B8-02-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001427",
+            "Shelve_No": "B8-02-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001426",
+            "Shelve_No": "B8-02-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001425",
+            "Shelve_No": "B8-02-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001424",
+            "Shelve_No": "B8-02-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001419",
+            "Shelve_No": "B8-01-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001420",
+            "Shelve_No": "B8-01-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001421",
+            "Shelve_No": "B8-01-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001422",
+            "Shelve_No": "B8-01-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001423",
+            "Shelve_No": "B8-01-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001418",
+            "Shelve_No": "B9-08-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001417",
+            "Shelve_No": "B9-08-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001416",
+            "Shelve_No": "B9-08-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001415",
+            "Shelve_No": "B9-08-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001414",
+            "Shelve_No": "B9-08-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001413",
+            "Shelve_No": "B9-07-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001412",
+            "Shelve_No": "B9-07-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001411",
+            "Shelve_No": "B9-07-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001410",
+            "Shelve_No": "B9-07-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001409",
+            "Shelve_No": "B9-07-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001408",
+            "Shelve_No": "B9-06-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001407",
+            "Shelve_No": "B9-06-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001406",
+            "Shelve_No": "B9-06-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001405",
+            "Shelve_No": "B9-06-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001404",
+            "Shelve_No": "B9-06-01"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001403",
+            "Shelve_No": "B9-05-05"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001402",
+            "Shelve_No": "B9-05-04"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "28",
+            "Stock_Location": "EZE-190338001401",
+            "Shelve_No": "B9-05-03"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "2",
+            "Stock_Location": "EZE-190338000490",
+            "Shelve_No": "B10-01-05"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000489",
+            "Shelve_No": "B10-01-04"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000488",
+            "Shelve_No": "B10-01-03"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000487",
+            "Shelve_No": "B10-01-02"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000486",
+            "Shelve_No": "B10-01-01"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000495",
+            "Shelve_No": "B10-02-05"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000494",
+            "Shelve_No": "B10-02-04"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000493",
+            "Shelve_No": "B10-02-03"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000492",
+            "Shelve_No": "B10-02-02"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000491",
+            "Shelve_No": "B10-02-01"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000500",
+            "Shelve_No": "B10-03-05"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000499",
+            "Shelve_No": "B10-03-04"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000498",
+            "Shelve_No": "B10-03-03"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000497",
+            "Shelve_No": "B10-03-02"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000496",
+            "Shelve_No": "B10-03-01"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000423",
+            "Shelve_No": "B10-04-05"
+        },
+        {
+            "SKU": "6253810440021-1",
+            "QTY": "1",
+            "Stock_Location": "EZE-190338000422",
+            "Shelve_No": "B10-04-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000421",
+            "Shelve_No": "B10-04-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000771",
+            "Shelve_No": "B10-04-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000770",
+            "Shelve_No": "B10-05-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000769",
+            "Shelve_No": "B10-05-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000768",
+            "Shelve_No": "B10-05-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000767",
+            "Shelve_No": "B10-05-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000766",
+            "Shelve_No": "B10-05-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000765",
+            "Shelve_No": "B10-06-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000764",
+            "Shelve_No": "B10-06-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000763",
+            "Shelve_No": "B10-06-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000762",
+            "Shelve_No": "B10-06-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000761",
+            "Shelve_No": "B10-06-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000760",
+            "Shelve_No": "B10-07-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000759",
+            "Shelve_No": "B10-07-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000758",
+            "Shelve_No": "B10-07-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000757",
+            "Shelve_No": "B10-07-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000756",
+            "Shelve_No": "B10-07-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000755",
+            "Shelve_No": "B10-08-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000754",
+            "Shelve_No": "B10-08-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000753",
+            "Shelve_No": "B10-08-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000752",
+            "Shelve_No": "B10-08-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000751",
+            "Shelve_No": "B10-08-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001469",
+            "Shelve_No": "B11-01-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001468",
+            "Shelve_No": "B11-01-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001467",
+            "Shelve_No": "B11-01-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001466",
+            "Shelve_No": "B11-01-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001465",
+            "Shelve_No": "B11-01-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001464",
+            "Shelve_No": "B11-02-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001463",
+            "Shelve_No": "B11-02-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001462",
+            "Shelve_No": "B11-02-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001461",
+            "Shelve_No": "B11-02-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001460",
+            "Shelve_No": "B11-02-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001459",
+            "Shelve_No": "B11-03-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001458",
+            "Shelve_No": "B11-03-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001457",
+            "Shelve_No": "B11-03-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001456",
+            "Shelve_No": "B11-03-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001455",
+            "Shelve_No": "B11-03-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001454",
+            "Shelve_No": "B11-04-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001453",
+            "Shelve_No": "B11-04-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001452",
+            "Shelve_No": "B11-04-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001451",
+            "Shelve_No": "B11-04-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001450",
+            "Shelve_No": "B11-04-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001449",
+            "Shelve_No": "B11-05-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001448",
+            "Shelve_No": "B11-05-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001447",
+            "Shelve_No": "B11-05-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001446",
+            "Shelve_No": "B11-05-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001445",
+            "Shelve_No": "B11-05-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001444",
+            "Shelve_No": "B11-06-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001443",
+            "Shelve_No": "B11-06-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001442",
+            "Shelve_No": "B11-06-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001441",
+            "Shelve_No": "B11-06-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001440",
+            "Shelve_No": "B11-06-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001439",
+            "Shelve_No": "B11-07-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001438",
+            "Shelve_No": "B11-07-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001437",
+            "Shelve_No": "B11-07-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001436",
+            "Shelve_No": "B11-07-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001435",
+            "Shelve_No": "B11-07-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000450",
+            "Shelve_No": "B11-08-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000449",
+            "Shelve_No": "B11-08-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000448",
+            "Shelve_No": "B11-08-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000447",
+            "Shelve_No": "B11-08-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000446",
+            "Shelve_No": "B11-08-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000445",
+            "Shelve_No": "B12-08-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000444",
+            "Shelve_No": "B12-08-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000443",
+            "Shelve_No": "B12-08-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000442",
+            "Shelve_No": "B12-08-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000441",
+            "Shelve_No": "B12-08-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000440",
+            "Shelve_No": "B12-07-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000439",
+            "Shelve_No": "B12-07-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000438",
+            "Shelve_No": "B12-07-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000437",
+            "Shelve_No": "B12-07-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000436",
+            "Shelve_No": "B12-07-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000435",
+            "Shelve_No": "B12-06-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000434",
+            "Shelve_No": "B12-06-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000433",
+            "Shelve_No": "B12-06-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000432",
+            "Shelve_No": "B12-06-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000431",
+            "Shelve_No": "B12-06-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000430",
+            "Shelve_No": "B12-05-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000429",
+            "Shelve_No": "B12-05-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000428",
+            "Shelve_No": "B12-05-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000427",
+            "Shelve_No": "B12-05-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000426",
+            "Shelve_No": "B12-05-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000425",
+            "Shelve_No": "B12-04-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000424",
+            "Shelve_No": "B12-04-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001472",
+            "Shelve_No": "B12-04-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001471",
+            "Shelve_No": "B12-04-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338001470",
+            "Shelve_No": "B12-04-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000420",
+            "Shelve_No": "B12-03-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000419",
+            "Shelve_No": "B12-03-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000418",
+            "Shelve_No": "B12-03-03"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000417",
+            "Shelve_No": "B12-03-02"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000416",
+            "Shelve_No": "B12-03-01"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000415",
+            "Shelve_No": "B12-02-05"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "24",
+            "Stock_Location": "EZE-190338000414",
+            "Shelve_No": "B12-02-04"
+        },
+        {
+            "SKU": "6253810440076",
+            "QTY": "16",
+            "Stock_Location": "EZE-190338001514",
+            "Shelve_No": "B12-02-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000679",
+            "Shelve_No": "B13-01-03"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "12",
+            "Stock_Location": "EZE-190338000605",
+            "Shelve_No": "B13-01-02"
+        },
+        {
+            "SKU": "6253810440021",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000604",
+            "Shelve_No": "B13-01-01"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000172",
+            "Shelve_No": "B13-03-02"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000171",
+            "Shelve_No": "B13-03-01"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000170",
+            "Shelve_No": "B13-04-04"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000169",
+            "Shelve_No": "B13-04-03"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000168",
+            "Shelve_No": "B13-04-02"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000167",
+            "Shelve_No": "B13-04-01"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000166",
+            "Shelve_No": "B13-05-04"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000165",
+            "Shelve_No": "B13-05-03"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000164",
+            "Shelve_No": "B13-05-02"
+        },
+        {
+            "SKU": "4607012351005-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000163",
+            "Shelve_No": "B13-05-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000160",
+            "Shelve_No": "B13-06-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000159",
+            "Shelve_No": "B13-06-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000158",
+            "Shelve_No": "B13-07-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000157",
+            "Shelve_No": "B13-07-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000156",
+            "Shelve_No": "B13-07-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000155",
+            "Shelve_No": "B13-07-01"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000154",
+            "Shelve_No": "B13-08-04"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000153",
+            "Shelve_No": "B13-08-03"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000152",
+            "Shelve_No": "B13-08-02"
+        },
+        {
+            "SKU": "4607012351999-1",
+            "QTY": "5",
+            "Stock_Location": "EZE-190338000151",
+            "Shelve_No": "B13-08-01"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "2",
+            "Stock_Location": "EZE-190338000837",
+            "Shelve_No": "B14-07-02"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000836",
+            "Shelve_No": "B14-07-01"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000835",
+            "Shelve_No": "B14-06-05"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000834",
+            "Shelve_No": "B14-06-04"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000833",
+            "Shelve_No": "B14-06-03"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000832",
+            "Shelve_No": "B14-06-02"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000831",
+            "Shelve_No": "B14-06-01"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000830",
+            "Shelve_No": "B14-05-05"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000829",
+            "Shelve_No": "B14-05-04"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000828",
+            "Shelve_No": "B14-05-03"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000827",
+            "Shelve_No": "B14-05-02"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000826",
+            "Shelve_No": "B14-05-01"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000825",
+            "Shelve_No": "B14-04-05"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000824",
+            "Shelve_No": "B14-04-04"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000823",
+            "Shelve_No": "B14-04-03"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000822",
+            "Shelve_No": "B14-04-02"
+        },
+        {
+            "SKU": "625381810440168-1",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000821",
+            "Shelve_No": "B14-04-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000372",
+            "Shelve_No": "B14-02-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000367",
+            "Shelve_No": "B14-01-02"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000366",
+            "Shelve_No": "B14-01-01"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000365",
+            "Shelve_No": "B15-01-05"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000678",
+            "Shelve_No": "B15-01-04"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000677",
+            "Shelve_No": "B15-01-03"
+        },
+        {
+            "SKU": "6253810440045",
+            "QTY": "36",
+            "Stock_Location": "EZE-190338000676",
+            "Shelve_No": "B15-01-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "152",
+            "Stock_Location": "EZE-190338000407",
+            "Shelve_No": "B15-06-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000408",
+            "Shelve_No": "B15-06-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000413",
+            "Shelve_No": "B15-07-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000412",
+            "Shelve_No": "B15-07-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000411",
+            "Shelve_No": "B15-07-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000410",
+            "Shelve_No": "B15-07-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001476",
+            "Shelve_No": "B15-08-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001475",
+            "Shelve_No": "B15-08-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001474",
+            "Shelve_No": "B15-08-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001473",
+            "Shelve_No": "B15-08-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "120",
+            "Stock_Location": "EZE-190338001477",
+            "Shelve_No": "B15-08-05"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000954",
+            "Shelve_No": "B17-01-05"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000953",
+            "Shelve_No": "B17-01-04"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000952",
+            "Shelve_No": "B17-01-03"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000951",
+            "Shelve_No": "B17-01-02"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000950",
+            "Shelve_No": "B17-01-01"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000959",
+            "Shelve_No": "B17-02-05"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000958",
+            "Shelve_No": "B17-02-04"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000957",
+            "Shelve_No": "B17-02-03"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000956",
+            "Shelve_No": "B17-02-02"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000955",
+            "Shelve_No": "B17-02-01"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000964",
+            "Shelve_No": "B17-03-05"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000963",
+            "Shelve_No": "B17-03-04"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000962",
+            "Shelve_No": "B17-03-03"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000961",
+            "Shelve_No": "B17-03-02"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000960",
+            "Shelve_No": "B17-03-01"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000969",
+            "Shelve_No": "B17-04-05"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000968",
+            "Shelve_No": "B17-04-04"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000967",
+            "Shelve_No": "B17-04-03"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000966",
+            "Shelve_No": "B17-04-02"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000965",
+            "Shelve_No": "B17-04-01"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000974",
+            "Shelve_No": "B17-05-05"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000973",
+            "Shelve_No": "B17-05-04"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000972",
+            "Shelve_No": "B17-05-03"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000971",
+            "Shelve_No": "B17-05-02"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000970",
+            "Shelve_No": "B17-05-01"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000979",
+            "Shelve_No": "B17-06-05"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000978",
+            "Shelve_No": "B17-06-04"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000977",
+            "Shelve_No": "B17-06-03"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000976",
+            "Shelve_No": "B17-06-02"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000975",
+            "Shelve_No": "B17-06-01"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000982",
+            "Shelve_No": "B17-07-03"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000981",
+            "Shelve_No": "B17-07-02"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338000980",
+            "Shelve_No": "B17-07-01"
+        },
+        {
+            "SKU": "24760062103094",
+            "QTY": "1",
+            "Stock_Location": "EZE-190338000983",
+            "Shelve_No": "B17-07-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "132",
+            "Stock_Location": "EZE-190338000984",
+            "Shelve_No": "B17-07-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000989",
+            "Shelve_No": "B17-08-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000988",
+            "Shelve_No": "B17-08-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000987",
+            "Shelve_No": "B17-08-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000986",
+            "Shelve_No": "B17-08-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000985",
+            "Shelve_No": "B17-08-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001129",
+            "Shelve_No": "B18-01-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001128",
+            "Shelve_No": "B18-01-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001127",
+            "Shelve_No": "B18-01-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001126",
+            "Shelve_No": "B18-01-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001120",
+            "Shelve_No": "B18-02-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001124",
+            "Shelve_No": "B18-02-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001123",
+            "Shelve_No": "B18-02-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001122",
+            "Shelve_No": "B18-02-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001121",
+            "Shelve_No": "B18-02-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001119",
+            "Shelve_No": "B18-03-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001118",
+            "Shelve_No": "B18-03-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001117",
+            "Shelve_No": "B18-03-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001116",
+            "Shelve_No": "B18-03-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001115",
+            "Shelve_No": "B18-03-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001114",
+            "Shelve_No": "B18-04-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001113",
+            "Shelve_No": "B18-04-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001112",
+            "Shelve_No": "B18-04-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001111",
+            "Shelve_No": "B18-04-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001110",
+            "Shelve_No": "B18-04-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001109",
+            "Shelve_No": "B18-05-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001108",
+            "Shelve_No": "B18-05-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001107",
+            "Shelve_No": "B18-05-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001106",
+            "Shelve_No": "B18-05-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001105",
+            "Shelve_No": "B18-05-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001104",
+            "Shelve_No": "B18-06-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001103",
+            "Shelve_No": "B18-06-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001102",
+            "Shelve_No": "B18-06-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001101",
+            "Shelve_No": "B18-06-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001000",
+            "Shelve_No": "B18-06-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000999",
+            "Shelve_No": "B18-07-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000998",
+            "Shelve_No": "B18-07-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000997",
+            "Shelve_No": "B18-07-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000996",
+            "Shelve_No": "B18-07-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000995",
+            "Shelve_No": "B18-07-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000994",
+            "Shelve_No": "B18-08-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000993",
+            "Shelve_No": "B18-08-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000992",
+            "Shelve_No": "B18-08-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000991",
+            "Shelve_No": "B18-08-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338000990",
+            "Shelve_No": "B18-08-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001134",
+            "Shelve_No": "B19-01-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001133",
+            "Shelve_No": "B19-01-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001132",
+            "Shelve_No": "B19-01-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001131",
+            "Shelve_No": "B19-01-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001130",
+            "Shelve_No": "B19-01-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001135",
+            "Shelve_No": "B19-02-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001136",
+            "Shelve_No": "B19-02-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001137",
+            "Shelve_No": "B19-02-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001138",
+            "Shelve_No": "B19-02-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001139",
+            "Shelve_No": "B19-02-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001144",
+            "Shelve_No": "B19-03-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001143",
+            "Shelve_No": "B19-03-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001142",
+            "Shelve_No": "B19-03-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001141",
+            "Shelve_No": "B19-03-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001140",
+            "Shelve_No": "B19-03-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001149",
+            "Shelve_No": "B19-04-05"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001148",
+            "Shelve_No": "B19-04-04"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001147",
+            "Shelve_No": "B19-04-03"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001146",
+            "Shelve_No": "B19-04-02"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "180",
+            "Stock_Location": "EZE-190338001145",
+            "Shelve_No": "B19-04-01"
+        },
+        {
+            "SKU": "4760062103090",
+            "QTY": "28",
+            "Stock_Location": "EZE-190338001150",
+            "Shelve_No": "B19-05-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001169",
+            "Shelve_No": "B19-08-05"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001168",
+            "Shelve_No": "B19-08-04"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001167",
+            "Shelve_No": "B19-08-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001166",
+            "Shelve_No": "B19-08-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338001165",
+            "Shelve_No": "B19-08-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001208",
+            "Shelve_No": "B20-01-05"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001207",
+            "Shelve_No": "B20-01-04"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001206",
+            "Shelve_No": "B20-01-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001205",
+            "Shelve_No": "B20-01-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001204",
+            "Shelve_No": "B20-01-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001200",
+            "Shelve_No": "B20-02-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001359",
+            "Shelve_No": "B20-02-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001201",
+            "Shelve_No": "B20-02-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001202",
+            "Shelve_No": "B20-02-04"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001203",
+            "Shelve_No": "B20-02-05"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001199",
+            "Shelve_No": "B20-03-05"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001198",
+            "Shelve_No": "B20-03-04"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001197",
+            "Shelve_No": "B20-03-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001196",
+            "Shelve_No": "B20-03-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001195",
+            "Shelve_No": "B20-03-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001190",
+            "Shelve_No": "B20-04-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001191",
+            "Shelve_No": "B20-04-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001192",
+            "Shelve_No": "B20-04-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001193",
+            "Shelve_No": "B20-04-04"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001194",
+            "Shelve_No": "B20-04-05"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001185",
+            "Shelve_No": "B20-05-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001186",
+            "Shelve_No": "B20-05-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001187",
+            "Shelve_No": "B20-05-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001188",
+            "Shelve_No": "B20-05-04"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001189",
+            "Shelve_No": "B20-05-05"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001180",
+            "Shelve_No": "B20-06-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001181",
+            "Shelve_No": "B20-06-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001182",
+            "Shelve_No": "B20-06-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001183",
+            "Shelve_No": "B20-06-04"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001184"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001175",
+            "Shelve_No": "B20-07-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001176",
+            "Shelve_No": "B20-07-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001177",
+            "Shelve_No": "B20-07-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001178",
+            "Shelve_No": "B20-07-04"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001179",
+            "Shelve_No": "B20-07-05"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001170",
+            "Shelve_No": "B20-08-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001171",
+            "Shelve_No": "B20-08-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001172",
+            "Shelve_No": "B20-08-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001173",
+            "Shelve_No": "B20-08-04"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001174",
+            "Shelve_No": "B20-08-05"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001209",
+            "Shelve_No": "B21-01-01"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001210",
+            "Shelve_No": "B21-01-02"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001211",
+            "Shelve_No": "B21-01-03"
+        },
+        {
+            "SKU": "24760062103353",
+            "QTY": "2",
+            "Stock_Location": "EZE-190338001212",
+            "Shelve_No": "B21-01-04"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "30",
+            "Stock_Location": "EZE-190338001213",
+            "Shelve_No": "B21-01-05"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "43",
+            "Stock_Location": "EZE-190338001214",
+            "Shelve_No": "B21-02-01"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001215",
+            "Shelve_No": "B21-02-02"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001216",
+            "Shelve_No": "B21-02-03"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001217",
+            "Shelve_No": "B21-02-04"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001218",
+            "Shelve_No": "B21-02-05"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001219",
+            "Shelve_No": "B21-03-01"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001220",
+            "Shelve_No": "B21-03-02"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001221",
+            "Shelve_No": "B21-03-03"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001222",
+            "Shelve_No": "B21-03-04"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001223",
+            "Shelve_No": "B21-03-05"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001224",
+            "Shelve_No": "B21-04-01"
+        },
+        {
+            "SKU": "4760062103359",
+            "QTY": "60",
+            "Stock_Location": "EZE-190338001225",
+            "Shelve_No": "B21-04-02"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "65",
+            "Stock_Location": "EZE-190338001260",
+            "Shelve_No": "B22-06-02"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001261",
+            "Shelve_No": "B22-06-03"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001262",
+            "Shelve_No": "B22-06-04"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001263",
+            "Shelve_No": "B22-06-05"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001254",
+            "Shelve_No": "B22-07-01"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001255",
+            "Shelve_No": "B22-07-02"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001256",
+            "Shelve_No": "B22-07-03"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001257",
+            "Shelve_No": "B22-07-04"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001258",
+            "Shelve_No": "B22-07-05"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001249",
+            "Shelve_No": "B22-08-01"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001250",
+            "Shelve_No": "B22-08-02"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001251",
+            "Shelve_No": "B22-08-03"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001252",
+            "Shelve_No": "B22-08-04"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001253",
+            "Shelve_No": "B22-08-05"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001289",
+            "Shelve_No": "B23-01-01"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001290",
+            "Shelve_No": "B23-01-02"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001291",
+            "Shelve_No": "B23-01-03"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001292",
+            "Shelve_No": "B23-01-04"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001293",
+            "Shelve_No": "B23-01-05"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "67",
+            "Stock_Location": "EZE-190338001298",
+            "Shelve_No": "B23-02-05"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001297",
+            "Shelve_No": "B23-02-04"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001296",
+            "Shelve_No": "B23-02-03"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001295",
+            "Shelve_No": "B23-02-02"
+        },
+        {
+            "SKU": "4760062100877",
+            "QTY": "80",
+            "Stock_Location": "EZE-190338001294",
+            "Shelve_No": "B23-02-01"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338001303",
+            "Shelve_No": "B23-03-05"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338001302",
+            "Shelve_No": "B23-03-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338001301",
+            "Shelve_No": "B23-03-03"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "4",
+            "Stock_Location": "EZE-190338001300",
+            "Shelve_No": "B23-03-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "3",
+            "Stock_Location": "EZE-190338001299",
+            "Shelve_No": "B23-03-01"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338001308",
+            "Shelve_No": "B23-04-05"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338001307",
+            "Shelve_No": "B23-04-04"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338001306",
+            "Shelve_No": "B23-04-03"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338001305",
+            "Shelve_No": "B23-04-02"
+        },
+        {
+            "SKU": "24760062100499",
+            "QTY": "6",
+            "Stock_Location": "EZE-190338001304",
+            "Shelve_No": "B23-04-01"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "118",
+            "Stock_Location": "EZE-190338000863",
+            "Shelve_No": "L1-10-08"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000862",
+            "Shelve_No": "L1-10-07"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000861",
+            "Shelve_No": "L1-10-06"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000860",
+            "Shelve_No": "L1-10-05"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000859",
+            "Shelve_No": "L1-10-04"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000858",
+            "Shelve_No": "L1-10-03"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000857",
+            "Shelve_No": "L1-10-02"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000856",
+            "Shelve_No": "L1-10-01"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000855",
+            "Shelve_No": "L1-09-10"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000854",
+            "Shelve_No": "L1-09-09"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000853",
+            "Shelve_No": "L1-09-08"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000852",
+            "Shelve_No": "L1-09-07"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000851",
+            "Shelve_No": "L1-09-06"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000850",
+            "Shelve_No": "L1-09-05"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "288",
+            "Stock_Location": "EZE-190338000849",
+            "Shelve_No": "L1-09-04"
+        },
+        {
+            "SKU": "6253810440168",
+            "QTY": "205",
+            "Stock_Location": "EZE-190338000848",
+            "Shelve_No": "L1-09-03"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "271",
+            "Stock_Location": "EZE-190338000805",
+            "Shelve_No": "L1-04-06"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000804",
+            "Shelve_No": "L1-04-05"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000803",
+            "Shelve_No": "L1-04-04"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000802",
+            "Shelve_No": "L1-04-03"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000801",
+            "Shelve_No": "L1-04-02"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000800",
+            "Shelve_No": "L1-04-01"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000709",
+            "Shelve_No": "L1-03-10"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000708",
+            "Shelve_No": "L1-03-09"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000707",
+            "Shelve_No": "L1-03-08"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000706",
+            "Shelve_No": "L1-03-07"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000705",
+            "Shelve_No": "L1-03-06"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000704",
+            "Shelve_No": "L1-03-05"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000703",
+            "Shelve_No": "L1-03-04"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000702",
+            "Shelve_No": "L1-03-03"
+        },
+        {
+            "SKU": "6253810440038",
+            "QTY": "225",
+            "Stock_Location": "EZE-190338000701",
+            "Shelve_No": "L1-03-02"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "276",
+            "Stock_Location": "EZE-190338000696",
+            "Shelve_No": "L1-02-07"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000695",
+            "Shelve_No": "L1-02-06"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000694",
+            "Shelve_No": "L1-02-05"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000693",
+            "Shelve_No": "L1-02-04"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000692",
+            "Shelve_No": "L1-02-03"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000691",
+            "Shelve_No": "L1-02-02"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000690",
+            "Shelve_No": "L1-02-01"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000689",
+            "Shelve_No": "L1-01-10"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000688",
+            "Shelve_No": "L1-01-09"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000687",
+            "Shelve_No": "L1-01-08"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000686",
+            "Shelve_No": "L1-01-07"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000685",
+            "Shelve_No": "L1-01-06"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000684",
+            "Shelve_No": "L1-01-05"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "324",
+            "Stock_Location": "EZE-190338000683",
+            "Shelve_No": "L1-01-04"
+        },
+        {
+            "SKU": "6253810440120",
+            "QTY": "179",
+            "Stock_Location": "EZE-190338000682",
+            "Shelve_No": "L1-01-03"
+        }
+    ]
+}

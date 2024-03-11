@@ -1,0 +1,70 @@
+{
+    "Sheet1": [
+      {
+        "Shelve": "F1-02-03",
+        "StockLocation": "FLRA-258312000028",
+        "ItemSku": "MUSk-Powder-Sample-6000016",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-03-02",
+        "StockLocation": "FLRA-258312000026",
+        "ItemSku": "MUSk-Rouge-Sample-6000017",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-05-03",
+        "StockLocation": "FLRA-258312000024",
+        "ItemSku": "AURA-XIV-Sample-6000018",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-05-02",
+        "StockLocation": "FLRA-258312000018",
+        "ItemSku": "AURA-I-Sample-6000019",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-03-03",
+        "StockLocation": "FLRA-258312000027",
+        "ItemSku": "MUSk-Honey-Sample-6000020",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-02-02",
+        "StockLocation": "FLRA-258312000025",
+        "ItemSku": "MUSk-Flower-Sample-6000021",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-01-02",
+        "StockLocation": "FLRA-258312000020",
+        "ItemSku": "AURA-II-Sample-6000022",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-02-01",
+        "StockLocation": "FLRA-258312000023",
+        "ItemSku": "AURA-X-Sample-6000023",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-03-01",
+        "StockLocation": "FLRA-258312000019",
+        "ItemSku": "AURA-XIX-Sample-6000024",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-01-03",
+        "StockLocation": "FLRA-258312000022",
+        "ItemSku": "AURA-V-Sample-6000025",
+        "Qty": 72
+      },
+      {
+        "Shelve": "F1-01-01",
+        "StockLocation": "FLRA-258312000021",
+        "ItemSku": "AURA-XV-Sample-6000026",
+        "Qty": 72
+      }
+    ]
+  }

@@ -1,0 +1,1301 @@
+{
+    "Sheet1":[
+     {
+      "Stock_Locations": "BTPR-241295000350",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 27,
+      "Shelve NO": "N1-03-02",
+      "Seller": "Beauty Products "
+     },
+     {
+         
+      "Stock_Locations": "BTPR-241295000359",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-03-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000383",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000384",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000385",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000386",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000387",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000388",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000405",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000437",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000438",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000439",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000440",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000441",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000442",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-04-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000443",
+      "SKU_PHY": "Z.218325.1663601380845379",
+      "QTY_PHY": 27,
+      "Shelve NO": "N1-04-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000340",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 9,
+      "Shelve NO": "N1-04-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000444",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000445",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000446",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000447",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000448",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000449",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000450",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000381",
+      "SKU_PHY": "Z.218325.16636068939515417",
+      "QTY_PHY": 273,
+      "Shelve NO": "N2-04-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000382",
+      "SKU_PHY": "Z.218325.16636068939515417",
+      "QTY_PHY": 288,
+      "Shelve NO": "N2-04-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000380",
+      "SKU_PHY": "Z.218325.16636058516114578",
+      "QTY_PHY": 58,
+      "Shelve NO": "N2-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000379",
+      "SKU_PHY": "Z.218325.16636058516114578",
+      "QTY_PHY": 144,
+      "Shelve NO": "N2-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000375",
+      "SKU_PHY": "Z.218325.16636058516114578",
+      "QTY_PHY": 144,
+      "Shelve NO": "N2-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000374",
+      "SKU_PHY": "Z.218325.16636058516114578",
+      "QTY_PHY": 144,
+      "Shelve NO": "N2-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000373",
+      "SKU_PHY": "Z.218325.16636058516114578",
+      "QTY_PHY": 18,
+      "Shelve NO": "N2-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000235",
+      "SKU_PHY": "Z.218325.16839634976368425",
+      "QTY_PHY": 84,
+      "Shelve NO": "N1-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000369",
+      "SKU_PHY": "Z.218325.16839634976368425",
+      "QTY_PHY": 105,
+      "Shelve NO": "N1-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000368",
+      "SKU_PHY": "Z.218325.16839634976368425",
+      "QTY_PHY": 105,
+      "Shelve NO": "N1-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000367",
+      "SKU_PHY": "Z.218325.16839634976368425",
+      "QTY_PHY": 105,
+      "Shelve NO": "N1-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000311",
+      "SKU_PHY": "Z.218325.16839634976368425",
+      "QTY_PHY": 105,
+      "Shelve NO": "N1-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000425",
+      "SKU_PHY": "Z.218325.1663606218711529",
+      "QTY_PHY": 48,
+      "Shelve NO": "N1-01-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000426",
+      "SKU_PHY": "Z.218325.1663606218711529",
+      "QTY_PHY": 65,
+      "Shelve NO": "N1-01-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000427",
+      "SKU_PHY": "Z.218325.1663606218711529",
+      "QTY_PHY": 65,
+      "Shelve NO": "N1-01-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000424",
+      "SKU_PHY": "Z.218325.1663606218711529",
+      "QTY_PHY": 65,
+      "Shelve NO": "N1-01-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000423",
+      "SKU_PHY": "Z.218325.1663606218711529",
+      "QTY_PHY": 65,
+      "Shelve NO": "N1-01-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000422",
+      "SKU_PHY": "Z.218325.1663606218711529",
+      "QTY_PHY": 50,
+      "Shelve NO": "N1-01-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000366",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000365",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000349",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000348",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000347",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000346",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000345",
+      "SKU_PHY": "Z.218325.1663606307464776",
+      "QTY_PHY": 2,
+      "Shelve NO": "N1-04-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000215",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 9,
+      "Shelve NO": "N2-05-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000214",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000213",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000212",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000211",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000210",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000309",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000308",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000307",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000306",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-04-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000305",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000303",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000302",
+      "SKU_PHY": "Z.218325.16636015638714375",
+      "QTY_PHY": 9,
+      "Shelve NO": "N2-05-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000187",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 19,
+      "Shelve NO": "N2-06-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000186",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000185",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000184",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000191",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000190",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000192",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000195",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000196",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000197",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000209",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000208",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000207",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000206",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-06-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000205",
+      "SKU_PHY": "Z.218325.16636057302860894",
+      "QTY_PHY": 24,
+      "Shelve NO": "N2-06-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000179",
+      "SKU_PHY": "Z.218325.16636074907526407",
+      "QTY_PHY": 74,
+      "Shelve NO": "N2-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000183",
+      "SKU_PHY": "Z.218325.16636074907526407",
+      "QTY_PHY": 120,
+      "Shelve NO": "N2-01-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000182",
+      "SKU_PHY": "Z.218325.16636074907526407",
+      "QTY_PHY": 120,
+      "Shelve NO": "N2-01-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000181",
+      "SKU_PHY": "Z.218325.16636074907526407",
+      "QTY_PHY": 120,
+      "Shelve NO": "N2-01-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000180",
+      "SKU_PHY": "Z.218325.16636074907526407",
+      "QTY_PHY": 75,
+      "Shelve NO": "N2-01-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000143",
+      "SKU_PHY": "Z.218325.1663607371861938",
+      "QTY_PHY": 41,
+      "Shelve NO": "N1-05-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000142",
+      "SKU_PHY": "Z.218325.1663607371861938",
+      "QTY_PHY": 80,
+      "Shelve NO": "N1-05-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000141",
+      "SKU_PHY": "Z.218325.1663607371861938",
+      "QTY_PHY": 80,
+      "Shelve NO": "N1-05-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000294",
+      "SKU_PHY": "Z.218325.1663607371861938",
+      "QTY_PHY": 80,
+      "Shelve NO": "N2-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000178",
+      "SKU_PHY": "Z.218325.1663607371861938",
+      "QTY_PHY": 80,
+      "Shelve NO": "N1-05-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000176",
+      "SKU_PHY": "Z.218325.1663607371861938",
+      "QTY_PHY": 80,
+      "Shelve NO": "N1-05-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000177",
+      "SKU_PHY": "Z.218325.1663607371861938",
+      "QTY_PHY": 12,
+      "Shelve NO": "N1-05-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000140",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000138",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000137",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000136",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000135",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-01-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000389",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-02-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000390",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-02-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000391",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-02-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000144",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-02-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000146",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-02-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000147",
+      "SKU_PHY": "Z.218325.1663600986670799",
+      "QTY_PHY": 37,
+      "Shelve NO": "N1-02-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000150",
+      "SKU_PHY": "Z.218325.16877052757515604",
+      "QTY_PHY": 89,
+      "Shelve NO": "N1-01-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000152",
+      "SKU_PHY": "Z.218325.16877052757515604",
+      "QTY_PHY": 52,
+      "Shelve NO": "N1-01-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000155",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 6,
+      "Shelve NO": "N2-02-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000156",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 40,
+      "Shelve NO": "N2-02-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000157",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 40,
+      "Shelve NO": "N2-02-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000172",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 40,
+      "Shelve NO": "N2-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000174",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 40,
+      "Shelve NO": "N2-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000053",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 40,
+      "Shelve NO": "N2-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000054",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 40,
+      "Shelve NO": "N2-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000055",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 40,
+      "Shelve NO": "N2-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000063",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 40,
+      "Shelve NO": "N2-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000064",
+      "SKU_PHY": "Z.218325.16636060889052882",
+      "QTY_PHY": 28,
+      "Shelve NO": "N2-02-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000079",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 2,
+      "Shelve NO": "N2-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000087",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000088",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000100",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000086",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000227",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000106",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000105",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000104",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000103",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 33,
+      "Shelve NO": "N2-05-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000102",
+      "SKU_PHY": "Z.218325.16636008642793658",
+      "QTY_PHY": 26,
+      "Shelve NO": "N2-05-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000107",
+      "SKU_PHY": "Z.218325.16636023969814467",
+      "QTY_PHY": 34,
+      "Shelve NO": "N2-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000109",
+      "SKU_PHY": "Z.218325.16636023969814467",
+      "QTY_PHY": 60,
+      "Shelve NO": "N2-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000110",
+      "SKU_PHY": "Z.218325.16636023969814467",
+      "QTY_PHY": 60,
+      "Shelve NO": "N2-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000111",
+      "SKU_PHY": "Z.218325.16636023969814467",
+      "QTY_PHY": 60,
+      "Shelve NO": "N2-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000113",
+      "SKU_PHY": "Z.218325.16636023969814467",
+      "QTY_PHY": 60,
+      "Shelve NO": "N2-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000112",
+      "SKU_PHY": "Z.218325.16636023969814467",
+      "QTY_PHY": 60,
+      "Shelve NO": "N2-03-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000115",
+      "SKU_PHY": "Z.218325.16636023969814467",
+      "QTY_PHY": 60,
+      "Shelve NO": "N2-03-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000116",
+      "SKU_PHY": "Z.218325.16636023969814467",
+      "QTY_PHY": 13,
+      "Shelve NO": "N2-03-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000048",
+      "SKU_PHY": "Z.218325.16636072891711965",
+      "QTY_PHY": 61,
+      "Shelve NO": "N2-02-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000119",
+      "SKU_PHY": "Z.218325.16636072891711965",
+      "QTY_PHY": 70,
+      "Shelve NO": "N2-03-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000126",
+      "SKU_PHY": "Z.218325.16636072891711965",
+      "QTY_PHY": 70,
+      "Shelve NO": "N2-03-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000118",
+      "SKU_PHY": "Z.218325.16636072891711965",
+      "QTY_PHY": 70,
+      "Shelve NO": "N2-03-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000121",
+      "SKU_PHY": "Z.218325.16636072891711965",
+      "QTY_PHY": 70,
+      "Shelve NO": "N2-03-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000130",
+      "SKU_PHY": "Z.218325.16636072891711965",
+      "QTY_PHY": 70,
+      "Shelve NO": "N2-03-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000128",
+      "SKU_PHY": "Z.218325.16636072891711965",
+      "QTY_PHY": 70,
+      "Shelve NO": "N2-03-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000129",
+      "SKU_PHY": "Z.218325.16636072891711965",
+      "QTY_PHY": 70,
+      "Shelve NO": "N2-03-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000131",
+      "SKU_PHY": "Z.218325.16636072891711965",
+      "QTY_PHY": 7,
+      "Shelve NO": "N2-03-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000216",
+      "SKU_PHY": "Z.218325.16839635810041008",
+      "QTY_PHY": 8,
+      "Shelve NO": "N1-03-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000224",
+      "SKU_PHY": "Z.218325.1683963187019048",
+      "QTY_PHY": 90,
+      "Shelve NO": "N1-03-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000223",
+      "SKU_PHY": "Z.218325.1683963187019048",
+      "QTY_PHY": 109,
+      "Shelve NO": "N1-03-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000235",
+      "SKU_PHY": "Z.218325.16839634976368425",
+      "QTY_PHY": 26,
+      "Shelve NO": "N1-02-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000090",
+      "SKU_PHY": "Z.218325.16636064864200397",
+      "QTY_PHY": 17,
+      "Shelve NO": "N1-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000338",
+      "SKU_PHY": "Z.218325.16636064864200397",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000253",
+      "SKU_PHY": "Z.218325.16636064864200397",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-06-02",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000254",
+      "SKU_PHY": "Z.218325.16636064864200397",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-06-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000099",
+      "SKU_PHY": "Z.218325.16636064864200397",
+      "QTY_PHY": 5,
+      "Shelve NO": "N1-06-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000255",
+      "SKU_PHY": "Z.218325.16636024982867413",
+      "QTY_PHY": 51,
+      "Shelve NO": "N2-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000256",
+      "SKU_PHY": "Z.218325.16636024982867413",
+      "QTY_PHY": 64,
+      "Shelve NO": "N2-04-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000257",
+      "SKU_PHY": "Z.218325.16636024982867413",
+      "QTY_PHY": 64,
+      "Shelve NO": "N2-04-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000258",
+      "SKU_PHY": "Z.218325.16636024982867413",
+      "QTY_PHY": 64,
+      "Shelve NO": "N2-04-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000259",
+      "SKU_PHY": "Z.218325.16636024982867413",
+      "QTY_PHY": 51,
+      "Shelve NO": "N2-04-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000045",
+      "SKU_PHY": "Z.218325.16636006232272449",
+      "QTY_PHY": 2,
+      "Shelve NO": "N1-03-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000048",
+      "SKU_PHY": "Z.218325.16636006232272449",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000046",
+      "SKU_PHY": "Z.218325.16636006232272449",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-03-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000049",
+      "SKU_PHY": "Z.218325.16636006232272449",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-03-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000050",
+      "SKU_PHY": "Z.218325.16636006232272449",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-03-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000047",
+      "SKU_PHY": "Z.218325.16636006232272449",
+      "QTY_PHY": 30,
+      "Shelve NO": "N1-03-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000316",
+      "SKU_PHY": "Z.218325.16636059488123486",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-01-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000317",
+      "SKU_PHY": "Z.218325.16636059488123486",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-01-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000315",
+      "SKU_PHY": "Z.218325.16636059488123486",
+      "QTY_PHY": 33,
+      "Shelve NO": "N1-01-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000314",
+      "SKU_PHY": "Z.218325.16636059488123486",
+      "QTY_PHY": 6,
+      "Shelve NO": "N1-01-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000158",
+      "SKU_PHY": "Z.218325.16636070546892934",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-02-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000151",
+      "SKU_PHY": "Z.218325.16636070546892934",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-02-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000145",
+      "SKU_PHY": "Z.218325.16636070546892934",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-02-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000139",
+      "SKU_PHY": "Z.218325.16636070546892934",
+      "QTY_PHY": 40,
+      "Shelve NO": "N1-02-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000378",
+      "SKU_PHY": "Z.218325.16636077712271733",
+      "QTY_PHY": 128,
+      "Shelve NO": "N1-01-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000397",
+      "SKU_PHY": "Z.218325.16636066076903942",
+      "QTY_PHY": 32,
+      "Shelve NO": "N1-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000398",
+      "SKU_PHY": "Z.218325.16636066076903942",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000399",
+      "SKU_PHY": "Z.218325.16636066076903942",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000400",
+      "SKU_PHY": "Z.218325.16636066076903942",
+      "QTY_PHY": 60,
+      "Shelve NO": "N1-05-01",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000401",
+      "SKU_PHY": "Z.218325.16636066076903942",
+      "QTY_PHY": 24,
+      "Shelve NO": "N1-06-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000406",
+      "SKU_PHY": "Z.218325.16636068307616389",
+      "QTY_PHY": 244,
+      "Shelve NO": "N1-06-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000407",
+      "SKU_PHY": "Z.218325.16636068307616389",
+      "QTY_PHY": 20,
+      "Shelve NO": "N1-06-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000125",
+      "SKU_PHY": "Z.218325.1663606715319372",
+      "QTY_PHY": 11,
+      "Shelve NO": "N2-06-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000247",
+      "SKU_PHY": "Z.218325.1663606715319372",
+      "QTY_PHY": 300,
+      "Shelve NO": "N2-06-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000249",
+      "SKU_PHY": "Z.218325.1663606715319372",
+      "QTY_PHY": 160,
+      "Shelve NO": "N2-06-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000244",
+      "SKU_PHY": "Z.218325.16636071792135909",
+      "QTY_PHY": 66,
+      "Shelve NO": "N2-02-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000232",
+      "SKU_PHY": "Z.218325.16636071792135909",
+      "QTY_PHY": 61,
+      "Shelve NO": "N2-02-03",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000280",
+      "SKU_PHY": "Z.218325.16636063816682491",
+      "QTY_PHY": 30,
+      "Shelve NO": "N2-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000279",
+      "SKU_PHY": "Z.218325.16636063816682491",
+      "QTY_PHY": 30,
+      "Shelve NO": "N2-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000278",
+      "SKU_PHY": "Z.218325.16636063816682491",
+      "QTY_PHY": 30,
+      "Shelve NO": "N2-04-04",
+      "Seller": "Beauty Products "
+     },
+     {
+      "Stock_Locations": "BTPR-241295000277",
+      "SKU_PHY": "Z.218325.16636063816682491",
+      "QTY_PHY": 17,
+      "Shelve NO": "N2-04-04",
+      "Seller": "Beauty Products "
+     }
+    ],
+    "Sheet2":[]
+    }

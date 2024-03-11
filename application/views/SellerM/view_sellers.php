@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="<?= base_url('assets/if_box_download_48_10266.png'); ?>" type="image/x-icon">
+        <title><?= lang('lang_Inventory'); ?></title>
+        <?php $this->load->view('include/file'); ?>
+
+
+    </head>
+
+
+    <body>
+
+        <?php $this->load->view('include/main_navbar'); ?>
+
+
+        <!-- Page container -->
+        <div class="page-container">
+
+            <!-- Page content -->
+            <div class="page-content">
+
+                <?php $this->load->view('include/main_sidebar'); ?>
+
+
+                <!-- Main content -->
+                <div class="content-wrapper" >
+                    <!--style="background-color: black;"-->
+                    <?php $this->load->view('include/page_header'); ?>
+
+
+
+                    <!-- Content area -->
+                    <div class="content" >
+                        <!--style="background-color: red;"-->
+                        <?php
+                        if ($this->session->flashdata('msg'))
+                            echo '<div class="alert alert-success">' . $this->session->flashdata('msg') . ' <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+                         if ($this->session->flashdata('error'))
+                          echo '<div class="alert alert-warning">' . $this->session->flashdata('error') . ' <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+                            ?> 
+
+                        <!-- Basic responsive table -->
+                        <div class="panel panel-flat" >
+                            <!--style="padding-bottom:220px;background-color: lightgray;"-->
+                            <div class="panel-heading"dir="ltr">
+                                <!-- <h5 class="panel-title">Basic responsive table</h5> -->
+                                <h1><strong><?= lang('lang_Sellers_Table'); ?></strong></h1>
+
+                                <div class="heading-elements">
+                                    <ul class="icons-list">
+                                        <!-- <li><a data-action="collapse"></a></li>
+                                        <li><a data-action="reload"></a></li> -->
+                                        <!-- <li><a data-action="close"></a></li> -->
+                                    </ul>
+                                </div>
+                                <hr>
+                            </div>
+
+                            <div class="panel-body" >
+
+              <!-- <input type="text" id="search"  placeholder="Search .." class="form-control">
+                                -->
+
+
+                                <div class="table-responsive" style="padding-bottom:20px;" >
+                                    <!--style="background-color: green;"-->
+                                    <table class="table table-striped table-hover table-bordered dataTable" id="example">
+                                        <thead>
+                                            <tr>
+
+                                                <th><?= lang('lang_SrNo'); ?>.</th>
+                                                <th>User Type</th>
+                                                <th><?= lang('lang_secret_key'); ?></th>
+                                                <th><?= lang('lang_Legal_Name'); ?></th>
+                                                <th><?= lang('lang_Company_name'); ?></th>
+                                                <th><?= lang('lang_Email'); ?></th>
+                                                <th><?= lang('lang_Account_No'); ?>#</th>
+                                                <th><?= lang('lang_Location'); ?></th>
+                                                <th> <?= lang('lang_Phone'); ?>#1</th>
+                                                <th><?= lang('lang_Invoice_Type'); ?></th>
+                                                <th>Discount</th>
+                                                <th>Lat</th>
+                                                <th>Lng</th>
+                                                <th>Area</th>
+                                                 <th>Auto Order Created</th>
+                                                  <?php if (menuIdExitsInPrivilageArray(233) == 'Y') { ?>
+                                                  <th>Wallet</th>
+                                                  <?php } ?>
+                                                <th>Status</th>
+                                                <th>ZID Stock Auto</th>
+                                                <th>ZID 3PL Details Update</th>
+                                                <th>Salla Stock Auto</th>
+                                                <th>Salla Details Update</th>                                                
+                                                <th class="text-center" ><i class="icon-database-edit2"></i></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php $sr = 1; ?>
+                                            <?php if (!empty($sellers)): ?>
+                                                <?php foreach ($sellers as $seller): ?>
+                                                    <tr>
+                                                        <td> <?= $sr; ?></td>
+                                                        <td><?= $seller->u_type; ?></td>
+                                                        <td> <?= $seller->secret_key; ?></td>    
+                                                        <td><a href="<?= site_url('Seller/report_view/' . $seller->id); ?>"><?= $seller->name; ?></a></td>
+                                                        <td><?= $seller->company; ?></td>
+                                                        <td><?= $seller->email; ?></td>
+                                                        <td><?= $seller->uniqueid; ?></td>
+                                                        <td><?= $seller->address; ?></td>
+                                                        <td><?= $seller->phone; ?></td>
+                                                        <td><?= $seller->invoice_type; ?></td>
+                                                        <?php if ($seller->discount == 1) { ?>
+                                                        <td><span class="label bg-success">Yes</span></td>
+                                                         <?php } else { ?>
+                                                         <td><span class="label bg-warning">No</span></td>
+                                                        <?php } ?>
+                                                        <td><?= $seller->lat; ?></td>
+                                                    
+                                                        <td><?= $seller->lng; ?></td>
+                                                        <td><?= $seller->area; ?></td>
+                                                           <?php if ($seller->autoorder == 'N') { ?>
+                                                        <td><span class="label bg-warning">Inactive</span></td>
+                                                         <?php } else { ?>
+                                                         <td><span class="label bg-success">Active</span></td>
+                                                        <?php } ?>
+                                                         
+                                                          <?php if (menuIdExitsInPrivilageArray(233) == 'Y') { ?>
+                                                              <?php if ($seller->wallet == 'N') { ?>
+                                                        <td><span class="label bg-warning">Inactive</span></td>
+                                                         <?php } else { ?>
+                                                         <td><span class="label bg-success">Active</span></td>
+                                                          <?php } } ?>
+                                                         <?php if ($seller->status == 'N') { ?>
+                                                        <td><span class="label bg-warning">Inactive</span></td>
+                                                         <?php } else { ?>
+                                                         <td><span class="label bg-success">Active</span></td>
+                                                        <?php } ?>
+
+                                                        <td>
+                                                            <?php if ($seller->stock_update_auto_zid == 'Y') { ?>
+                                                                <span class="badge badge-success"><?= lang('lang_active'); ?></span>
+                                                            <?php } else { ?>
+                                                                <span class="badge badge-danger"><?= lang('lang_inactive'); ?></span>
+                                                            <?php } ?>
+                                                        </td>
+                                                        <td>
+                                                            <?php if ($seller->zid_update_details == 'Y') { ?>
+                                                                <span class="badge badge-success"><?= lang('lang_active'); ?></span>
+                                                            <?php } else { ?>
+                                                                <span class="badge badge-danger"><?= lang('lang_inactive'); ?></span>
+                                                            <?php } ?>
+                                                        </td>
+                                                         <td>
+                                                            <?php if ($seller->stock_update_auto_salla == 'Y') { ?>
+                                                                <span class="badge badge-success"><?= lang('lang_active'); ?></span>
+                                                            <?php } else { ?>
+                                                                <span class="badge badge-danger"><?= lang('lang_inactive'); ?></span>
+                                                            <?php } ?>
+                                                        </td>
+                                                        <td>
+                                                            <?php if ($seller->salla_update_details == 'Y') { ?>
+                                                                <span class="badge badge-success"><?= lang('lang_active'); ?></span>
+                                                            <?php } else { ?>
+                                                                <span class="badge badge-danger"><?= lang('lang_inactive'); ?></span>
+                                                            <?php } ?>
+                                                        </td>
+                                                        <?php $sr++; ?>
+                                                        <td class="text-center">
+                                                            <ul class="icons-list">
+                                                                <li class="dropdown">
+                                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                                        <i class="icon-menu9"></i>
+                                                                    </a>
+
+                                                                    <ul class="dropdown-menu dropdown-menu-right">  
+                                                                        <li><a href="<?= site_url('Seller/edit_view/' . $seller->id); ?>"><i class="icon-pencil7"></i> <?= lang('lang_Edit'); ?> </a></li>
+                                                                        <?php if ($seller->status == 'N') { ?>
+                                                                            <li><a href="<?= site_url('active_seller/' . $seller->id . '/Y'); ?>"><i class="icon-pencil7"></i> Active  </a></li>
+                                                                        <?php } else { ?>
+                                                                            <li><a href="<?= site_url('active_seller/' . $seller->id . '/N'); ?>"><i class="icon-pencil7"></i> Inactive  </a></li>
+                                                                        <?php } ?>
+                                                                            <?php if (menuIdExitsInPrivilageArray(233) == 'Y') { ?>
+                                                                            <?php if ($seller->wallet == 'N') { ?>
+                                                                            <li title="Wallet Active"><a href="<?= site_url('active_wallet/' . $seller->id . '/Y'); ?>"><i class="icon-wallet"></i> Active  </a></li>
+                                                                        <?php } else { ?>
+                                                                            <li title="Wallet Inactive"><a href="<?= site_url('active_wallet/' . $seller->id . '/N'); ?>"><i class="icon-wallet"></i> Inactive  </a></li>
+                                                                            <?php }} ?>
+                                                                            
+                                                                                <?php if ($seller->autoorder == 'N') { ?>
+                                                                            <li><a href="<?= site_url('Seller/autoactive_seller/' . $seller->id . '/Y'); ?>"><i class="icon-unlocked"></i> Auto Order Active  </a></li>
+                                                                        <?php } else { ?>
+                                                                            <li><a href="<?= site_url('Seller/autoactive_seller/' . $seller->id . '/N'); ?>"><i class="icon-lock2"></i> Auto Order Inactive  </a></li>
+                                                                        <?php } ?>
+
+
+                                                                        <li><a href="<?= site_url('Seller/set_courier/' . $seller->id); ?>"><i class="icon-pencil7"></i><?= lang('lang_Set_Courier_Companies'); ?></a></li>
+                                                                        <li><a href="<?= site_url('Seller/storage_charges/' . $seller->id); ?>"><i class="icon-pencil7"></i> <?= lang('lang_SetStorage_Charges'); ?></a></li>
+                                                                        <li><a href="<?= site_url('Seller/add_courier_company/' . $seller->id); ?>"><i class="icon-pencil7"></i> <?= lang('lang_AddCourierCompany'); ?> </a></li>
+                                                                        <?php if (menuIdExitsInPrivilageArray(107) == 'Y') { ?>
+                                                                            <li><a href="<?= site_url('Seller/updateZidConfig/' . $seller->id); ?>"><i class="icon-pencil7"></i> <?= lang('lang_Zid_Configuration'); ?></a></li>
+                                                                        <?php echo (($seller->manager_token != '' && $seller->zid_active == 'Y'  && $seller->sync_product_zid == 'Y') ? '<li><a href="' . site_url("Seller/ZidProducts/" . $seller->id) . '"><i class="icon-pencil7"></i>Zid Product List</a></li>' : '') ?>
+                                                                        <?php } ?>
+                                                                        <?php
+                                                                            if($seller->manager_token != '' && $seller->zid_active == 'Y'){
+                                                                                if($seller->sync_product_zid == ''){
+                                                                                    echo '<li><a href="' . site_url("Seller/ZidProducts/" . $seller->id) . '"><i class="icon-pencil7"></i>Zid Product List</a></li>';    
+                                                                                }
+                                                                            }
+                                                                        ?>
+                                                                              <?php
+                                                                            if($seller->magento_auth != '' && $seller->magento_auth!== NULL){
+                                                                                if($seller->sync_product_zid == ''){
+                                                                                    echo '<li><a href="' . site_url("Seller/magentoProducts/" . $seller->id) . '"><i class="icon-pencil7"></i>Magento Products List</a></li>';    
+                                                                                }
+                                                                            }
+                                                                        ?>
+                                                                           
+                                                                        <?php if (menuIdExitsInPrivilageArray(106) == 'Y') { ?>
+                                                                            <li><a href="<?= site_url('Seller/updateSallaConfig/' . $seller->id); ?>"><i class="icon-pencil7"></i> <?= lang('lang_Salla_Configuration'); ?></a></li>
+                                                                            <?php echo (($seller->salla_athentication != '' && $seller->salla_active == 'Y') ? '<li><a href="' . site_url("Seller/SallaProducts/" . $seller->id) . '"><i class="icon-pencil7"></i>Salla Product List</a></li>' : '') ?>
+                                                                        <?php } ?>
+                                                                        <?php if (menuIdExitsInPrivilageArray(239) == 'Y') { ?>
+                                                                            <li><a href="<?= site_url('Seller/updateSallaConfigApp/' . $seller->id); ?>"><i class="icon-gear"></i> Salla Private App</a></li>
+                                                                        <?php } ?>
+
+                                                                        <li><a href="<?= site_url('Seller/updateShopify/' . $seller->id); ?>"><i class="fa fa-balance-scale"></i><?= lang('lang_Shopify_Config'); ?></a></li>
+
+
+
+                                                                        <li><a href="<?= site_url('Seller/updateWoocommerce/' . $seller->id); ?>"><i class="icon-pencil7"></i> <?= lang('lang_Woocommerce_Configuration'); ?></a></li>
+                                                                         <?php if (menuIdExitsInPrivilageArray(156) == 'Y') { ?>
+                                                                         <li><a href="<?= site_url('Seller/update_webhook/' . $seller->id); ?>"><i class="icon-gear"></i> Webhook Config</a></li>
+
+<?php } ?>
+
+                                                                         
+
+                                                                        <?php
+                                                                        
+                                                                        if($seller->id!=310)
+                                                                        {
+                                                                        echo (($seller->manager_token != '' && $seller->zid_active == 'Y' && $seller->sync_product_zid == 'Y') ? '<li><a href="' . site_url("Item/updateZid_product/" . $seller->id) . '"><i class="icon-pencil7"></i>Zid Stock Update </a></li>' : '');
+                                                                        
+                                                                        }
+                                                                        ?>
+                                                                         
+                                                                        <li><a href="<?= site_url('Item/updateSAlla_product/' . $seller->id); ?>"><i class="icon-pencil7"></i>Salla Stock Update </a></li>
+
+
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+
+                                                <?php endforeach; ?>
+                                            <?php endif; ?>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                                <!--  <div>
+                                   <center>
+                                <?php //echo $links;  ?> 
+                                  </center>
+                                </div> -->
+                                <hr>
+                            </div>
+                        </div>
+                        <!-- /basic responsive table --> 
+                        <?php $this->load->view('include/footer'); ?>
+
+                    </div>
+                    <!-- /content area -->
+
+
+                </div>
+                <!-- /main content -->
+
+
+            </div>
+            <!-- /page content -->
+
+
+<!-- <script>
+ var $rows = $('tbody tr');
+ $('#search').keyup(function() {
+  var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+
+  $rows.show().filter(function() {
+    var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+    return !~text.indexOf(val);
+  }).hide();
+});
+</script> -->
+
+
+        </div>
+        <script>
+            $(document).ready(function () {
+                var table = $('#example').DataTable({});
+
+            });
+
+
+        </script>
+
+        <!-- /page container -->
+
+    </body>
+</html>

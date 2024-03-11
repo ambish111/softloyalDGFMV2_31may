@@ -1,0 +1,634 @@
+{
+    "Sheet1": [
+        {
+            "SKU": "B55-00001",
+            "QTY": "27",
+            "Stock_Location": "KAJO-189337000078",
+            "Shelve_No": "A29-06-03"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "9",
+            "Stock_Location": "KAJO-189337000075",
+            "Shelve_No": "A29-05-05"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "78",
+            "Stock_Location": "KAJO-189337000074",
+            "Shelve_No": "A29-05-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000073",
+            "Shelve_No": "A29-05-03"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "81",
+            "Stock_Location": "KAJO-189337000072",
+            "Shelve_No": "A29-05-02"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000071",
+            "Shelve_No": "A29-05-01"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "83",
+            "Stock_Location": "KAJO-189337000067",
+            "Shelve_No": "A29-04-02"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "76",
+            "Stock_Location": "KAJO-189337000068",
+            "Shelve_No": "A29-04-03"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "82",
+            "Stock_Location": "KAJO-189337000069",
+            "Shelve_No": "A29-04-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "83",
+            "Stock_Location": "KAJO-189337000061",
+            "Shelve_No": "A29-03-01"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000062",
+            "Shelve_No": "A29-03-02"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000063",
+            "Shelve_No": "A29-03-03"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "83",
+            "Stock_Location": "KAJO-189337000064",
+            "Shelve_No": "A29-03-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000065",
+            "Shelve_No": "A29-03-05"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000056",
+            "Shelve_No": "A29-02-01"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000057",
+            "Shelve_No": "A29-02-02"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "49",
+            "Stock_Location": "KAJO-189337000058",
+            "Shelve_No": "A29-02-03"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "83",
+            "Stock_Location": "KAJO-189337000059",
+            "Shelve_No": "A29-02-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "75",
+            "Stock_Location": "KAJO-189337000060",
+            "Shelve_No": "A29-02-05"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "42",
+            "Stock_Location": "KAJO-189337000178",
+            "Shelve_No": "A27-06-03"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "70",
+            "Stock_Location": "KAJO-189337000172",
+            "Shelve_No": "A27-05-02"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000173",
+            "Shelve_No": "A27-05-03"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000174",
+            "Shelve_No": "A27-05-04"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000175",
+            "Shelve_No": "A27-05-05"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000166",
+            "Shelve_No": "A27-04-01"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000167",
+            "Shelve_No": "A27-04-02"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000168",
+            "Shelve_No": "A27-04-03"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000169",
+            "Shelve_No": "A27-04-04"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000170",
+            "Shelve_No": "A27-04-05"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000161",
+            "Shelve_No": "A27-03-01"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000162",
+            "Shelve_No": "A27-03-02"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000163",
+            "Shelve_No": "A27-03-03"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000164",
+            "Shelve_No": "A27-03-04"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000165",
+            "Shelve_No": "A27-03-05"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000156",
+            "Shelve_No": "A27-02-01"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "76",
+            "Stock_Location": "KAJO-189337000157",
+            "Shelve_No": "A27-02-02"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "37",
+            "Stock_Location": "KAJO-189337000158",
+            "Shelve_No": "A27-02-03"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000159",
+            "Shelve_No": "A27-02-04"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "74",
+            "Stock_Location": "KAJO-189337000160",
+            "Shelve_No": "A27-02-05"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000256",
+            "Shelve_No": "A25-02-01"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000257",
+            "Shelve_No": "A25-02-02"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "62",
+            "Stock_Location": "KAJO-189337000258",
+            "Shelve_No": "A25-02-03"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "75",
+            "Stock_Location": "KAJO-189337000259",
+            "Shelve_No": "A25-02-04"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "75",
+            "Stock_Location": "KAJO-189337000260",
+            "Shelve_No": "A25-02-05"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000261",
+            "Shelve_No": "A25-03-01"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000262",
+            "Shelve_No": "A25-03-02"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000263",
+            "Shelve_No": "A25-03-03"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000264",
+            "Shelve_No": "A25-03-04"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000265",
+            "Shelve_No": "A25-03-05"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000266",
+            "Shelve_No": "A25-04-01"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000267",
+            "Shelve_No": "A25-04-02"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000268",
+            "Shelve_No": "A25-04-03"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "81",
+            "Stock_Location": "KAJO-189337000269",
+            "Shelve_No": "A25-04-04"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "73",
+            "Stock_Location": "KAJO-189337000270",
+            "Shelve_No": "A25-04-05"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000272",
+            "Shelve_No": "A25-05-02"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000273",
+            "Shelve_No": "A25-05-03"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000274",
+            "Shelve_No": "A25-05-04"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "48",
+            "Stock_Location": "KAJO-189337000275",
+            "Shelve_No": "A25-05-05"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "22",
+            "Stock_Location": "KAJO-189337000251",
+            "Shelve_No": "A25-01-01"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000304",
+            "Shelve_No": "B16-01-04"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000303",
+            "Shelve_No": "B16-01-03"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000302",
+            "Shelve_No": "B16-01-02"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000301",
+            "Shelve_No": "B16-01-01"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000308",
+            "Shelve_No": "B16-02-04"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000307",
+            "Shelve_No": "B16-02-03"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000306",
+            "Shelve_No": "B16-02-02"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000305",
+            "Shelve_No": "B16-02-01"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000312",
+            "Shelve_No": "B16-03-04"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000311",
+            "Shelve_No": "B16-03-03"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000310",
+            "Shelve_No": "B16-03-02"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000309",
+            "Shelve_No": "B16-03-01"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "22",
+            "Stock_Location": "KAJO-189337000315",
+            "Shelve_No": "B16-04-03"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000314",
+            "Shelve_No": "B16-04-02"
+        },
+        {
+            "SKU": "B55-00002",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000313",
+            "Shelve_No": "B16-04-01"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000316",
+            "Shelve_No": "B16-04-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000320",
+            "Shelve_No": "B16-05-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000319",
+            "Shelve_No": "B16-05-03"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "53",
+            "Stock_Location": "KAJO-189337000318",
+            "Shelve_No": "B16-05-02"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000317",
+            "Shelve_No": "B16-05-01"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000321",
+            "Shelve_No": "B16-06-01"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000322",
+            "Shelve_No": "B16-06-02"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000323",
+            "Shelve_No": "B16-06-03"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000324",
+            "Shelve_No": "B16-06-04"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000325",
+            "Shelve_No": "B16-07-01"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000326",
+            "Shelve_No": "B16-07-02"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000327",
+            "Shelve_No": "B16-07-03"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000328",
+            "Shelve_No": "B16-07-04"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "11",
+            "Stock_Location": "KAJO-189337000330",
+            "Shelve_No": "B16-08-02"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "72",
+            "Stock_Location": "KAJO-189337000331",
+            "Shelve_No": "B16-08-03"
+        },
+        {
+            "SKU": "B55-00003",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000332",
+            "Shelve_No": "B16-08-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000340",
+            "Shelve_No": "B15-02-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000339",
+            "Shelve_No": "B15-02-03"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000338",
+            "Shelve_No": "B15-02-02"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000341",
+            "Shelve_No": "B15-03-01"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000344",
+            "Shelve_No": "B15-03-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000343",
+            "Shelve_No": "B15-03-03"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000342",
+            "Shelve_No": "B15-03-02"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000337",
+            "Shelve_No": "B15-04-01"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000348",
+            "Shelve_No": "B15-04-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000347",
+            "Shelve_No": "B15-04-03"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000346",
+            "Shelve_No": "B15-04-02"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000352",
+            "Shelve_No": "B15-05-04"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000351",
+            "Shelve_No": "B15-05-03"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "84",
+            "Stock_Location": "KAJO-189337000350",
+            "Shelve_No": "B15-05-02"
+        },
+        {
+            "SKU": "B55-00001",
+            "QTY": "18",
+            "Stock_Location": "KAJO-189337000354",
+            "Shelve_No": "B15-06-02"
+        }
+    ]
+}

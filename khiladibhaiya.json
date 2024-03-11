@@ -1,0 +1,21 @@
+
+<?php 
+
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
+date_default_timezone_set("Asia/Riyadh");
+
+$db_host = 'ajouldb-db-instance-1.ctikm53hr4st.us-east-1.rds.amazonaws.com';
+$db_user = 'ajoulMaster';
+$db_password = "Ajouldb118";
+//$db_name = 'khaliji_fulfill_db';  
+$db_name = 'fastcoo_online_db_v4';
+$mysqli = new mysqli($db_host, $db_user, $db_password, $db_name);
+if ($mysqli->connect_error) {
+    die('Connect Error (' . $mysqli->connect_errno . ') '
+            . $mysqli->connect_error);
+}
+
+
+?> 

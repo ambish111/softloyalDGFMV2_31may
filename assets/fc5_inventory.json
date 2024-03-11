@@ -1,0 +1,45 @@
+{
+    "Sheet1": [
+        {
+            "Shelve_NO": "J1-01-03`",
+            "Stock_StockLocation": "Oshal-01-01-65",
+            "Sku": "61111brown002",
+            "QUANTITY": "0",
+            "Seller": "Oshal",
+            "account_number": "166910721737"
+        },
+        {
+            "Shelve_NO": "J1-01-03`",
+            "Stock_StockLocation": "Oshal-01-01-18",
+            "Sku": "51111",
+            "QUANTITY": "0",
+            "Seller": "Oshal",
+            "account_number": "166910721737"
+        },
+        {
+            "Shelve_NO": "J1-01-03",
+            "Stock_StockLocation": "Oshal-01-01-79",
+            "Sku": "51111brown002",
+            "QUANTITY": "0",
+            "Seller": "Oshal",
+            "account_number": "166910721737"
+        },
+        {
+            "Shelve_NO": "J1-01-03",
+            "Stock_StockLocation": "Oshal-01-01-78",
+            "Sku": "51111brown002",
+            "QUANTITY": "0",
+            "Seller": "Oshal",
+            "account_number": "166910721737"
+        },
+        {
+            "Shelve_NO": "J1-01-03",
+            "Stock_StockLocation": "Oshal-01-01-77",
+            "Sku": "51111brown002",
+            "QUANTITY": "0",
+            "Seller": "Oshal",
+            "account_number": "166910721737"
+        }
+    ]
+    
+}

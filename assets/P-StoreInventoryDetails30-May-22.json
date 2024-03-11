@@ -1,0 +1,4408 @@
+{
+    "P-Store": [
+        {
+            "Shelve_Location": "C1-01-01",
+            "Stock_Location": "PS-182236000501",
+            "SKU": "bsv401ar2m",
+            "Quantity": "32"
+        },
+        {
+            "Shelve_Location": "C1-01-02",
+            "Stock_Location": "PS-182236000502",
+            "SKU": "BSV603ar2M",
+            "Quantity": "65"
+        },
+        {
+            "Shelve_Location": "C1-01-03",
+            "Stock_Location": "PS-182236000503",
+            "SKU": "BSV603ar2M",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C1-01-03",
+            "Stock_Location": "PS-182236001041",
+            "SKU": "BSV604AF2M-new",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-02-01",
+            "Stock_Location": "PS-182236000760",
+            "SKU": "Rofi-cover12promax",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-02-01",
+            "Stock_Location": "PS-182236000761",
+            "SKU": "off-card",
+            "Quantity": "146"
+        },
+        {
+            "Shelve_Location": "C1-02-01",
+            "Stock_Location": "PS-182236000764",
+            "SKU": "off-card",
+            "Quantity": "56"
+        },
+        {
+            "Shelve_Location": "C1-02-01",
+            "Stock_Location": "PS-182236000768",
+            "SKU": "rp-cb058",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-02-02",
+            "Stock_Location": "PS-182236000763",
+            "SKU": "OFFtech-iphonepro-privacy",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-02-02",
+            "Stock_Location": "PS-182236000661",
+            "SKU": "IDFCGM19-I1958-166",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-02-02",
+            "Stock_Location": "PS-182236000769",
+            "SKU": "JBLT115BTCOR",
+            "Quantity": "7"
+        },
+        {
+            "Shelve_Location": "C1-02-03",
+            "Stock_Location": "PS-182236000643",
+            "SKU": "wearfitprogrn",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-02-03",
+            "Stock_Location": "PS-182236000642",
+            "SKU": "JBLCLIP4PINK",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-02-03",
+            "Stock_Location": "PS-182236000641",
+            "SKU": "A1281H51",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-02-03",
+            "Stock_Location": "PS-182236000640",
+            "SKU": "JBLCLIP4WHT",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-02-03",
+            "Stock_Location": "PS-182236000638",
+            "SKU": "800964",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-03-01",
+            "Stock_Location": "ps-182236000646",
+            "SKU": "JBLGO3WHT",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-03-01",
+            "Stock_Location": "ps-182236000776",
+            "SKU": "JBLFLIP5TEAL",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-03-01",
+            "Stock_Location": "ps-182236000781",
+            "SKU": "801013",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-03-02",
+            "Stock_Location": "PS-182236000771",
+            "SKU": "IDMRM-49",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-03-02",
+            "Stock_Location": "PS-182236000775",
+            "SKU": "802487",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-03-03",
+            "Stock_Location": "PS-182236000637",
+            "SKU": "800990",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-03-03",
+            "Stock_Location": "PS-182236000636",
+            "SKU": "IDMRM-DC-01",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-03-03",
+            "Stock_Location": "PS-182236000634",
+            "SKU": "802978",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-03-03",
+            "Stock_Location": "PS-182236000633",
+            "SKU": "IDMRM-DC-83",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-03-03",
+            "Stock_Location": "PS-182236000632",
+            "SKU": "PQ1201",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-04-01",
+            "Stock_Location": "PS-182236000783",
+            "SKU": "off-Camouflage",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-04-01",
+            "Stock_Location": "PS-182236000785",
+            "SKU": "off-Camouflage",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-04-01",
+            "Stock_Location": "PS-182236000788",
+            "SKU": "ADDS-36471",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-04-02",
+            "Stock_Location": "PS-182236000789",
+            "SKU": "JBLJR310BTBLU",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-04-02",
+            "Stock_Location": "PS-182236000790",
+            "SKU": "OFF-Camouflage",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-04-02",
+            "Stock_Location": "PS-182236000791",
+            "SKU": "OFF-Camouflage",
+            "Quantity": "27"
+        },
+        {
+            "Shelve_Location": "C1-04-02",
+            "Stock_Location": "PS-182236000792",
+            "SKU": "OFF-Camouflage",
+            "Quantity": "27"
+        },
+        {
+            "Shelve_Location": "C1-04-02",
+            "Stock_Location": "PS-182236000793",
+            "SKU": "off-Camouflage",
+            "Quantity": "27"
+        },
+        {
+            "Shelve_Location": "C1-04-02",
+            "Stock_Location": "PS-182236000794",
+            "SKU": "off-Camouflage",
+            "Quantity": "27"
+        },
+        {
+            "Shelve_Location": "C1-04-03",
+            "Stock_Location": "PS-182236000631",
+            "SKU": "6934913046517",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-04-03",
+            "Stock_Location": "PS-182236000630",
+            "SKU": "off-Camouflage",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-04-03",
+            "Stock_Location": "PS-182236000629",
+            "SKU": "61543431139",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-04-03",
+            "Stock_Location": "PS-182236000628",
+            "SKU": "61543431758",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-04-03",
+            "Stock_Location": "PS-182236000627",
+            "SKU": "WXJN-01",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-04-03",
+            "Stock_Location": "PS-182236000626",
+            "SKU": "JBLCLIP4BLK",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-05-01",
+            "Stock_Location": "PS-182236000797",
+            "SKU": "rofi13-pro-c",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C1-05-01",
+            "Stock_Location": "PS-182236000798",
+            "SKU": "A2633K22",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C1-05-01",
+            "Stock_Location": "PS-182236000799",
+            "SKU": "GP-011-BLK",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-05-01",
+            "Stock_Location": "PS-182236000800",
+            "SKU": "ACS00378",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-05-02",
+            "Stock_Location": "PS-182236001039",
+            "SKU": "59915GLD",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-05-02",
+            "Stock_Location": "PS-182236001036",
+            "SKU": "rofi13-pro-c",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-05-02",
+            "Stock_Location": "PS-182236001035",
+            "SKU": "ZID1005BLK",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-05-02",
+            "Stock_Location": "PS-182236001038",
+            "SKU": "D11580427",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-05-03",
+            "Stock_Location": "PS-182236000625",
+            "SKU": "801016",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-05-03",
+            "Stock_Location": "PS-182236000624",
+            "SKU": "61543431223",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-05-03",
+            "Stock_Location": "PS-182236000622",
+            "SKU": "61543431325",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-05-03",
+            "Stock_Location": "PS-182236000621",
+            "SKU": "61543431325",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-05-03",
+            "Stock_Location": "PS-182236000620",
+            "SKU": "61543431005",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-06-01",
+            "Stock_Location": "PS-182236000801",
+            "SKU": "A2732HF1",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C1-06-01",
+            "Stock_Location": "PS-182236000802",
+            "SKU": "JBLCHARGE4BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C1-06-01",
+            "Stock_Location": "PS-182236000699",
+            "SKU": "2200276",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C1-06-01",
+            "Stock_Location": "PS-182236000698",
+            "SKU": "PDW44NK011",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-06-01",
+            "Stock_Location": "PS-182236000696",
+            "SKU": "rofi12maxc",
+            "Quantity": "18"
+        },
+        {
+            "Shelve_Location": "C1-06-02",
+            "Stock_Location": "PS-182236000092",
+            "SKU": "OFFtech-12promax-clear",
+            "Quantity": "30"
+        },
+        {
+            "Shelve_Location": "C1-06-02",
+            "Stock_Location": "PS-182236000093",
+            "SKU": "OFFtech-12promax-clear",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "C1-06-02",
+            "Stock_Location": "PS-182236000095",
+            "SKU": "OFFtech-12promax-clear",
+            "Quantity": "30"
+        },
+        {
+            "Shelve_Location": "C1-06-02",
+            "Stock_Location": "PS-182236000691",
+            "SKU": "JBLCHARGE4PINK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-06-02",
+            "Stock_Location": "PS-182236001056",
+            "SKU": "OFFtech-iphone11-clear",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "C1-06-02",
+            "Stock_Location": "PS-182236001057",
+            "SKU": "OFFtech-iphone11-clear",
+            "Quantity": "37"
+        },
+        {
+            "Shelve_Location": "C1-06-03",
+            "Stock_Location": "PS-182236000619",
+            "SKU": "GC36670-3",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "C1-06-03",
+            "Stock_Location": "PS-182236000618",
+            "SKU": "AUD002btBK",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-06-03",
+            "Stock_Location": "PS-182236000617",
+            "SKU": "OFFtech-12promax-clear",
+            "Quantity": "29"
+        },
+        {
+            "Shelve_Location": "C1-06-03",
+            "Stock_Location": "PS-182236000616",
+            "SKU": "6934913058572",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-06-03",
+            "Stock_Location": "PS-182236000615",
+            "SKU": "JBLJR310BTRED",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C1-06-03",
+            "Stock_Location": "PS-182236000614",
+            "SKU": "5906728487158",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "C1-07-01",
+            "Stock_Location": "PS-182236000684",
+            "SKU": "OFFtech-12-clear",
+            "Quantity": "25"
+        },
+        {
+            "Shelve_Location": "C1-07-01",
+            "Stock_Location": "PS-182236000683",
+            "SKU": "OFFtech-12-clear",
+            "Quantity": "32"
+        },
+        {
+            "Shelve_Location": "C1-07-01",
+            "Stock_Location": "PS-182236000682",
+            "SKU": "OFFtech-12-clear",
+            "Quantity": "37"
+        },
+        {
+            "Shelve_Location": "C1-07-01",
+            "Stock_Location": "PS-182236000680",
+            "SKU": "Offtech-13-c",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-07-02",
+            "Stock_Location": "PS-182236000689",
+            "SKU": "516",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-07-02",
+            "Stock_Location": "PS-182236000688",
+            "SKU": "515",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-07-02",
+            "Stock_Location": "PS-182236000687",
+            "SKU": "MOFT-BLK-12",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-07-03",
+            "Stock_Location": "PS-182236000613",
+            "SKU": "61543431485",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-07-03",
+            "Stock_Location": "PS-182236000612",
+            "SKU": "61543431485",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C1-07-03",
+            "Stock_Location": "PS-182236000611",
+            "SKU": "61543431485",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C1-07-03",
+            "Stock_Location": "PS-182236000599",
+            "SKU": "61543431865",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-07-03",
+            "Stock_Location": "PS-182236000598",
+            "SKU": "61543431865",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C1-08-01",
+            "Stock_Location": "PS-182236000755",
+            "SKU": "OFFtech-iphonepro-clear",
+            "Quantity": "48"
+        },
+        {
+            "Shelve_Location": "C1-08-01",
+            "Stock_Location": "PS-182236000754",
+            "SKU": "OFFtech-iphonepro-clear",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "C1-08-01",
+            "Stock_Location": "PS-182236000753",
+            "SKU": "OFFtech-iphonepro-clear",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "C1-08-01",
+            "Stock_Location": "PS-182236000752",
+            "SKU": "OFFtech-iphonepro-clear",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "C1-08-01",
+            "Stock_Location": "PS-182236000751",
+            "SKU": "OFFtech-iphonepro-clear",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-08-01",
+            "Stock_Location": "PS-182236000750",
+            "SKU": "JBLQuantumone",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-08-02",
+            "Stock_Location": "PS-182236000591",
+            "SKU": "PDW44NK030",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-08-02",
+            "Stock_Location": "PS-182236000589",
+            "SKU": "OFFtech-12mini-pra",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C1-08-02",
+            "Stock_Location": "PS-182236000587",
+            "SKU": "5906728487056",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-08-03",
+            "Stock_Location": "PS-182236000592",
+            "SKU": "ROFI-X-PRO-PRA21",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-08-03",
+            "Stock_Location": "PS-182236000593",
+            "SKU": "800970",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-08-03",
+            "Stock_Location": "PS-182236000594",
+            "SKU": "OFF-MONY",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C1-08-03",
+            "Stock_Location": "PS-182236000595",
+            "SKU": "PDW44NK003",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C1-08-03",
+            "Stock_Location": "PS-182236000597",
+            "SKU": "800963",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-09-01",
+            "Stock_Location": "PS-182236000573",
+            "SKU": "OFFtach-sterile",
+            "Quantity": "26"
+        },
+        {
+            "Shelve_Location": "C1-09-01",
+            "Stock_Location": "PS-182236000572",
+            "SKU": "OFFtach-sterile",
+            "Quantity": "7"
+        },
+        {
+            "Shelve_Location": "C1-09-01",
+            "Stock_Location": "PS-182236000570",
+            "SKU": "rofi-cover13promax",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-09-01",
+            "Stock_Location": "PS-182236000569",
+            "SKU": "SKK6R",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C1-09-01",
+            "Stock_Location": "PS-182236000568",
+            "SKU": "skk6r",
+            "Quantity": "17"
+        },
+        {
+            "Shelve_Location": "C1-09-02",
+            "Stock_Location": "PS-182236000574",
+            "SKU": "IPH12PRO",
+            "Quantity": "47"
+        },
+        {
+            "Shelve_Location": "C1-09-02",
+            "Stock_Location": "PS-182236000575",
+            "SKU": "OFFtech-promax-privacy",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-09-02",
+            "Stock_Location": "PS-182236000576",
+            "SKU": "JBLJR310BTGRN",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "C1-09-02",
+            "Stock_Location": "PS-182236000577",
+            "SKU": "JBLJR310BTGRN",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C1-09-03",
+            "Stock_Location": "PS-182236001060",
+            "SKU": "Offtech-13-c",
+            "Quantity": "25"
+        },
+        {
+            "Shelve_Location": "C1-09-03",
+            "Stock_Location": "PS-182236001059",
+            "SKU": "Offtech-13-c",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "C1-09-03",
+            "Stock_Location": "PS-182236001058",
+            "SKU": "Offtech-13-c",
+            "Quantity": "20"
+        },
+        {
+            "Shelve_Location": "C1-09-03",
+            "Stock_Location": "PS-182236000584",
+            "SKU": "802651",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-09-03",
+            "Stock_Location": "PS-182236000580",
+            "SKU": "car-03",
+            "Quantity": "14"
+        },
+        {
+            "Shelve_Location": "C1-10-01",
+            "Stock_Location": "PS-182236000555",
+            "SKU": "F3Y017BT5MBLK",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "C1-10-01",
+            "Stock_Location": "PS-182236000554",
+            "SKU": "600043",
+            "Quantity": "17"
+        },
+        {
+            "Shelve_Location": "C1-10-01",
+            "Stock_Location": "PS-182236000553",
+            "SKU": "JBLQUANTUM800BLK",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-10-01",
+            "Stock_Location": "PS-182236000552",
+            "SKU": "PDW44SL029",
+            "Quantity": "17"
+        },
+        {
+            "Shelve_Location": "C1-10-01",
+            "Stock_Location": "PS-182236000551",
+            "SKU": "AUD002btBL",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C1-10-02",
+            "Stock_Location": "PS-182236000556",
+            "SKU": "802422",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-10-02",
+            "Stock_Location": "PS-182236000557",
+            "SKU": "5906728487182",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-10-02",
+            "Stock_Location": "PS-182236000560",
+            "SKU": "5906728487110",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-10-02",
+            "Stock_Location": "PS-182236000561",
+            "SKU": "5906728487129",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C1-10-03",
+            "Stock_Location": "PS-182236000567",
+            "SKU": "61543431654",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-10-03",
+            "Stock_Location": "PS-182236000566",
+            "SKU": "61543431654",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C1-10-03",
+            "Stock_Location": "PS-182236000565",
+            "SKU": "61543431654",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-10-03",
+            "Stock_Location": "PS-182236000564",
+            "SKU": "61543431524",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C1-10-03",
+            "Stock_Location": "PS-182236000563",
+            "SKU": "61543431524",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C1-10-03",
+            "Stock_Location": "PS-182236000562",
+            "SKU": "61543431524",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C1-11-01",
+            "Stock_Location": "PS-182236000537",
+            "SKU": "5906728487001",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-11-01",
+            "Stock_Location": "PS-182236000603",
+            "SKU": "61543431139",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C1-11-01",
+            "Stock_Location": "PS-182236000606",
+            "SKU": "61543431758",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C1-11-01",
+            "Stock_Location": "PS-182236000534",
+            "SKU": "5906728487103",
+            "Quantity": "0"
+        },
+        {
+            "Shelve_Location": "C1-11-01",
+            "Stock_Location": "PS-182236000533",
+            "SKU": "RP-PB007",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C1-11-01",
+            "Stock_Location": "PS-182236000532",
+            "SKU": "JBLJR310BLU",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C1-11-02",
+            "Stock_Location": "PS-182236000538",
+            "SKU": "OFFtech-max-clear",
+            "Quantity": "26"
+        },
+        {
+            "Shelve_Location": "C1-11-02",
+            "Stock_Location": "PS-182236000539",
+            "SKU": "rofimaxpra",
+            "Quantity": "14"
+        },
+        {
+            "Shelve_Location": "C1-11-02",
+            "Stock_Location": "PS-182236000602",
+            "SKU": "61543431223",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C1-11-02",
+            "Stock_Location": "PS-182236000601",
+            "SKU": "61543431223",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C1-11-02",
+            "Stock_Location": "PS-182236000542",
+            "SKU": "OFFtech-max-clear",
+            "Quantity": "15"
+        },
+        {
+            "Shelve_Location": "C1-11-02",
+            "Stock_Location": "PS-182236000543",
+            "SKU": "OFFtech-max-clear",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C1-11-03",
+            "Stock_Location": "PS-182236000549",
+            "SKU": "rofi12minic",
+            "Quantity": "69"
+        },
+        {
+            "Shelve_Location": "C1-11-03",
+            "Stock_Location": "PS-182236000547",
+            "SKU": "OFFtech-12-pra",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "C1-11-03",
+            "Stock_Location": "PS-182236000546",
+            "SKU": "OFFtech-12-pra",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "C2-11-01",
+            "Stock_Location": "PS-182236000246",
+            "SKU": "802130",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-11-01",
+            "Stock_Location": "PS-182236000243",
+            "SKU": "801572",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-11-01",
+            "Stock_Location": "PS-182236000242",
+            "SKU": "IDFCAW18-I1958-98",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-11-01",
+            "Stock_Location": "PS-182236000241",
+            "SKU": "JBLFLIP5RED",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-11-02",
+            "Stock_Location": "PS-182236000261",
+            "SKU": "P2715",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-11-02",
+            "Stock_Location": "PS-182236000252",
+            "SKU": "IDFCDC19-I1958-180",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-11-02",
+            "Stock_Location": "PS-182236000250",
+            "SKU": "800958",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-11-02",
+            "Stock_Location": "PS-182236000248",
+            "SKU": "800350",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-11-02",
+            "Stock_Location": "PS-182236000247",
+            "SKU": "6942949012215",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-11-03",
+            "Stock_Location": "PS-182236000258",
+            "SKU": "F8W974btWHT",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-11-03",
+            "Stock_Location": "PS-182236000256",
+            "SKU": "F3Y017bt1.5MBLK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-11-03",
+            "Stock_Location": "PS-182236000255",
+            "SKU": "802244",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-11-04",
+            "Stock_Location": "PS-182236000264",
+            "SKU": "Off-wood",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-11-04",
+            "Stock_Location": "PS-182236000262",
+            "SKU": "JBLCHARGE4SAND",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-11-04",
+            "Stock_Location": "PS-182236000259",
+            "SKU": "802418",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-01",
+            "Stock_Location": "PS-182236000222",
+            "SKU": "800929",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-01",
+            "Stock_Location": "PS-182236000218",
+            "SKU": "RP-UC019",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-01",
+            "Stock_Location": "PS-182236000217",
+            "SKU": "POW-ASP-20K-PD-BLA",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-02",
+            "Stock_Location": "PS-182236000228",
+            "SKU": "6953156206519",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-10-02",
+            "Stock_Location": "PS-182236000226",
+            "SKU": "6953156206472",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-02",
+            "Stock_Location": "PS-182236000223",
+            "SKU": "6953156206533",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-03",
+            "Stock_Location": "PS-182236000233",
+            "SKU": "653948137040",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-03",
+            "Stock_Location": "PS-182236000231",
+            "SKU": "PDW44MB004",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-03",
+            "Stock_Location": "PS-182236000229",
+            "SKU": "PDW44NK001",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-04",
+            "Stock_Location": "PS-182236000239",
+            "SKU": "801554",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-10-04",
+            "Stock_Location": "PS-182236000237",
+            "SKU": "MDR-E9LP/Blue",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-10-04",
+            "Stock_Location": "PS-182236000235",
+            "SKU": "PDW44NK018",
+            "Quantity": "7"
+        },
+        {
+            "Shelve_Location": "C2-09-01",
+            "Stock_Location": "PS-182236000198",
+            "SKU": "ROFL12MAXP",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-09-01",
+            "Stock_Location": "PS-182236000197",
+            "SKU": "rp-cb1004blk",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-09-01",
+            "Stock_Location": "PS-182236000196",
+            "SKU": "IPH12PROMEX",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-09-01",
+            "Stock_Location": "PS-182236000195",
+            "SKU": "191280013979",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-09-01",
+            "Stock_Location": "PS-182236000194",
+            "SKU": "GG0567-HK0048576",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-09-01",
+            "Stock_Location": "PS-182236000193",
+            "SKU": "OFFtech-12mini-claer",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-09-02",
+            "Stock_Location": "PS-182236000204",
+            "SKU": "OFFtech-12mini--clear",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-09-02",
+            "Stock_Location": "PS-182236000203",
+            "SKU": "802441",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-09-02",
+            "Stock_Location": "PS-182236000201",
+            "SKU": "800982",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-09-02",
+            "Stock_Location": "PS-182236000199",
+            "SKU": "RP-CB043",
+            "Quantity": "31"
+        },
+        {
+            "Shelve_Location": "C2-09-03",
+            "Stock_Location": "PS-182236000210",
+            "SKU": "RP-PC006-w",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-09-03",
+            "Stock_Location": "PS-182236000209",
+            "SKU": "802981",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-09-03",
+            "Stock_Location": "PS-182236000208",
+            "SKU": "F8W973btWHT",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "C2-09-03",
+            "Stock_Location": "PS-182236000207",
+            "SKU": "F8W973btBLK",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-09-03",
+            "Stock_Location": "PS-182236000205",
+            "SKU": "800956",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-09-04",
+            "Stock_Location": "PS-182236000216",
+            "SKU": "800930",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-09-04",
+            "Stock_Location": "PS-182236000212",
+            "SKU": "BMBH414ADSD",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-08-01",
+            "Stock_Location": "PS-182236000174",
+            "SKU": "VIVA-IP12M-CELCLR",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-08-01",
+            "Stock_Location": "PS-182236000172",
+            "SKU": "IDKCC-I196151",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-08-01",
+            "Stock_Location": "PS-182236000169",
+            "SKU": "804601",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-08-02",
+            "Stock_Location": "PS-182236000180",
+            "SKU": "802170",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-08-02",
+            "Stock_Location": "PS-182236000179",
+            "SKU": "DC1.259483",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-08-02",
+            "Stock_Location": "PS-182236000178",
+            "SKU": "800966",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-08-02",
+            "Stock_Location": "PS-182236000177",
+            "SKU": "804595",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-08-02",
+            "Stock_Location": "PS-182236000176",
+            "SKU": "IDMRM-154",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-08-03",
+            "Stock_Location": "PS-182236000186",
+            "SKU": "IDKCC-I1961156",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-08-03",
+            "Stock_Location": "PS-182236000185",
+            "SKU": "2015",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-08-03",
+            "Stock_Location": "PS-182236000183",
+            "SKU": "802421",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-08-03",
+            "Stock_Location": "PS-182236000182",
+            "SKU": "MDR-E9LP/Black",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-08-03",
+            "Stock_Location": "PS-182236000181",
+            "SKU": "RP-SH003",
+            "Quantity": "17"
+        },
+        {
+            "Shelve_Location": "C2-08-04",
+            "Stock_Location": "PS-182236000190",
+            "SKU": "801625",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-08-04",
+            "Stock_Location": "PS-182236000189",
+            "SKU": "800980",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-08-04",
+            "Stock_Location": "PS-182236000188",
+            "SKU": "802707",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-07-01",
+            "Stock_Location": "PS-182236000147",
+            "SKU": "GLCLBTL-49",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-07-01",
+            "Stock_Location": "PS-182236000146",
+            "SKU": "802641",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-07-02",
+            "Stock_Location": "PS-182236000155",
+            "SKU": "LC-016-BLK",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-07-02",
+            "Stock_Location": "PS-182236000152",
+            "SKU": "600038",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-07-03",
+            "Stock_Location": "PS-182236000162",
+            "SKU": "800951",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-07-03",
+            "Stock_Location": "PS-182236000161",
+            "SKU": "T21-8357",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-07-03",
+            "Stock_Location": "PS-182236000160",
+            "SKU": "801569",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-07-03",
+            "Stock_Location": "PS-182236000158",
+            "SKU": "kajsa5",
+            "Quantity": "12"
+        },
+        {
+            "Shelve_Location": "C2-07-03",
+            "Stock_Location": "PS-182236000157",
+            "SKU": "804058",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-07-04",
+            "Stock_Location": "PS-182236000166",
+            "SKU": "800953",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-07-04",
+            "Stock_Location": "PS-182236000165",
+            "SKU": "167",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-07-04",
+            "Stock_Location": "PS-182236000164",
+            "SKU": "802963",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-06-01",
+            "Stock_Location": "PS-182236000126",
+            "SKU": "4897078502651",
+            "Quantity": "7"
+        },
+        {
+            "Shelve_Location": "C2-06-01",
+            "Stock_Location": "PS-182236000125",
+            "SKU": "803738",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-06-01",
+            "Stock_Location": "PS-182236000124",
+            "SKU": "F3Y017bt3M-BLK",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-06-01",
+            "Stock_Location": "PS-182236000123",
+            "SKU": "CK788-2",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-06-01",
+            "Stock_Location": "PS-182236000121",
+            "SKU": "rp-cb066",
+            "Quantity": "20"
+        },
+        {
+            "Shelve_Location": "C2-06-02",
+            "Stock_Location": "PS-182236000132",
+            "SKU": "59913LGN",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-06-02",
+            "Stock_Location": "PS-182236000131",
+            "SKU": "802434",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-06-02",
+            "Stock_Location": "PS-182236000130",
+            "SKU": "77-65591",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-06-02",
+            "Stock_Location": "PS-182236000129",
+            "SKU": "IDMCH-51",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-06-02",
+            "Stock_Location": "PS-182236000127",
+            "SKU": "IDMCH-157",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-06-03",
+            "Stock_Location": "PS-182236000138",
+            "SKU": "800996",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-06-03",
+            "Stock_Location": "PS-182236000137",
+            "SKU": "34423",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-06-03",
+            "Stock_Location": "PS-182236000136",
+            "SKU": "34469",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "C2-06-03",
+            "Stock_Location": "PS-182236000135",
+            "SKU": "801570",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-06-03",
+            "Stock_Location": "PS-182236000134",
+            "SKU": "802556",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-06-03",
+            "Stock_Location": "PS-182236000133",
+            "SKU": "800949",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-06-04",
+            "Stock_Location": "PS-182236000142",
+            "SKU": "802419",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-06-04",
+            "Stock_Location": "PS-182236000140",
+            "SKU": "59912LBLK",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-06-04",
+            "Stock_Location": "PS-182236000139",
+            "SKU": "802750",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-05-01",
+            "Stock_Location": "PS-182236000102",
+            "SKU": "59913LGRY",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-05-01",
+            "Stock_Location": "PS-182236000101",
+            "SKU": "59913RED",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "C2-05-01",
+            "Stock_Location": "PS-182236000100",
+            "SKU": "59912WHT",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "C2-05-01",
+            "Stock_Location": "PS-182236000099",
+            "SKU": "59913LBLU",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-05-01",
+            "Stock_Location": "PS-182236000097",
+            "SKU": "GP-012-BLK",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-05-02",
+            "Stock_Location": "PS-182236000107",
+            "SKU": "SKK2M",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-05-02",
+            "Stock_Location": "PS-182236000106",
+            "SKU": "800349",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C2-05-02",
+            "Stock_Location": "PS-182236000105",
+            "SKU": "59913BLU",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-05-02",
+            "Stock_Location": "PS-182236000094",
+            "SKU": "34468",
+            "Quantity": "0"
+        },
+        {
+            "Shelve_Location": "C2-05-02",
+            "Stock_Location": "PS-182236000103",
+            "SKU": "4897078502668",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-05-03",
+            "Stock_Location": "PS-182236000114",
+            "SKU": "JBLFLIP5WHT",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-05-03",
+            "Stock_Location": "PS-182236000113",
+            "SKU": "rofi8",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-05-03",
+            "Stock_Location": "PS-182236000112",
+            "SKU": "handbes",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-05-03",
+            "Stock_Location": "PS-182236000111",
+            "SKU": "MWVQ2",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-05-03",
+            "Stock_Location": "PS-182236000109",
+            "SKU": "F8J198BTWHT",
+            "Quantity": "22"
+        },
+        {
+            "Shelve_Location": "C2-05-04",
+            "Stock_Location": "PS-182236000118",
+            "SKU": "RP-PB106",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "C2-05-04",
+            "Stock_Location": "PS-182236000117",
+            "SKU": "BMBH088FB",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-05-04",
+            "Stock_Location": "PS-182236000116",
+            "SKU": "BMBH088FD",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-04-01",
+            "Stock_Location": "PS-182236000078",
+            "SKU": "801941",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-04-01",
+            "Stock_Location": "PS-182236000077",
+            "SKU": "7340115372993",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-04-01",
+            "Stock_Location": "PS-182236000076",
+            "SKU": "B8J239BT04",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-04-01",
+            "Stock_Location": "PS-182236000074",
+            "SKU": "IDKCC-I1958156",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-04-01",
+            "Stock_Location": "PS-182236000073",
+            "SKU": "IDKCC-I195801",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-04-02",
+            "Stock_Location": "PS-182236000084",
+            "SKU": "rofi-cover13",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "C2-04-02",
+            "Stock_Location": "PS-182236000083",
+            "SKU": "rofi-cover13",
+            "Quantity": "60"
+        },
+        {
+            "Shelve_Location": "C2-04-02",
+            "Stock_Location": "PS-182236000081",
+            "SKU": "802168",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-04-02",
+            "Stock_Location": "PS-182236000080",
+            "SKU": "77-65625",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-04-02",
+            "Stock_Location": "PS-182236000079",
+            "SKU": "VIVA-IP12PRO-MPHYEL",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-04-03",
+            "Stock_Location": "PS-182236000090",
+            "SKU": "P2710",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-04-03",
+            "Stock_Location": "PS-182236000088",
+            "SKU": "801012",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-04-03",
+            "Stock_Location": "PS-182236000087",
+            "SKU": "2300245",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C2-04-03",
+            "Stock_Location": "PS-182236000086",
+            "SKU": "800866",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "C2-04-03",
+            "Stock_Location": "PS-182236000085",
+            "SKU": "801020",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-04-04",
+            "Stock_Location": "PS-182236001049",
+            "SKU": "mi-tv",
+            "Quantity": "20"
+        },
+        {
+            "Shelve_Location": "C2-04-04",
+            "Stock_Location": "PS-182236000144",
+            "SKU": "801244",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-04-04",
+            "Stock_Location": "PS-182236000234",
+            "SKU": "IDFCGM19-I1965-166",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-04-04",
+            "Stock_Location": "PS-182236000091",
+            "SKU": "802169",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "C2-04-04",
+            "Stock_Location": "PS-182236000434",
+            "SKU": "skk2b",
+            "Quantity": "0"
+        },
+        {
+            "Shelve_Location": "C2-04-04",
+            "Stock_Location": "PS-182236000435",
+            "SKU": "59913WHT",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "C2-03-01",
+            "Stock_Location": "PS-182236000054",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-01",
+            "Stock_Location": "PS-182236000053",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-01",
+            "Stock_Location": "PS-182236000052",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-01",
+            "Stock_Location": "PS-182236000051",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-01",
+            "Stock_Location": "PS-182236000050",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-01",
+            "Stock_Location": "PS-182236000049",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-02",
+            "Stock_Location": "PS-182236000060",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-02",
+            "Stock_Location": "PS-182236000059",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-02",
+            "Stock_Location": "PS-182236000058",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-02",
+            "Stock_Location": "PS-182236000057",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-02",
+            "Stock_Location": "PS-182236000056",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-02",
+            "Stock_Location": "PS-182236000055",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-03",
+            "Stock_Location": "PS-182236000066",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-03-03",
+            "Stock_Location": "PS-182236000065",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-03",
+            "Stock_Location": "PS-182236000064",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-03",
+            "Stock_Location": "PS-182236000063",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-03",
+            "Stock_Location": "PS-182236000062",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-03",
+            "Stock_Location": "PS-182236000061",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-03-04",
+            "Stock_Location": "PS-182236000072",
+            "SKU": "IDKCC-I195851",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-03-04",
+            "Stock_Location": "PS-182236000070",
+            "SKU": "rofi6",
+            "Quantity": "16"
+        },
+        {
+            "Shelve_Location": "C2-03-04",
+            "Stock_Location": "PS-182236000069",
+            "SKU": "LC-004-BLK",
+            "Quantity": "29"
+        },
+        {
+            "Shelve_Location": "C2-03-04",
+            "Stock_Location": "PS-182236000068",
+            "SKU": "rofi3",
+            "Quantity": "17"
+        },
+        {
+            "Shelve_Location": "C2-03-04",
+            "Stock_Location": "PS-182236000067",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-02-01",
+            "Stock_Location": "PS-182236000028",
+            "SKU": "rofi-cover13pro",
+            "Quantity": "20"
+        },
+        {
+            "Shelve_Location": "C2-02-01",
+            "Stock_Location": "PS-182236000029",
+            "SKU": "rofi-cover13pro",
+            "Quantity": "60"
+        },
+        {
+            "Shelve_Location": "C2-02-01",
+            "Stock_Location": "PS-182236000026",
+            "SKU": "rofi-cover13pro",
+            "Quantity": "60"
+        },
+        {
+            "Shelve_Location": "C2-02-01",
+            "Stock_Location": "PS-182236000096",
+            "SKU": "4897078502965",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-02-02",
+            "Stock_Location": "PS-182236000036",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-02-02",
+            "Stock_Location": "PS-182236000035",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-02-02",
+            "Stock_Location": "PS-182236000034",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-02-02",
+            "Stock_Location": "PS-182236000033",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-02-02",
+            "Stock_Location": "PS-182236000032",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-02-02",
+            "Stock_Location": "PS-182236000031",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-02-03",
+            "Stock_Location": "PS-182236000042",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-02-03",
+            "Stock_Location": "PS-182236000041",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-02-03",
+            "Stock_Location": "PS-182236000040",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-02-03",
+            "Stock_Location": "PS-182236000039",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-02-03",
+            "Stock_Location": "PS-182236000038",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "C2-02-03",
+            "Stock_Location": "PS-182236000037",
+            "SKU": "JBLQUANTUM100BLK",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "C2-02-04",
+            "Stock_Location": "PS-182236000048",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-02-04",
+            "Stock_Location": "PS-182236000047",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-02-04",
+            "Stock_Location": "PS-182236000046",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-02-04",
+            "Stock_Location": "PS-182236000045",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-02-04",
+            "Stock_Location": "PS-182236000044",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-02-04",
+            "Stock_Location": "PS-182236000043",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-01-01",
+            "Stock_Location": "PS-182236000005",
+            "SKU": "MWVR2",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "C2-01-02",
+            "Stock_Location": "PS-182236000012",
+            "SKU": "JBLQUANTUM300BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-01-02",
+            "Stock_Location": "PS-182236000011",
+            "SKU": "JBLQUANTUM300BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-01-02",
+            "Stock_Location": "PS-182236000010",
+            "SKU": "JBLQUANTUM300BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-01-02",
+            "Stock_Location": "PS-182236000009",
+            "SKU": "JBLQUANTUM300BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-01-02",
+            "Stock_Location": "PS-182236000008",
+            "SKU": "LC-410-BLK",
+            "Quantity": "46"
+        },
+        {
+            "Shelve_Location": "C2-01-03",
+            "Stock_Location": "PS-182236000017",
+            "SKU": "JBLQUANTUM300BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-01-03",
+            "Stock_Location": "PS-182236000016",
+            "SKU": "JBLQUANTUM300BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-01-03",
+            "Stock_Location": "PS-182236000015",
+            "SKU": "JBLQUANTUM300BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "C2-01-03",
+            "Stock_Location": "PS-182236000014",
+            "SKU": "JBLQUANTUM300BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "C2-01-03",
+            "Stock_Location": "PS-182236000013",
+            "SKU": "JBLQUANTUM300BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "B2-01-02",
+            "Stock_Location": "PS-182236001106",
+            "SKU": "OFF-POWER",
+            "Quantity": "37"
+        },
+        {
+            "Shelve_Location": "B2-01-04",
+            "Stock_Location": "PS-182236001102",
+            "SKU": "OFF-POWER",
+            "Quantity": "100"
+        },
+        {
+            "Shelve_Location": "B2-02-02",
+            "Stock_Location": "PS-182236001077",
+            "SKU": "wearfitprogry",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-02-02",
+            "Stock_Location": "PS-182236001074",
+            "SKU": "wearfitprogry",
+            "Quantity": "48"
+        },
+        {
+            "Shelve_Location": "B2-02-02",
+            "Stock_Location": "PS-182236001076",
+            "SKU": "wearfitprogry",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-02-02",
+            "Stock_Location": "PS-182236001073",
+            "SKU": "wearfitprogry",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-02-02",
+            "Stock_Location": "PS-182236001075",
+            "SKU": "wearfitprogry",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-02-03",
+            "Stock_Location": "PS-182236001079",
+            "SKU": "wearfitprogry",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-02-03",
+            "Stock_Location": "PS-182236001080",
+            "SKU": "wearfitprogry",
+            "Quantity": "24"
+        },
+        {
+            "Shelve_Location": "B2-02-03",
+            "Stock_Location": "PS-182236001078",
+            "SKU": "wearfitprogry",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-05-03",
+            "Stock_Location": "PS-182236001096",
+            "SKU": "wearfitprogrn",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "B2-05-03",
+            "Stock_Location": "PS-182236001095",
+            "SKU": "wearfitprogrn",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-05-03",
+            "Stock_Location": "PS-182236001094",
+            "SKU": "wearfitprogrn",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-05-03",
+            "Stock_Location": "PS-182236001093",
+            "SKU": "wearfitprogrn",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-05-03",
+            "Stock_Location": "PS-182236001092",
+            "SKU": "wearfitprogrn",
+            "Quantity": "48"
+        },
+        {
+            "Shelve_Location": "B2-07-01",
+            "Stock_Location": "PS-182236000722",
+            "SKU": "rofi-cover13promax",
+            "Quantity": "60"
+        },
+        {
+            "Shelve_Location": "B2-07-01",
+            "Stock_Location": "PS-182236001072",
+            "SKU": "wearfitprogry",
+            "Quantity": "44"
+        },
+        {
+            "Shelve_Location": "B2-07-01",
+            "Stock_Location": "PS-182236000726",
+            "SKU": "rofi-cover13promax",
+            "Quantity": "60"
+        },
+        {
+            "Shelve_Location": "B2-07-01",
+            "Stock_Location": "PS-182236000025",
+            "SKU": "rofi-cover13promax",
+            "Quantity": "32"
+        },
+        {
+            "Shelve_Location": "B2-07-01",
+            "Stock_Location": "PS-182236000271",
+            "SKU": "rofi-cover13promax",
+            "Quantity": "20"
+        },
+        {
+            "Shelve_Location": "B2-07-03",
+            "Stock_Location": "PS-182236001101",
+            "SKU": "wearfitpropnk",
+            "Quantity": "21"
+        },
+        {
+            "Shelve_Location": "B2-07-03",
+            "Stock_Location": "PS-182236001100",
+            "SKU": "wearfitpropnk",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "B2-07-03",
+            "Stock_Location": "PS-182236001099",
+            "SKU": "wearfitpropnk",
+            "Quantity": "58"
+        },
+        {
+            "Shelve_Location": "B2-07-03",
+            "Stock_Location": "PS-182236000104",
+            "SKU": "wearfitpropnk",
+            "Quantity": "46"
+        },
+        {
+            "Shelve_Location": "B2-08-01",
+            "Stock_Location": "PS-182236001129",
+            "SKU": "HEA-DGN-R02-WHT",
+            "Quantity": "99"
+        },
+        {
+            "Shelve_Location": "B2-08-02",
+            "Stock_Location": "PS-182236001115",
+            "SKU": "LC-002-BLK",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "B2-08-03",
+            "Stock_Location": "PS-182236000740",
+            "SKU": "SKKH2BOX",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-09-01",
+            "Stock_Location": "PS-182236001128",
+            "SKU": "HEA-DGN-R02-WHT",
+            "Quantity": "100"
+        },
+        {
+            "Shelve_Location": "B2-09-01",
+            "Stock_Location": "PS-182236000677",
+            "SKU": "801571",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-09-01",
+            "Stock_Location": "PS-182236000678",
+            "SKU": "PDW40SL033",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "B2-09-01",
+            "Stock_Location": "PS-182236000819",
+            "SKU": "600043",
+            "Quantity": "16"
+        },
+        {
+            "Shelve_Location": "B2-09-01",
+            "Stock_Location": "PS-182236000820",
+            "SKU": "600043",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "B2-09-02",
+            "Stock_Location": "PS-182236000676",
+            "SKU": "6934913059791",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-09-02",
+            "Stock_Location": "PS-182236000675",
+            "SKU": "wearfitprogrn",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-09-02",
+            "Stock_Location": "PS-182236000674",
+            "SKU": "6934913046524",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "B2-09-02",
+            "Stock_Location": "PS-182236000673",
+            "SKU": "6934913079362",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "B2-09-02",
+            "Stock_Location": "PS-182236001118",
+            "SKU": "LC-002-BLK",
+            "Quantity": "70"
+        },
+        {
+            "Shelve_Location": "B2-09-02",
+            "Stock_Location": "PS-182236001117",
+            "SKU": "LC-002-BLK",
+            "Quantity": "70"
+        },
+        {
+            "Shelve_Location": "B2-09-03",
+            "Stock_Location": "PS-182236000665",
+            "SKU": "800950",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-09-03",
+            "Stock_Location": "PS-182236000666",
+            "SKU": "802439",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-09-03",
+            "Stock_Location": "PS-182236000668",
+            "SKU": "6934913073810",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "B2-09-03",
+            "Stock_Location": "PS-182236000669",
+            "SKU": "6934913052938",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "B2-09-03",
+            "Stock_Location": "PS-182236000670",
+            "SKU": "6934913079355",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "B2-10-01",
+            "Stock_Location": "PS-182236000329",
+            "SKU": "Offtech-13promax-p",
+            "Quantity": "20"
+        },
+        {
+            "Shelve_Location": "B2-10-01",
+            "Stock_Location": "PS-182236000773",
+            "SKU": "Offtech-13promax-p",
+            "Quantity": "12"
+        },
+        {
+            "Shelve_Location": "B2-10-01",
+            "Stock_Location": "PS-182236000098",
+            "SKU": "Offtech-13promax-p",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "B2-10-01",
+            "Stock_Location": "PS-182236001116",
+            "SKU": "LC-002-BLK",
+            "Quantity": "70"
+        },
+        {
+            "Shelve_Location": "B2-10-01",
+            "Stock_Location": "PS-182236001119",
+            "SKU": "LC-002-BLK",
+            "Quantity": "70"
+        },
+        {
+            "Shelve_Location": "B2-10-02",
+            "Stock_Location": "PS-182236000652",
+            "SKU": "802122",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-10-02",
+            "Stock_Location": "PS-182236000653",
+            "SKU": "6934913046500",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-10-02",
+            "Stock_Location": "PS-182236000654",
+            "SKU": "6934913052969",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-10-02",
+            "Stock_Location": "PS-182236001121",
+            "SKU": "LC-002-BLK",
+            "Quantity": "70"
+        },
+        {
+            "Shelve_Location": "B2-10-02",
+            "Stock_Location": "PS-182236000656",
+            "SKU": "2673",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-10-02",
+            "Stock_Location": "PS-182236001120",
+            "SKU": "LC-002-BLK",
+            "Quantity": "70"
+        },
+        {
+            "Shelve_Location": "B2-10-03",
+            "Stock_Location": "PS-182236000645",
+            "SKU": "XLORD-PROMAX-CLEAR",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-10-03",
+            "Stock_Location": "PS-182236000647",
+            "SKU": "wearfitprogry",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "B2-10-03",
+            "Stock_Location": "PS-182236000648",
+            "SKU": "6934913079379",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-10-03",
+            "Stock_Location": "PS-182236001122",
+            "SKU": "LC-002-BLK",
+            "Quantity": "70"
+        },
+        {
+            "Shelve_Location": "B2-10-03",
+            "Stock_Location": "PS-182236000650",
+            "SKU": "803025",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-10-03",
+            "Stock_Location": "PS-182236000651",
+            "SKU": "6934913052921",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "B2-11-01",
+            "Stock_Location": "PS-182236001114",
+            "SKU": "HEA-DGN-R02-WHT",
+            "Quantity": "92"
+        },
+        {
+            "Shelve_Location": "B2-11-01",
+            "Stock_Location": "PS-182236001123",
+            "SKU": "HEA-DGN-R02-WHT",
+            "Quantity": "100"
+        },
+        {
+            "Shelve_Location": "B2-11-01",
+            "Stock_Location": "PS-182236001124",
+            "SKU": "HEA-DGN-R02-WHT",
+            "Quantity": "100"
+        },
+        {
+            "Shelve_Location": "B2-11-01",
+            "Stock_Location": "PS-182236001125",
+            "SKU": "HEA-DGN-R02-WHT",
+            "Quantity": "100"
+        },
+        {
+            "Shelve_Location": "B2-11-02",
+            "Stock_Location": "PS-182236001138",
+            "SKU": "LC-016-BLK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "B2-11-02",
+            "Stock_Location": "PS-182236001137",
+            "SKU": "LC-016-BLK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "B2-11-02",
+            "Stock_Location": "PS-182236001136",
+            "SKU": "LC-016-BLK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "B2-11-02",
+            "Stock_Location": "PS-182236001135",
+            "SKU": "LC-016-BLK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "B2-11-02",
+            "Stock_Location": "PS-182236001134",
+            "SKU": "LC-016-BLK",
+            "Quantity": "25"
+        },
+        {
+            "Shelve_Location": "B2-11-02",
+            "Stock_Location": "PS-182236001126",
+            "SKU": "HEA-DGN-R02-WHT",
+            "Quantity": "100"
+        },
+        {
+            "Shelve_Location": "B2-11-03",
+            "Stock_Location": "PS-182236000969",
+            "SKU": "MagSafe-offtech",
+            "Quantity": "12"
+        },
+        {
+            "Shelve_Location": "B2-11-03",
+            "Stock_Location": "PS-182236000967",
+            "SKU": "MagSafe-offtech",
+            "Quantity": "98"
+        },
+        {
+            "Shelve_Location": "B2-11-03",
+            "Stock_Location": "PS-182236000968",
+            "SKU": "MagSafe-offtech",
+            "Quantity": "95"
+        },
+        {
+            "Shelve_Location": "B2-11-03",
+            "Stock_Location": "PS-182236000966",
+            "SKU": "MagSafe-offtech",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "B2-11-03",
+            "Stock_Location": "PS-182236001127",
+            "SKU": "HEA-DGN-R02-WHT",
+            "Quantity": "100"
+        },
+        {
+            "Shelve_Location": "B1-02-01",
+            "Stock_Location": "PS-182236001108",
+            "SKU": "OFF-POWER",
+            "Quantity": "199"
+        },
+        {
+            "Shelve_Location": "D1-08-03",
+            "Stock_Location": "PS-182236000003",
+            "SKU": "RP-CB062Black",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-08-03",
+            "Stock_Location": "PS-182236000004",
+            "SKU": "800929",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-08-03",
+            "Stock_Location": "PS-182236000007",
+            "SKU": "babypod3",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-08-03",
+            "Stock_Location": "PS-182236000075",
+            "SKU": "RP-UC019",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-08-02",
+            "Stock_Location": "PS-182236000089",
+            "SKU": "POW-ASP-20K-PD-BLA",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-01-04",
+            "Stock_Location": "PS-182236001150",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-01-04",
+            "Stock_Location": "PS-182236000287",
+            "SKU": "rofi13-pro-c",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-01-04",
+            "Stock_Location": "PS-182236000286",
+            "SKU": "rofi13promaxc",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-01-04",
+            "Stock_Location": "PS-182236000285",
+            "SKU": "VIVA-IP12PM-CELCL",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-01-04",
+            "Stock_Location": "PS-182236000714",
+            "SKU": "77-65625",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-01-04",
+            "Stock_Location": "PS-182236000713",
+            "SKU": "Greencover-12promax",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-01-03",
+            "Stock_Location": "PS-182236001149",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-01-03",
+            "Stock_Location": "PS-182236000284",
+            "SKU": "OFFtech-promax-privacy",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-01-03",
+            "Stock_Location": "PS-182236000718",
+            "SKU": "Offtech-13promax-p",
+            "Quantity": "30"
+        },
+        {
+            "Shelve_Location": "D1-01-03",
+            "Stock_Location": "PS-182236000279",
+            "SKU": "OFFtech-12promax-pra",
+            "Quantity": "13"
+        },
+        {
+            "Shelve_Location": "D1-01-03",
+            "Stock_Location": "PS-182236000278",
+            "SKU": "Offtech-13pro-p",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "D1-01-03",
+            "Stock_Location": "PS-182236000277",
+            "SKU": "59917PK",
+            "Quantity": "17"
+        },
+        {
+            "Shelve_Location": "D1-01-01",
+            "Stock_Location": "PS-182236000270",
+            "SKU": "6953156206519",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-01-01",
+            "Stock_Location": "PS-182236000269",
+            "SKU": "Offtech-12MINI-clear",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-01-01",
+            "Stock_Location": "PS-182236000267",
+            "SKU": "Offtech-13pro-c",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "D1-01-02",
+            "Stock_Location": "PS-182236000721",
+            "SKU": "OFFtech-12promax-pra",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-01-02",
+            "Stock_Location": "PS-182236000720",
+            "SKU": "OFFtech-12/pro-pra",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D1-01-02",
+            "Stock_Location": "PS-182236000719",
+            "SKU": "OFFtech-12promax-pra",
+            "Quantity": "39"
+        },
+        {
+            "Shelve_Location": "D1-01-02",
+            "Stock_Location": "PS-182236000272",
+            "SKU": "OFFtech-xr-clear",
+            "Quantity": "14"
+        },
+        {
+            "Shelve_Location": "D1-02-04",
+            "Stock_Location": "PS-182236000707",
+            "SKU": "MagSafe-offtech",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-02-04",
+            "Stock_Location": "PS-182236001146",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-02-04",
+            "Stock_Location": "PS-182236001147",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-02-04",
+            "Stock_Location": "PS-182236001148",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-02-04",
+            "Stock_Location": "PS-182236000712",
+            "SKU": "LC-043-BK",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-01-01",
+            "Stock_Location": "PS-182236000265",
+            "SKU": "6953156206472",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-02-03",
+            "Stock_Location": "PS-182236001145",
+            "SKU": "6953156206533",
+            "Quantity": "86"
+        },
+        {
+            "Shelve_Location": "D1-02-03",
+            "Stock_Location": "PS-182236000305",
+            "SKU": "653948137040",
+            "Quantity": "29"
+        },
+        {
+            "Shelve_Location": "D1-02-03",
+            "Stock_Location": "PS-182236000304",
+            "SKU": "rp-cb1004blk",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D1-02-03",
+            "Stock_Location": "PS-182236000303",
+            "SKU": "191280013979",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-02-03",
+            "Stock_Location": "PS-182236000734",
+            "SKU": "OFFtech-max-pra",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D1-02-03",
+            "Stock_Location": "PS-182236000735",
+            "SKU": "OFFtech-max-pra",
+            "Quantity": "33"
+        },
+        {
+            "Shelve_Location": "D1-02-02",
+            "Stock_Location": "PS-182236001144",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-02-02",
+            "Stock_Location": "PS-182236000730",
+            "SKU": "6953156206533",
+            "Quantity": "17"
+        },
+        {
+            "Shelve_Location": "D1-02-02",
+            "Stock_Location": "PS-182236000709",
+            "SKU": "Y4810",
+            "Quantity": "54"
+        },
+        {
+            "Shelve_Location": "D1-02-02",
+            "Stock_Location": "PS-182236000728",
+            "SKU": "rofi-cover13promax",
+            "Quantity": "60"
+        },
+        {
+            "Shelve_Location": "D1-02-02",
+            "Stock_Location": "PS-182236000732",
+            "SKU": "OFFtech-12promax-clear",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-02-02",
+            "Stock_Location": "PS-182236000733",
+            "SKU": "59915BLK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-02-01",
+            "Stock_Location": "PS-182236000723",
+            "SKU": "OFFtech-xr-clear",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D1-02-01",
+            "Stock_Location": "PS-182236000725",
+            "SKU": "Offtech-13promax-c",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-02-01",
+            "Stock_Location": "PS-182236000727",
+            "SKU": "OFFtech-xr-clear",
+            "Quantity": "26"
+        },
+        {
+            "Shelve_Location": "D1-03-01",
+            "Stock_Location": "PS-182236001032",
+            "SKU": "248",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-03-01",
+            "Stock_Location": "PS-182236001033",
+            "SKU": "500",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "D1-03-01",
+            "Stock_Location": "PS-182236000316",
+            "SKU": "800960",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D1-03-01",
+            "Stock_Location": "PS-182236000315",
+            "SKU": "rp-cb058",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D1-03-01",
+            "Stock_Location": "PS-182236000314",
+            "SKU": "JBLFLIP5PINK",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-03-01",
+            "Stock_Location": "PS-182236000313",
+            "SKU": "800954",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-03-02",
+            "Stock_Location": "PS-182236000323",
+            "SKU": "ACS01476",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-03-02",
+            "Stock_Location": "PS-182236000321",
+            "SKU": "JBLCLIP3TEAL",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-03-02",
+            "Stock_Location": "PS-182236000320",
+            "SKU": "rp-cb030black",
+            "Quantity": "46"
+        },
+        {
+            "Shelve_Location": "D1-03-02",
+            "Stock_Location": "PS-182236000319",
+            "SKU": "rp-cb030black",
+            "Quantity": "79"
+        },
+        {
+            "Shelve_Location": "D1-03-03",
+            "Stock_Location": "PS-182236000330",
+            "SKU": "653948137040",
+            "Quantity": "23"
+        },
+        {
+            "Shelve_Location": "D1-03-03",
+            "Stock_Location": "PS-182236000658",
+            "SKU": "IDFCGM19-I1965-165",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-03-03",
+            "Stock_Location": "PS-182236000326",
+            "SKU": "off-card",
+            "Quantity": "151"
+        },
+        {
+            "Shelve_Location": "D1-03-03",
+            "Stock_Location": "PS-182236000325",
+            "SKU": "off-card",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-03-04",
+            "Stock_Location": "PS-182236001140",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-03-04",
+            "Stock_Location": "PS-182236001141",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-03-04",
+            "Stock_Location": "PS-182236001142",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-03-04",
+            "Stock_Location": "PS-182236001153",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-03-04",
+            "Stock_Location": "PS-182236001143",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-04-01",
+            "Stock_Location": "PS-182236000342",
+            "SKU": "77-65608",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "D1-04-01",
+            "Stock_Location": "PS-182236000339",
+            "SKU": "Belkin12PRO",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-04-01",
+            "Stock_Location": "PS-182236000338",
+            "SKU": "800944",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-04-01",
+            "Stock_Location": "PS-182236000337",
+            "SKU": "101000",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-04-02",
+            "Stock_Location": "PS-182236000347",
+            "SKU": "ROFI-X-PRO-CLEAR",
+            "Quantity": "35"
+        },
+        {
+            "Shelve_Location": "D1-04-02",
+            "Stock_Location": "PS-182236000346",
+            "SKU": "LC-002-BLK",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "D1-04-02",
+            "Stock_Location": "PS-182236000345",
+            "SKU": "JBLREFFLOWBLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-04-02",
+            "Stock_Location": "PS-182236001152",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-04-03",
+            "Stock_Location": "PS-182236000354",
+            "SKU": "air5",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-04-03",
+            "Stock_Location": "PS-182236001139",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-04-03",
+            "Stock_Location": "PS-182236000351",
+            "SKU": "rofi4",
+            "Quantity": "31"
+        },
+        {
+            "Shelve_Location": "D1-04-03",
+            "Stock_Location": "PS-182236000350",
+            "SKU": "OFFtech-12-pra",
+            "Quantity": "13"
+        },
+        {
+            "Shelve_Location": "D1-04-04",
+            "Stock_Location": "PS-182236000360",
+            "SKU": "PDW44SL033",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "D1-04-04",
+            "Stock_Location": "PS-182236000359",
+            "SKU": "P2713",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-04-04",
+            "Stock_Location": "PS-182236000358",
+            "SKU": "PDW44MB004",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-04-04",
+            "Stock_Location": "PS-182236000357",
+            "SKU": "802753",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-04-04",
+            "Stock_Location": "PS-182236000356",
+            "SKU": "78-80051",
+            "Quantity": "33"
+        },
+        {
+            "Shelve_Location": "D1-04-04",
+            "Stock_Location": "PS-182236000355",
+            "SKU": "rofi12minip",
+            "Quantity": "55"
+        },
+        {
+            "Shelve_Location": "D1-05-04",
+            "Stock_Location": "PS-182236000384",
+            "SKU": "PDW44NK001",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "D1-05-04",
+            "Stock_Location": "PS-182236000382",
+            "SKU": "59913BLK",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D1-05-04",
+            "Stock_Location": "PS-182236000381",
+            "SKU": "rofi13promaxc",
+            "Quantity": "12"
+        },
+        {
+            "Shelve_Location": "D1-05-04",
+            "Stock_Location": "PS-182236000380",
+            "SKU": "300005",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "D1-05-04",
+            "Stock_Location": "PS-182236000379",
+            "SKU": "IDFCAW19-I1958-148",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-05-03",
+            "Stock_Location": "PS-182236000378",
+            "SKU": "LC-043-BK",
+            "Quantity": "60"
+        },
+        {
+            "Shelve_Location": "D1-05-03",
+            "Stock_Location": "PS-182236000377",
+            "SKU": "LC-043-BK",
+            "Quantity": "48"
+        },
+        {
+            "Shelve_Location": "D1-05-03",
+            "Stock_Location": "PS-182236000376",
+            "SKU": "LC-043-BK",
+            "Quantity": "31"
+        },
+        {
+            "Shelve_Location": "D1-05-03",
+            "Stock_Location": "PS-182236000374",
+            "SKU": "car-01",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-05-02",
+            "Stock_Location": "PS-182236000372",
+            "SKU": "LC-043-BK",
+            "Quantity": "37"
+        },
+        {
+            "Shelve_Location": "D1-05-02",
+            "Stock_Location": "PS-182236000369",
+            "SKU": "LC-043-BK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-05-02",
+            "Stock_Location": "PS-182236000367",
+            "SKU": "2100000026579",
+            "Quantity": "16"
+        },
+        {
+            "Shelve_Location": "D1-05-01",
+            "Stock_Location": "PS-182236000366",
+            "SKU": "rp-cb030black",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D1-05-01",
+            "Stock_Location": "PS-182236000362",
+            "SKU": "IDFCAW19-I1961-148",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-05-01",
+            "Stock_Location": "PS-182236001034",
+            "SKU": "BMBH385ALSD",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-06-04",
+            "Stock_Location": "PS-182236000408",
+            "SKU": "ACS01539",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-06-04",
+            "Stock_Location": "PS-182236000407",
+            "SKU": "ACS01517",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-06-04",
+            "Stock_Location": "PS-182236000406",
+            "SKU": "7340115372825",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-06-04",
+            "Stock_Location": "PS-182236000405",
+            "SKU": "PDW44MB015",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-06-04",
+            "Stock_Location": "PS-182236000404",
+            "SKU": "PDW44SL028",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "D1-06-03",
+            "Stock_Location": "PS-182236000402",
+            "SKU": "MDR-E9LP/White",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-06-03",
+            "Stock_Location": "PS-182236000401",
+            "SKU": "PDW44NK017",
+            "Quantity": "18"
+        },
+        {
+            "Shelve_Location": "D1-06-03",
+            "Stock_Location": "PS-182236000400",
+            "SKU": "802911",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-06-03",
+            "Stock_Location": "PS-182236000399",
+            "SKU": "59912GLD",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D1-06-03",
+            "Stock_Location": "PS-182236000398",
+            "SKU": "JBLT125BTBLK",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-06-03",
+            "Stock_Location": "PS-182236000397",
+            "SKU": "GC41640",
+            "Quantity": "16"
+        },
+        {
+            "Shelve_Location": "D1-06-02",
+            "Stock_Location": "PS-182236000396",
+            "SKU": "Off-wood",
+            "Quantity": "15"
+        },
+        {
+            "Shelve_Location": "D1-06-02",
+            "Stock_Location": "PS-182236000395",
+            "SKU": "Off-wood",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "D1-06-02",
+            "Stock_Location": "PS-182236000394",
+            "SKU": "801554",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-06-02",
+            "Stock_Location": "PS-182236000393",
+            "SKU": "rp-pb186",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D1-06-02",
+            "Stock_Location": "PS-182236000604",
+            "SKU": "61543431139",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-06-02",
+            "Stock_Location": "PS-182236000605",
+            "SKU": "61543431758",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "D1-06-01",
+            "Stock_Location": "PS-182236000388",
+            "SKU": "Off-wood",
+            "Quantity": "19"
+        },
+        {
+            "Shelve_Location": "D1-06-01",
+            "Stock_Location": "PS-182236000387",
+            "SKU": "Off-wood",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "D1-07-04",
+            "Stock_Location": "PS-182236000509",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-04",
+            "Stock_Location": "PS-182236000508",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-04",
+            "Stock_Location": "PS-182236000507",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-04",
+            "Stock_Location": "PS-182236000506",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-04",
+            "Stock_Location": "PS-182236000505",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-04",
+            "Stock_Location": "PS-182236000504",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-03",
+            "Stock_Location": "PS-182236000426",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-03",
+            "Stock_Location": "PS-182236000425",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-03",
+            "Stock_Location": "PS-182236000424",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-03",
+            "Stock_Location": "PS-182236000423",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-03",
+            "Stock_Location": "PS-182236000422",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-03",
+            "Stock_Location": "PS-182236000421",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-02",
+            "Stock_Location": "PS-182236000420",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-02",
+            "Stock_Location": "PS-182236000419",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-02",
+            "Stock_Location": "PS-182236000418",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-02",
+            "Stock_Location": "PS-182236000417",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-02",
+            "Stock_Location": "PS-182236000416",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-02",
+            "Stock_Location": "PS-182236000415",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-01",
+            "Stock_Location": "PS-182236000414",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-01",
+            "Stock_Location": "PS-182236000413",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-01",
+            "Stock_Location": "PS-182236000412",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-01",
+            "Stock_Location": "PS-182236000411",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-01",
+            "Stock_Location": "PS-182236000410",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-07-01",
+            "Stock_Location": "PS-182236000409",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-08-04",
+            "Stock_Location": "PS-182236000450",
+            "SKU": "Offtech-13pro-p",
+            "Quantity": "33"
+        },
+        {
+            "Shelve_Location": "D1-08-03",
+            "Stock_Location": "PS-182236001154",
+            "SKU": "LC-043-BK",
+            "Quantity": "78"
+        },
+        {
+            "Shelve_Location": "D1-08-03",
+            "Stock_Location": "PS-182236001155",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D1-08-02",
+            "Stock_Location": "PS-182236000438",
+            "SKU": "ACS01542",
+            "Quantity": "14"
+        },
+        {
+            "Shelve_Location": "D1-08-02",
+            "Stock_Location": "PS-182236000437",
+            "SKU": "Greencover-12pro",
+            "Quantity": "26"
+        },
+        {
+            "Shelve_Location": "D1-08-02",
+            "Stock_Location": "PS-182236000433",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-08-01",
+            "Stock_Location": "PS-182236000432",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-08-01",
+            "Stock_Location": "PS-182236000431",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-08-01",
+            "Stock_Location": "PS-182236000430",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-08-01",
+            "Stock_Location": "PS-182236000429",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-08-01",
+            "Stock_Location": "PS-182236000428",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-08-01",
+            "Stock_Location": "PS-182236000427",
+            "SKU": "JBLQUANTUM200BLK",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-09-01",
+            "Stock_Location": "PS-182236000454",
+            "SKU": "802919",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-09-01",
+            "Stock_Location": "PS-182236000453",
+            "SKU": "IDFCSS19-I1958-121",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-09-01",
+            "Stock_Location": "PS-182236000452",
+            "SKU": "Offtech-13pro-p",
+            "Quantity": "37"
+        },
+        {
+            "Shelve_Location": "D1-09-02",
+            "Stock_Location": "PS-182236000119",
+            "SKU": "OFFtech-12/pro-clear",
+            "Quantity": "37"
+        },
+        {
+            "Shelve_Location": "D1-09-02",
+            "Stock_Location": "PS-182236001062",
+            "SKU": "OFFtech-12/pro-clear",
+            "Quantity": "20"
+        },
+        {
+            "Shelve_Location": "D1-09-02",
+            "Stock_Location": "PS-182236001061",
+            "SKU": "OFFtech-12/pro-clear",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D1-09-02",
+            "Stock_Location": "PS-182236000458",
+            "SKU": "SKK6R",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-09-02",
+            "Stock_Location": "PS-182236000457",
+            "SKU": "802996",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-09-03",
+            "Stock_Location": "PS-182236000468",
+            "SKU": "MDR-E9LP/Blue",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-09-03",
+            "Stock_Location": "PS-182236000467",
+            "SKU": "D11580427",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "D1-09-03",
+            "Stock_Location": "PS-182236000466",
+            "SKU": "IDKCC-I196101",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-09-03",
+            "Stock_Location": "PS-182236000465",
+            "SKU": "JBLGO3RED",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D1-09-04",
+            "Stock_Location": "PS-182236000473",
+            "SKU": "164",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-09-04",
+            "Stock_Location": "PS-182236000472",
+            "SKU": "JBLFLIP5YEL",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D1-09-04",
+            "Stock_Location": "PS-182236000470",
+            "SKU": "PDW44NK018",
+            "Quantity": "13"
+        },
+        {
+            "Shelve_Location": "D1-10-01",
+            "Stock_Location": "PS-182236000478",
+            "SKU": "DH0039LW/HBLRUB",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-10-01",
+            "Stock_Location": "PS-182236000477",
+            "SKU": "rp-pc024",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-10-01",
+            "Stock_Location": "PS-182236000476",
+            "SKU": "702006042",
+            "Quantity": "24"
+        },
+        {
+            "Shelve_Location": "D1-10-01",
+            "Stock_Location": "PS-182236000475",
+            "SKU": "702006042",
+            "Quantity": "57"
+        },
+        {
+            "Shelve_Location": "D1-10-02",
+            "Stock_Location": "PS-182236001068",
+            "SKU": "OFFtech-iphone11-privacy",
+            "Quantity": "46"
+        },
+        {
+            "Shelve_Location": "D1-10-02",
+            "Stock_Location": "PS-182236001046",
+            "SKU": "offtech-xr-pra",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D1-10-02",
+            "Stock_Location": "PS-182236001045",
+            "SKU": "offtech-xr-pra",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D1-10-02",
+            "Stock_Location": "PS-182236000482",
+            "SKU": "ROFL12MAXP",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-10-02",
+            "Stock_Location": "PS-182236000481",
+            "SKU": "rofi12/12pro/c",
+            "Quantity": "44"
+        },
+        {
+            "Shelve_Location": "D1-10-03",
+            "Stock_Location": "PS-182236000492",
+            "SKU": "167pls",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D1-10-03",
+            "Stock_Location": "PS-182236000488",
+            "SKU": "Offtech-13promax-p",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-10-03",
+            "Stock_Location": "PS-182236000487",
+            "SKU": "Greencover-12promax",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D1-10-04",
+            "Stock_Location": "PS-182236000497",
+            "SKU": "F3Y023BT2M",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D1-10-04",
+            "Stock_Location": "PS-182236000496",
+            "SKU": "LIVE200BTWHT",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D1-10-04",
+            "Stock_Location": "PS-182236000494",
+            "SKU": "PDW44NK005",
+            "Quantity": "19"
+        },
+        {
+            "Shelve_Location": "D1-11-01",
+            "Stock_Location": "PS-182236000513",
+            "SKU": "LC-410-BLK",
+            "Quantity": "11"
+        },
+        {
+            "Shelve_Location": "D1-11-01",
+            "Stock_Location": "PS-182236001050",
+            "SKU": "mi-tv",
+            "Quantity": "36"
+        },
+        {
+            "Shelve_Location": "D1-11-02",
+            "Stock_Location": "PS-182236000514",
+            "SKU": "Offtech-13pro-c",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D1-11-02",
+            "Stock_Location": "PS-182236000515",
+            "SKU": "Offtech-13pro-c",
+            "Quantity": "36"
+        },
+        {
+            "Shelve_Location": "D1-11-02",
+            "Stock_Location": "PS-182236000516",
+            "SKU": "Offtech-13pro-c",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D1-11-02",
+            "Stock_Location": "PS-182236001047",
+            "SKU": "air-mon",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "D1-11-02",
+            "Stock_Location": "PS-182236001048",
+            "SKU": "air-mon",
+            "Quantity": "39"
+        },
+        {
+            "Shelve_Location": "D1-11-03",
+            "Stock_Location": "PS-182236000523",
+            "SKU": "LC-410-BLK",
+            "Quantity": "15"
+        },
+        {
+            "Shelve_Location": "D1-11-03",
+            "Stock_Location": "PS-182236000522",
+            "SKU": "LC-410-BLK",
+            "Quantity": "36"
+        },
+        {
+            "Shelve_Location": "D1-11-03",
+            "Stock_Location": "PS-182236000521",
+            "SKU": "Offtech-13pro-c",
+            "Quantity": "22"
+        },
+        {
+            "Shelve_Location": "D1-11-03",
+            "Stock_Location": "PS-182236000520",
+            "SKU": "Offtech-13pro-c",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D1-11-04",
+            "Stock_Location": "PS-182236001006",
+            "SKU": "ZID1005WHT",
+            "Quantity": "166"
+        },
+        {
+            "Shelve_Location": "D1-11-04",
+            "Stock_Location": "PS-182236000527",
+            "SKU": "Offtech-13promax-p",
+            "Quantity": "22"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000834",
+            "SKU": "Rp-PB169-BK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000823",
+            "SKU": "RP-CB1004BLK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000849",
+            "SKU": "8809461761930",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000821",
+            "SKU": "knife-offtech",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000832",
+            "SKU": "SS-Smartphone",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000842",
+            "SKU": "411",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000840",
+            "SKU": "5056114985844",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000824",
+            "SKU": "RP-PB169Pink",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000829",
+            "SKU": "nano",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000833",
+            "SKU": "VIVA-GLIDE-WHT",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000826",
+            "SKU": "IPH12PROMEX",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000844",
+            "SKU": "kajsa1",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000766",
+            "SKU": "oud-mor",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000831",
+            "SKU": "7340115372818",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000841",
+            "SKU": "6934913058565",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000705",
+            "SKU": "ZID1005WHT",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000703",
+            "SKU": "ZID1005BLK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000702",
+            "SKU": "ZID1004",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000851",
+            "SKU": "PQ1201",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000853",
+            "SKU": "PB197Silver",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000848",
+            "SKU": "802439",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-03",
+            "Stock_Location": "PS-182236000706",
+            "SKU": "ZID1005PK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-02",
+            "Stock_Location": "PS-182236000845",
+            "SKU": "191280013979",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "E1-11-02",
+            "Stock_Location": "PS-182236000846",
+            "SKU": "MWVL2",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "E1-11-02",
+            "Stock_Location": "PS-182236000858",
+            "SKU": "5056114985424",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-11-03",
+            "Stock_Location": "PS-182236000874",
+            "SKU": "rofi7",
+            "Quantity": "19"
+        },
+        {
+            "Shelve_Location": "D2-11-03",
+            "Stock_Location": "PS-182236000873",
+            "SKU": "rofi12",
+            "Quantity": "19"
+        },
+        {
+            "Shelve_Location": "D2-11-03",
+            "Stock_Location": "PS-182236000870",
+            "SKU": "DC1.14305",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D2-11-03",
+            "Stock_Location": "PS-182236000869",
+            "SKU": "2900132",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D2-11-02",
+            "Stock_Location": "PS-182236000867",
+            "SKU": "ROFI-X-PRO-PRA",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D2-11-02",
+            "Stock_Location": "PS-182236000868",
+            "SKU": "OVA029zz",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D2-11-02",
+            "Stock_Location": "PS-182236000847",
+            "SKU": "5056114985646",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-11-02",
+            "Stock_Location": "PS-182236000863",
+            "SKU": "rofipromaxclear",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D2-11-02",
+            "Stock_Location": "PS-182236000859",
+            "SKU": "Woodenspon",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-11-02",
+            "Stock_Location": "PS-182236000861",
+            "SKU": "m9",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-11-02",
+            "Stock_Location": "PS-182236000862",
+            "SKU": "DC1.14303",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D2-11-02",
+            "Stock_Location": "PS-182236000757",
+            "SKU": "PPBD020101",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "D2-11-01",
+            "Stock_Location": "PS-182236000920",
+            "SKU": "JBLFLIP5SQUAD",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D2-11-01",
+            "Stock_Location": "PS-182236000919",
+            "SKU": "GG0567-HK0048576",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-11-01",
+            "Stock_Location": "PS-182236000898",
+            "SKU": "OFFtech-12mini-claer",
+            "Quantity": "16"
+        },
+        {
+            "Shelve_Location": "D2-10-03",
+            "Stock_Location": "PS-182236000881",
+            "SKU": "CA6",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-10-03",
+            "Stock_Location": "PS-182236001053",
+            "SKU": "Offtech-13promax-c",
+            "Quantity": "22"
+        },
+        {
+            "Shelve_Location": "D2-10-03",
+            "Stock_Location": "PS-182236001054",
+            "SKU": "Offtech-13promax-c",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D2-10-03",
+            "Stock_Location": "PS-182236001055",
+            "SKU": "Offtech-13promax-c",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D2-10-02",
+            "Stock_Location": "PS-182236000882",
+            "SKU": "8809461763811",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-10-02",
+            "Stock_Location": "PS-182236000815",
+            "SKU": "rofi12/12pro/pcc",
+            "Quantity": "23"
+        },
+        {
+            "Shelve_Location": "D2-10-02",
+            "Stock_Location": "PS-182236000811",
+            "SKU": "OFFtech-promax-privacy",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D2-10-01",
+            "Stock_Location": "PS-182236001066",
+            "SKU": "Offtech-13-p",
+            "Quantity": "27"
+        },
+        {
+            "Shelve_Location": "D2-10-01",
+            "Stock_Location": "PS-182236001065",
+            "SKU": "Offtech-13-p",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D2-10-01",
+            "Stock_Location": "PS-182236001064",
+            "SKU": "Offtech-13-p",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D2-10-01",
+            "Stock_Location": "PS-182236001063",
+            "SKU": "Offtech-13-p",
+            "Quantity": "30"
+        },
+        {
+            "Shelve_Location": "D2-10-01",
+            "Stock_Location": "PS-182236000885",
+            "SKU": "6287015690110",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D2-10-01",
+            "Stock_Location": "PS-182236000803",
+            "SKU": "2710",
+            "Quantity": "31"
+        },
+        {
+            "Shelve_Location": "D2-09-03",
+            "Stock_Location": "PS-182236001040",
+            "SKU": "OFFtech-12/pro-pra",
+            "Quantity": "30"
+        },
+        {
+            "Shelve_Location": "D2-09-03",
+            "Stock_Location": "PS-182236001042",
+            "SKU": "OFFtech-12/pro-pra",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D2-09-03",
+            "Stock_Location": "PS-182236001043",
+            "SKU": "OFFtech-12/pro-pra",
+            "Quantity": "40"
+        },
+        {
+            "Shelve_Location": "D2-09-03",
+            "Stock_Location": "PS-182236001044",
+            "SKU": "OFFtech-12/pro-pra",
+            "Quantity": "37"
+        },
+        {
+            "Shelve_Location": "D2-09-02",
+            "Stock_Location": "PS-182236000908",
+            "SKU": "VIVA-MSWALLET-VASBLU",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D2-09-02",
+            "Stock_Location": "PS-182236000910",
+            "SKU": "6287015690004",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D2-09-02",
+            "Stock_Location": "PS-182236000909",
+            "SKU": "LC-016-BLK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-09-02",
+            "Stock_Location": "PS-182236000930",
+            "SKU": "Offtech-13promax-p",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D2-09-02",
+            "Stock_Location": "PS-182236000929",
+            "SKU": "Offtech-13pro-p",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D2-09-01",
+            "Stock_Location": "PS-182236000893",
+            "SKU": "MagSafe-offtech",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-09-01",
+            "Stock_Location": "PS-182236000887",
+            "SKU": "air5",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-09-01",
+            "Stock_Location": "PS-182236000889",
+            "SKU": "8809461763477",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-09-01",
+            "Stock_Location": "PS-182236000894",
+            "SKU": "2712",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D2-09-01",
+            "Stock_Location": "PS-182236000888",
+            "SKU": "bmbh385adsd",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D2-08-03",
+            "Stock_Location": "PS-182236000951",
+            "SKU": "oud-mor",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-08-03",
+            "Stock_Location": "PS-182236000952",
+            "SKU": "oud-mor",
+            "Quantity": "53"
+        },
+        {
+            "Shelve_Location": "D2-08-03",
+            "Stock_Location": "PS-182236000953",
+            "SKU": "oud-mor",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "D2-08-03",
+            "Stock_Location": "PS-182236000954",
+            "SKU": "oud-mor",
+            "Quantity": "19"
+        },
+        {
+            "Shelve_Location": "D2-08-03",
+            "Stock_Location": "PS-182236000955",
+            "SKU": "rofi13-pro-p",
+            "Quantity": "18"
+        },
+        {
+            "Shelve_Location": "D2-08-03",
+            "Stock_Location": "PS-182236000956",
+            "SKU": "rofi13-pro-p",
+            "Quantity": "45"
+        },
+        {
+            "Shelve_Location": "D2-08-02",
+            "Stock_Location": "PS-182236000950",
+            "SKU": "Offtech-13pro-p",
+            "Quantity": "6"
+        },
+        {
+            "Shelve_Location": "D2-08-02",
+            "Stock_Location": "PS-182236000949",
+            "SKU": "IPH11PRO",
+            "Quantity": "23"
+        },
+        {
+            "Shelve_Location": "D2-08-02",
+            "Stock_Location": "PS-182236000948",
+            "SKU": "OFFtech-x-clear",
+            "Quantity": "21"
+        },
+        {
+            "Shelve_Location": "D2-08-02",
+            "Stock_Location": "PS-182236000947",
+            "SKU": "600039",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D2-08-02",
+            "Stock_Location": "PS-182236000945",
+            "SKU": "G3H0001BTW HT",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D2-08-01",
+            "Stock_Location": "PS-182236000944",
+            "SKU": "OFFtech-12-pra",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-08-01",
+            "Stock_Location": "PS-182236000943",
+            "SKU": "rofiproclear",
+            "Quantity": "7"
+        },
+        {
+            "Shelve_Location": "D2-08-01",
+            "Stock_Location": "PS-182236000941",
+            "SKU": "Offtech-13pro-c",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D2-08-01",
+            "Stock_Location": "PS-182236000940",
+            "SKU": "Offtech-13promax-c",
+            "Quantity": "14"
+        },
+        {
+            "Shelve_Location": "D2-08-01",
+            "Stock_Location": "PS-182236000939",
+            "SKU": "RP-PB070-BK",
+            "Quantity": "7"
+        },
+        {
+            "Shelve_Location": "D2-07-02",
+            "Stock_Location": "PS-182236000609",
+            "SKU": "61543431005",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "D2-07-02",
+            "Stock_Location": "PS-182236000610",
+            "SKU": "61543431005",
+            "Quantity": "5"
+        },
+        {
+            "Shelve_Location": "D2-07-02",
+            "Stock_Location": "PS-182236000607",
+            "SKU": "61543431931",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "D2-07-02",
+            "Stock_Location": "PS-182236000608",
+            "SKU": "61543431931",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D2-07-02",
+            "Stock_Location": "PS-182236000644",
+            "SKU": "61543431931",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D2-07-03",
+            "Stock_Location": "PS-182236000975",
+            "SKU": "OFFtech-iphonepro-clear",
+            "Quantity": "41"
+        },
+        {
+            "Shelve_Location": "D2-07-03",
+            "Stock_Location": "PS-182236001005",
+            "SKU": "OFFtech-12promax-pra",
+            "Quantity": "4"
+        },
+        {
+            "Shelve_Location": "D2-07-03",
+            "Stock_Location": "PS-182236000976",
+            "SKU": "OFFtech-12/pro-clear",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-07-03",
+            "Stock_Location": "PS-182236000914",
+            "SKU": "F7U096my04WHT",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-07-03",
+            "Stock_Location": "PS-182236000913",
+            "SKU": "4081-PWR-BOOST-10.4K-BLK-I",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-07-03",
+            "Stock_Location": "PS-182236000972",
+            "SKU": "OFFtech-promax-clear",
+            "Quantity": "43"
+        },
+        {
+            "Shelve_Location": "D2-07-03",
+            "Stock_Location": "PS-182236000971",
+            "SKU": "OFFtech-promax-clear",
+            "Quantity": "48"
+        },
+        {
+            "Shelve_Location": "D2-07-03",
+            "Stock_Location": "PS-182236000970",
+            "SKU": "OFFtech-promax-clear",
+            "Quantity": "12"
+        },
+        {
+            "Shelve_Location": "D2-07-01",
+            "Stock_Location": "PS-182236000963",
+            "SKU": "OFFtech-promax-clear",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-07-01",
+            "Stock_Location": "PS-182236000962",
+            "SKU": "59912PBLU",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D2-07-01",
+            "Stock_Location": "PS-182236000961",
+            "SKU": "bpb011btbk",
+            "Quantity": "19"
+        },
+        {
+            "Shelve_Location": "D2-07-01",
+            "Stock_Location": "PS-182236000960",
+            "SKU": "59913PLM",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D2-07-01",
+            "Stock_Location": "PS-182236000959",
+            "SKU": "5056114985547",
+            "Quantity": "10"
+        },
+        {
+            "Shelve_Location": "D2-07-01",
+            "Stock_Location": "PS-182236000958",
+            "SKU": "8719186015402",
+            "Quantity": "9"
+        },
+        {
+            "Shelve_Location": "D2-06-03",
+            "Stock_Location": "PS-182236000989",
+            "SKU": "4807",
+            "Quantity": "32"
+        },
+        {
+            "Shelve_Location": "D2-06-03",
+            "Stock_Location": "PS-182236000990",
+            "SKU": "4807",
+            "Quantity": "25"
+        },
+        {
+            "Shelve_Location": "D2-06-03",
+            "Stock_Location": "PS-182236001163",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D2-06-03",
+            "Stock_Location": "PS-182236001162",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D2-06-03",
+            "Stock_Location": "PS-182236001161",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D2-06-03",
+            "Stock_Location": "PS-182236001160",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D2-06-02",
+            "Stock_Location": "PS-182236001151",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D2-06-02",
+            "Stock_Location": "PS-182236000987",
+            "SKU": "OFFtech-12mini--clear",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-06-02",
+            "Stock_Location": "PS-182236001159",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D2-06-02",
+            "Stock_Location": "PS-182236000994",
+            "SKU": "OFFtach-sterile",
+            "Quantity": "3"
+        },
+        {
+            "Shelve_Location": "D2-06-01",
+            "Stock_Location": "PS-182236000978",
+            "SKU": "OFFtech-12-pra",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-06-01",
+            "Stock_Location": "PS-182236001156",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D2-06-01",
+            "Stock_Location": "PS-182236001157",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D2-06-01",
+            "Stock_Location": "PS-182236001158",
+            "SKU": "LC-043-BK",
+            "Quantity": "80"
+        },
+        {
+            "Shelve_Location": "D2-05-03",
+            "Stock_Location": "PS-182236000926",
+            "SKU": "4802",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "D2-05-03",
+            "Stock_Location": "PS-182236000925",
+            "SKU": "RP-PB169-BK",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-05-03",
+            "Stock_Location": "PS-182236001015",
+            "SKU": "4799",
+            "Quantity": "12"
+        },
+        {
+            "Shelve_Location": "D2-05-02",
+            "Stock_Location": "PS-182236001002",
+            "SKU": "2100000027712",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-05-02",
+            "Stock_Location": "PS-182236001003",
+            "SKU": "ZID1005PK",
+            "Quantity": "160"
+        },
+        {
+            "Shelve_Location": "D2-05-02",
+            "Stock_Location": "PS-182236001004",
+            "SKU": "ZID1004",
+            "Quantity": "56"
+        },
+        {
+            "Shelve_Location": "D2-05-02",
+            "Stock_Location": "PS-182236000927",
+            "SKU": "ZID1005BLK",
+            "Quantity": "151"
+        },
+        {
+            "Shelve_Location": "D2-05-01",
+            "Stock_Location": "PS-182236000341",
+            "SKU": "4808",
+            "Quantity": "59"
+        },
+        {
+            "Shelve_Location": "D2-05-01",
+            "Stock_Location": "PS-182236000996",
+            "SKU": "4806",
+            "Quantity": "48"
+        },
+        {
+            "Shelve_Location": "D2-05-01",
+            "Stock_Location": "PS-182236000997",
+            "SKU": "4799",
+            "Quantity": "22"
+        },
+        {
+            "Shelve_Location": "D2-05-01",
+            "Stock_Location": "PS-182236000998",
+            "SKU": "OFFTECH-12PROMAX-PARA",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-05-01",
+            "Stock_Location": "PS-182236000999",
+            "SKU": "JBLQUANTUM100BLU",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-05-01",
+            "Stock_Location": "PS-182236001000",
+            "SKU": "4799",
+            "Quantity": "24"
+        },
+        {
+            "Shelve_Location": "D2-04-03",
+            "Stock_Location": "PS-182236000765",
+            "SKU": "6920201215161",
+            "Quantity": "8"
+        },
+        {
+            "Shelve_Location": "D2-04-01",
+            "Stock_Location": "PS-182236001024",
+            "SKU": "316",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-04-01",
+            "Stock_Location": "PS-182236001026",
+            "SKU": "DC1.14303",
+            "Quantity": "1"
+        },
+        {
+            "Shelve_Location": "D2-04-01",
+            "Stock_Location": "PS-182236001023",
+            "SKU": "323",
+            "Quantity": "2"
+        },
+        {
+            "Shelve_Location": "D2-03-02",
+            "Stock_Location": "PS-182236001030",
+            "SKU": "BSV604ar2M",
+            "Quantity": "42"
+        },
+        {
+            "Shelve_Location": "D2-03-03",
+            "Stock_Location": "PS-182236001031",
+            "SKU": "BSV604ar2M",
+            "Quantity": "50"
+        },
+        {
+            "Shelve_Location": "D2-04-03",
+            "Stock_Location": "PS-182236000148",
+            "SKU": "6920210515160",
+            "Quantity": "2"
+        }
+    ]
+}
