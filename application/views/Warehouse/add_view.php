@@ -58,6 +58,10 @@
                                                 <label><?= lang('lang_Warehouse_Name'); ?></label>
                                                 <input type="text" class="form-control" id="company" name="name" value="<?php if (!empty($editdata)) echo $editdata['name']; ?>" required/>
                                             </div>
+                                            <div class="form-group">
+                                                <label><?= lang('lang_Address'); ?></label>
+                                                <input type="text" class="form-control" id="wh_address" name="wh_address" value="<?php if (!empty($editdata)) echo $editdata['wh_address']; ?>" required/>
+                                            </div>
                                             <?php
                                             $city_ids=array();
                                             $weekendArr = array();

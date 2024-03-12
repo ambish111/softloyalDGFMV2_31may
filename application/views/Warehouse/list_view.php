@@ -69,7 +69,9 @@ echo '<div class="alert alert-success">'.$this->session->flashdata('msg').' <but
                   <tr>
                   <th><?=lang('lang_SrNo');?>.</th>
                     <th><?=lang('lang_Warehouse_Name');?></th>
+                    <th ><?=lang('lang_Address');?></th>
                     <th ><?=lang('lang_City');?></th>
+                    
                        <th><?=lang('lang_Action');?></th>
                    
                     
@@ -83,6 +85,7 @@ echo '<div class="alert alert-success">'.$this->session->flashdata('msg').' <but
                       <tr>
                       <td><?= $sr;?></td>
                       <td><?= $seller->name; ?></td>
+                      <td><?= $seller->wh_address; ?></td>
                      
                       <td><?= getdestinationfieldshow_array(implode(',',json_decode($seller->city_id)),'city'); ?></td> 
                      <td class="text-center">
