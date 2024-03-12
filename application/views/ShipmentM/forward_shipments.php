@@ -16,7 +16,7 @@
 
 
         <!-- Page container -->
-        <div class="page-container" ng-controller="forward_shipment_view" ng-init="loadMore(1, 0);" >
+        <div class="page-container" ng-controller="forward_shipment_view" ng-init="loadMore(1, 0); GetWarehouselistDrop();" >
 
             <!-- Page content -->
             <div class="page-content">
@@ -396,7 +396,8 @@
                                                     <tbody >
                                                         <tr style="width: 100%;">
                                                             <td>
-                                                                <div class="form-group" ><strong><?=lang('lang_Please_Select');?> <?=lang('lang_Client');?>:</strong>
+                                                                <div class="form-group" ><strong><?=lang('lang_Please_Select');?> <?=lang('lang_Client');?>:
+                                                                </strong>
 
                                                                     <select  id="cc_id" ng-model="userselected.cc_id"  class="form-control"  >
 
@@ -406,6 +407,23 @@
                                                                             echo'<option value="' . $val['cc_id'] . '">' . $val['company'] . '</option>';
                                                                         }
                                                                         ?>
+                                                                    </select>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="form-group" ><strong><?=lang('lang_warehouse');?>:</strong>
+                                                                    <?php
+                                                                    $whData = Getwarehouse_Dropdata();
+
+                                                                    //print_r($destData);
+                                                                    ?>
+                                                                     <select  id="id" ng-model="userselected.id"  class="form-control"  >
+
+                                                                        <option value=""><?=lang('lang_Selectwarehousename');?></option>
+                                                                        <?php foreach ($whData as $data): ?>
+                                                                            <option value="<?= $data['id']; ?>"><?= $data['name']; ?></option>
+                                                                        <?php endforeach; ?>
+
                                                                     </select>
                                                                 </div>
                                                             </td>
