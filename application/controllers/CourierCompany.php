@@ -325,7 +325,7 @@ class CourierCompany extends MY_Controller
         $CURRENT_DATE = date('Y-m-d H:i:s');
         $box_pieces1 = $postData['box_pieces'];
         $comment = $postData['comment'];
-        // print_r($postData); 
+        // print_r($postData); die;
 
         $CURRENT_TIME = date('H:i:s');
         $CURRENT_DATE = date('Y-m-d H:i:s');
@@ -345,6 +345,8 @@ class CourierCompany extends MY_Controller
             if (!empty($postData['slip_arr']) && !empty($postData['otherArr'])) {
                 $shipmentLoopArray = $postData['slip_arr'];
                 $postData['cc_id'] = $postData['otherArr']['cc_id'];
+                $postData['id'] = $postData['otherArr']['id'];
+
             } else {
                 $slipData = explode("\n", $postData['slip_no']);
                 $shipmentLoopArray = array_unique($slipData);
@@ -537,7 +539,7 @@ class CourierCompany extends MY_Controller
  
                         if($super_id == 333)
                         {  
-                          
+                            $warehouse_id = $postData['id'];
                              $wh_address =  $this->Ccompany_model->Warehouse_field($warehouse_id); 
                              $wh_city = json_decode($wh_address['city_id'], true);                    
                              $sender_address =  $wh_address['wh_address'] ;
