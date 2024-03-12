@@ -47,6 +47,9 @@ class Ccompany_model extends CI_Model {
         }
     }
 
+
+ 
+
     public function GetUpdateDeliveryCOmpany($data = array(), $data_w) {
         return $this->db->update('courier_company', $data, $data_w);
         //echo $this->db->last_query();
@@ -58,6 +61,34 @@ class Ccompany_model extends CI_Model {
         //echo $this->db->last_query();
         //die;
     }
+
+   
+    public  function Warehouse_field($id = null) {
+           
+        $this->db->where('super_id', $this->session->userdata('user_details')['super_id']);
+        $this->db->select('id,name,city_id,wh_address');
+        $this->db->from('warehouse_m');
+        $this->db->where('id', $id);
+        $query = $this->db->get();
+        // echo $this->db->last_query();exit;
+        return $query->row_array();
+        }
+    
+   
+    
+
+    public function GetWarehouselistDrop() {
+
+        $this->db->where('super_id', $this->session->userdata('user_details')['super_id']);
+        $this->db->select('id,name,city_id,wh_address');
+        $this->db->from('warehouse_m');
+        $this->db->where('deleted', 'N');
+        $query = $this->db->get();
+        //echo $this->db->last_query();exit;
+        return $query->result_array();
+    }
+
+
 
     public function GetCompanylistDropQry() {
 
@@ -10279,8 +10310,8 @@ public function DhlJonesArray($sellername = null, array $ShipArr, array $counrie
 
     public function ShipsyDataArray($sellername =null, $ShipArr =array(), $counrierArr =array(), $c_id=null, $box_pieces1=null, $complete_sku=null, $super_id=null){
 
-        
-        
+        // echo "<pre>"; 
+        //   print_r($ShipArr);die;
         $api_url = $counrierArr['api_url']."softdata";
          
         $xapi = $counrierArr['auth_token'];
@@ -10305,7 +10336,16 @@ public function DhlJonesArray($sellername = null, array $ShipArr, array $counrie
             $senderphone = $ShipArr['sender_phone'];
             $senderemail = $ShipArr['sender_email'];
         }
+
+        // echo " store_address = ".  $store_address. $label_info_from; die; 
+        //  echo "<pre>"; 
+        //   print_r($ShipArr);die;
         
+
+
+
+
+
         if(!empty($ShipArr['label_sender_name'])){
             $sellername =  $ShipArr['label_sender_name'];    
             if($counrierArr['wharehouse_flag'] =='Y'){

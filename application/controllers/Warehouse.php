@@ -52,6 +52,7 @@ class Warehouse extends MY_Controller {
             $unique_acc_mp = uniqid();
             $data = array(
                 'name' => $this->input->post('name'),
+                'wh_address' => $this->input->post('wh_address'),
                 'city_id' => json_encode($this->input->post('city_id')),
                 'super_id' => $this->session->userdata('user_details')['super_id'],
             );
@@ -142,6 +143,7 @@ class Warehouse extends MY_Controller {
         $id = $this->input->post('id');
         $customer_info = array(
             'name' => $this->input->post('name'),
+            'wh_address' => $this->input->post('wh_address'),
             'city_id' => json_encode($this->input->post('city_id'))
         );
 

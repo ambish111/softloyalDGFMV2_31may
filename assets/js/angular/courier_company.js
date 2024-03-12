@@ -2,6 +2,7 @@ var app = angular.module('CourierAppPage', [])
         .controller('CourierComapnyCRL', function ($scope, $http, $window, $location) {
             $scope.baseUrl = new $window.URL($location.absUrl()).origin;
             $scope.CompanyListArr = {};
+          
             $scope.EditDataArr = {};
             $scope.UpdateStatusArr = {};
             $scope.UpdateliveArr = {};
@@ -11,6 +12,7 @@ var app = angular.module('CourierAppPage', [])
             $scope.webhookListArr = [];
 
             $scope.DeliveryDropArr = {};
+            $scope.WarehouseDropArr = {};
             $scope.userselected = {};
             $scope.awbArray = [];
             $scope.scan = {};
@@ -34,6 +36,7 @@ var app = angular.module('CourierAppPage', [])
 
 
             };
+        
 
             $scope.BulkForwardCompanyNew = function ()
             {
@@ -113,10 +116,27 @@ var app = angular.module('CourierAppPage', [])
 
                 });
 
+            };
 
+            $scope.GetWarehouselistDrop = function ()
+            {
+                $http({
+                    url: URLBASE + "CourierCompany/GetWarehouselistDrop",
+                    method: "POST",
+                    data: $scope.UpdateStatusArr,
+                    headers: {'Content-Type': 'application/x-www-form-urlencoded'}
 
+                }).then(function (response) {
+
+                    $scope.WarehouseDropArr = response.data;
+
+                });
 
             };
+
+
+
+
 
             $scope.webhookcourier = function (page_no, reset) {
                 $scope.filterData.cc_id;
