@@ -14,7 +14,7 @@
         <?php $this->load->view('include/main_navbar'); ?>
 
         <!-- Page container -->
-        <div class="page-container"  ng-controller="CourierComapnyCRL" ng-init="GetCompanylistDrop();"> 
+        <div class="page-container"  ng-controller="CourierComapnyCRL" ng-init="GetCompanylistDrop(); GetWarehouselistDrop();"> 
 
             <!-- Page content -->
             <div class="page-content">
@@ -99,6 +99,17 @@
                                                         </select>  
                                                     </div>
                                                 </div>
+                                                <?php   if( $this->session->userdata('user_details')['super_id'] == 333 ); ?>
+                                                <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label>Select Warehouse  </label><br />
+
+                                                    <select class="select2  form-control" ng-model="userselected.id" style="word-wrap: break-word; width:100% !important" data-placeholder="Choose warehouse" required="">
+
+                                                        <option ng-repeat="d_data in WarehouseDropArr" value="{{d_data.id}}">{{d_data.name}}</option>
+                                                    </select>
+                                                </div></div>
+                                            <?php ?> 
                                                 <div class="col-md-3" ng-if="company_id.cc_id == 95">  
                                                     <div class="form-group" style="text-align:center;">
                                                         <label for="open_package_flag"><strong>Open Package Flag:</strong></label><br />
