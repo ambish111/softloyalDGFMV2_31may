@@ -90,10 +90,15 @@ class Zid_v2 extends CI_Controller {
         $zid_authorization = $customers['zid_authorization'];
 
         $order_status = $customers['zid_status'];
-        // if(empty($order_status))
-        // {
-        //     $order_status="ready";
-        // }
+        if(empty($order_status))
+        {
+            $order_status="ready";
+        }
+        if($Order['order_status']['code']=='ready' && $order_status=='new')
+        {
+            $order_status="ready";
+
+        }
 
         // if($order_status==$Order['order_status']['code'])
         // {
@@ -132,7 +137,7 @@ class Zid_v2 extends CI_Controller {
                     $result1['order'] = $Order;
                     // echo $result1['order']['order_status']['code']."rrr"; 
     
-                    if ($result1['order']['order_status']['code'] == 'new' || $result1['order']['order_status']['code'] == 'ready') {
+                    if ($result1['order']['order_status']['code'] == $order_status) {
     
                         //echo "ss";
     
