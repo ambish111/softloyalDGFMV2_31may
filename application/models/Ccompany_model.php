@@ -3731,7 +3731,7 @@ class Ccompany_model extends CI_Model {
  public function NaqelArray($sellername = null ,array $ShipArr, array $counrierArr, $complete_sku = null, $box_pieces1 = null, $Auth_token = null, $c_id = null,$super_id) 
  {  
            //$sender_address = $ShipArr['sender_address'];
-
+//     print "<pre>"; print_r($ShipArr);die;
         $label_info_from = GetallCutomerBysellerId($ShipArr['cust_id'],'label_info_from');
         if($label_info_from == '1'){
         

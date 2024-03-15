@@ -342,7 +342,8 @@ class CourierCompany extends MY_Controller
             //  print_r($shipmentLoopArray);exit; 
         } else {
             $super_id = $this->session->userdata('user_details')['super_id'];
-            if (!empty($postData['slip_arr']) && !empty($postData['otherArr'])) {
+            if (!empty($postData['slip_arr']) && !empty($postData['otherArr'])) 
+            {
                 $shipmentLoopArray = $postData['slip_arr'];
                 $postData['cc_id'] = $postData['otherArr']['cc_id'];
                 $postData['id'] = $postData['otherArr']['id'];
@@ -540,12 +541,17 @@ class CourierCompany extends MY_Controller
                         if($super_id == 333)
                         {  
                             $warehouse_id = $postData['id'];
-                             $wh_address =  $this->Ccompany_model->Warehouse_field($warehouse_id); 
-                             $wh_city = json_decode($wh_address['city_id'], true);                    
-                             $sender_address =  $wh_address['wh_address'] ;
+                            $wh_address =  $this->Ccompany_model->Warehouse_field($warehouse_id); 
+                            $wh_city = json_decode($wh_address['city_id'], true);                    
+                            $sender_address =  $wh_address['wh_address'] ;
                             $sender_origin = $wh_city[0];
-                         
-                        }   
+                        } 
+                        else 
+                        {
+                            $sender_address =  $sender_address;
+                            $sender_origin = $sender_origin; 
+                        }
+
 
 
                         if ($super_id == 271) {
