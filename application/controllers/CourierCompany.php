@@ -1162,7 +1162,22 @@ class CourierCompany extends MY_Controller
                 $return = array('status' => 201, 'error' => $returnArr);
                 return $return;
             }
-        } elseif ($company == 'Safearrival') {
+        } 
+        elseif($company == 'PDC-EG'){
+            // echo "djsfkjsdgf"; die; 
+            $this->load->helper('pdceg');
+            $responseArr = ForwardToPDC($ShipArr, $counrierArr,  $c_id , $box_pieces1, $complete_sku, $super_id,$pay_mode);
+            if ($responseArr['status'] == 'true'){
+                $return= array('status'=>200,'label'=> $responseArr['fastcoolabel'],'client_awb'=>$responseArr['client_awb']); 
+                return $return;
+            }else{
+                $returnArr['responseError'][] = $slipNo . ':' .$responseArr['msg'];
+                $return= array('status'=>201,'error'=> $returnArr);
+                return $return;
+            } 
+        }
+        
+        elseif ($company == 'Safearrival') {
 
             $charge_items = array();
             $Auth_response = SafeArrival_Auth_cURL($counrierArr);

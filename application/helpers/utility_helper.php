@@ -1642,9 +1642,9 @@ if (!function_exists('PrintPiclist3PL_bulk')) {
                     //  echo '<pre> twewt'.$forwardCompany. "    ". $slip_no; die; 
 //                    echo $forwardCompany;die;
                     // echo filesize("assets/all_labels/" . $slip_no . ".pdf")."//".$forwardCompany; die; 
-                    if ( $forwardCompany == 'Thabit' || $forwardCompany == 'GLT' || $forwardCompany == 'J&T EG' || $forwardCompany == 'Tamex' || $forwardCompany == 'Aramex' || $forwardCompany == 'Smsa' || $forwardCompany == 'Labaih' || $forwardCompany == 'Shipadelivery' || $forwardCompany == 'Barqfleet' || $forwardCompany == 'Bosta V2' || $forwardCompany == 'KwickBox'  || $forwardCompany == 'J&T' || $forwardCompany == 'IMile' || $forwardCompany == 'Saudi Post' || $forwardCompany == 'Aramex International' || $forwardCompany == 'Aymakan' || $forwardCompany == 'Bawani' || $forwardCompany == 'Beez' || $forwardCompany == 'Bosta' || $forwardCompany == 'Clex' || $forwardCompany == 'Dots' || $forwardCompany == 'FDA' || $forwardCompany == 'Flamingo' || $forwardCompany == 'FLOW'  || $forwardCompany == 'Kasib Logistic' || $forwardCompany == 'Kudhha' || $forwardCompany == 'LAFASTA' || $forwardCompany == 'Lastpoint' || $forwardCompany == 'Mahmool' || $forwardCompany == 'Makhdoom' || $forwardCompany == 'Makhdoom V2' || $forwardCompany == 'MMCCO' ||  $forwardCompany == 'Saee' || $forwardCompany == 'SMB COLD' ||$forwardCompany == 'SMB' ||  $forwardCompany == 'SMSA International' || $forwardCompany == 'SpeedAF'  || $forwardCompany == 'UPS' ||  $forwardCompany == 'Business Flow' ||  $forwardCompany == 'Sprint' || $forwardCompany == 'Shipadelivery v2' || $forwardCompany == 'Ajex' || $forwardCompany == 'Saudi Hajer' || $forwardCompany == 'Nashmi' || $forwardCompany == 'DRB Logistics') 
+                    if ( $forwardCompany == 'Thabit' || $forwardCompany == 'GLT' || $forwardCompany == 'J&T EG' || $forwardCompany == 'Tamex' || $forwardCompany == 'Aramex' || $forwardCompany == 'Smsa' || $forwardCompany == 'Labaih' || $forwardCompany == 'Shipadelivery' || $forwardCompany == 'Barqfleet' || $forwardCompany == 'Bosta V2' || $forwardCompany == 'KwickBox'  || $forwardCompany == 'J&T' || $forwardCompany == 'IMile' || $forwardCompany == 'Saudi Post' || $forwardCompany == 'Aramex International' || $forwardCompany == 'Aymakan' || $forwardCompany == 'Bawani' || $forwardCompany == 'Beez' || $forwardCompany == 'Bosta' || $forwardCompany == 'Clex' || $forwardCompany == 'Dots' || $forwardCompany == 'FDA' || $forwardCompany == 'Flamingo' || $forwardCompany == 'FLOW'  || $forwardCompany == 'Kasib Logistic' || $forwardCompany == 'Kudhha' || $forwardCompany == 'LAFASTA' || $forwardCompany == 'Lastpoint' || $forwardCompany == 'Mahmool' || $forwardCompany == 'Makhdoom' || $forwardCompany == 'Makhdoom V2' || $forwardCompany == 'MMCCO' ||  $forwardCompany == 'Saee' || $forwardCompany == 'SMB COLD' ||$forwardCompany == 'SMB' ||  $forwardCompany == 'SMSA International' || $forwardCompany == 'SpeedAF'  || $forwardCompany == 'UPS' ||  $forwardCompany == 'Business Flow' ||  $forwardCompany == 'Sprint' || $forwardCompany == 'Shipadelivery v2' || $forwardCompany == 'Ajex' || $forwardCompany == 'Saudi Hajer' || $forwardCompany == 'Nashmi' || $forwardCompany == 'DRB Logistics' || $forwardCompany=='J&T Reverse') 
                     {
-                        // unlink("assets/all_labels/" . $slip_no . ".pdf"); //die;
+//                         unlink("assets/all_labels/" . $slip_no . ".pdf"); //die;
                         //    echo '<pre> twewt'.filesize("assets/all_labels/" . $slip_no . ".pdf"); die; 
                         
                             // echo '<pre> twewt'.$forwardCompany. "    ". $slip_no; die; 
@@ -1697,8 +1697,8 @@ if (!function_exists('PrintPiclist3PL_bulk')) {
                            
 
 
-                            if ($forwardCompany == 'J&T') {
-                                // echo "hjkhjk".$awb_no; die;
+                            if ($forwardCompany == 'J&T' || $forwardCompany == 'J&T Reverse') {
+//                                print "<pre>"; print_r($counrierArr);die;
                                 $ci->load->helper('jt');
                                 $lable = JandTLabel($counrierArr,$awb_no);
                             }

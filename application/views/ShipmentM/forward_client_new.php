@@ -99,7 +99,7 @@
                                                         </select>  
                                                     </div>
                                                 </div>
-                                                <?php   if( $this->session->userdata('user_details')['super_id'] == 333 ); ?>
+                                                <?php   if( $this->session->userdata('user_details')['super_id'] == 333 ){ ?>
                                                 <div class="col-md-3">
                                                 <div class="form-group">
                                                     <label>Select Warehouse  </label><br />
@@ -109,7 +109,7 @@
                                                         <option ng-repeat="d_data in WarehouseDropArr" value="{{d_data.id}}">{{d_data.name}}</option>
                                                     </select>
                                                 </div></div>
-                                            <?php ?> 
+                                            <?php } ?> 
                                                 <div class="col-md-3" ng-if="company_id.cc_id == 95">  
                                                     <div class="form-group" style="text-align:center;">
                                                         <label for="open_package_flag"><strong>Open Package Flag:</strong></label><br />
