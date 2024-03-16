@@ -410,6 +410,7 @@
                                                                     </select>
                                                                 </div>
                                                             </td>
+                                                            <?php   if( $this->session->userdata('user_details')['super_id'] == 333 ){ ?>
                                                             <td>
                                                                 <div class="form-group" ><strong><?=lang('lang_warehouse');?>:</strong>
                                                                     <?php
@@ -427,6 +428,7 @@
                                                                     </select>
                                                                 </div>
                                                             </td>
+                                                            <?php }?> 
                                                             <td>
                                                                 <div class="form-group" ><strong>Pieces:</strong>
 

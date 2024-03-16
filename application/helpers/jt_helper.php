@@ -249,6 +249,7 @@ function JandTArr($sellername=null,$ShipArr= array(), $counrierArr= array(), $c_
 }
 
 function JandTLabel($counrierArr = array(),$client_awb =null){
+    
     $key = $counrierArr['auth_token']; //"a0a1047cce70493c9d5d29704f05d0d9";
     $account= $counrierArr['courier_account_no'];//"292508153084379141";
     $customerCode = $counrierArr['courier_pin_no'];//'J0086024173';
@@ -256,13 +257,14 @@ function JandTLabel($counrierArr = array(),$client_awb =null){
 
     // print_r($counrierArr); die; 
 
-      $print_url = $counrierArr['api_url'].'printOrder?uuid=a6363164b1cb4a2da8edc51c35105f1e';
+      $print_url = $counrierArr['api_url'].'printOrder';
+//      echo $print_url ;die;
     //$print_url = 'https://demoopenapi.jtjms-eg.com/webopenplatformapi/api/order/printOrder?uuid=a6363164b1cb4a2da8edc51c35105f1e';
 
-    $print_info='{"billCode": "'.$client_awb.'"}';
+        $print_info='{"billCode": "'.$client_awb.'"}';
 
       $labelResult = print_order_label($customerCode,$pwd,$key,$account,$print_info,$print_url);
-
+//      echo $labelResult;die;
     return $labelResult;
 }
 

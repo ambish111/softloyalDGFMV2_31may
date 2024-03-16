@@ -102,7 +102,7 @@
                                             </div>
                                           
                                      
-                                              <?php   if( $this->session->userdata('user_details')['super_id'] == 333 ); ?>
+                                              <?php if($this->session->userdata('user_details')['super_id'] == 333 ) { ?>
                                                 <div class="col-md-3">
                                                 <div class="form-group">
                                                     <label>Select Warehouse  </label><br />
@@ -112,7 +112,7 @@
                                                         <option ng-repeat="d_data in WarehouseDropArr" value="{{d_data.id}}">{{d_data.name}}</option>
                                                     </select>
                                                 </div></div>
-                                            <?php ?> 
+                                            <?php } ?> 
                                             <div class="col-md-3">
                                                 <div class="form-group"><strong><?= lang('lang_Pieces'); ?>:</strong>
 
