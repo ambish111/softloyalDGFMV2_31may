@@ -4819,11 +4819,18 @@ class Ccompany_model extends CI_Model {
                 $sellername = $sellername ." - ". site_configTable('company_name'); 
             }
         }
+        
+        
 
     
 
         if($ShipArr['cust_id'] == 305){
             $sellername = $ShipArr['shipment_seller_name']." - ".site_configTableSuper_id("company_name",$super_id);
+        }
+        
+        if($super_id == 333){
+            $customer_email = "";
+            $sender_phone = $ShipArr['sender_phone'];
         }
         // echo $sellername;die;
     

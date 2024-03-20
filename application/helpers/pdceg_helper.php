@@ -16,9 +16,11 @@ function ForwardToPDC($ShipArr = array(), $counrierArr = array(), $c_id = null, 
         $reciver_governorate = getdestinationfieldshow_auto_array($ShipArr['destination'], 'pdc_governorate', $super_id);
         // print_r($reciever_country_code);die;
         $box_pieces = empty($box_pieces1) ? 1 : $box_pieces1;
-        if ($ShipArr['weight'] >= 0 && $ShipArr['weight'] <= 0.99) {
+        if ($ShipArr['weight'] >= 0 && $ShipArr['weight'] <= 0.99)
+        {
             $weight = 1;
-        } else {
+        } else 
+        {
             $weight = $ShipArr['weight'];
         }
         if ($pay_mode == 'CC') {
@@ -67,7 +69,7 @@ function ForwardToPDC($ShipArr = array(), $counrierArr = array(), $c_id = null, 
                     "toAddress" => $ShipArr['reciever_address'],
                     "productType" => $counrierArr['account_entity_code'],
                     "serviceType" => $counrierArr['service_code'],
-                    "additionalServices" => "Next Day Delivery",
+                    "additionalServices" => "Next Day Delivery", //as per client said 
                     "shipToName" => $ShipArr['reciever_name'],
                     "shipToPhone" => $recieverphone,
                     "shipToEmail" => $ShipArr['reciever_email'],
@@ -126,7 +128,7 @@ function ForwardToPDC($ShipArr = array(), $counrierArr = array(), $c_id = null, 
             $fastcoolabel = base_url() . 'assets/all_labels/' . $slipNo . '.pdf';
             $return_array = array("status" => "true", "client_awb" => $client_awb, "fastcoolabel" => $fastcoolabel);
 
-        } elseif(empty($responseArray['result']['summary'])) {
+        } elseif(empty($responseArray['result']['summary'][0])) {
             $successstatus = "Fail";
             $return_array = array("status" => "false", "msg" => $responseArray['errors'][0]);
         } else {
