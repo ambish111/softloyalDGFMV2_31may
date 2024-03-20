@@ -53,6 +53,7 @@ Class Backorder extends CI_Controller {
     }
 
     public function checkBackOrders($super_id) {
+        
        //echo json_encode('super_id:'. $this->session->userdata('user_details')['super_id']=$super_id );
        // exit;
         if( $this->session->userdata('user_details')['wh_id']>0)
@@ -80,6 +81,8 @@ Class Backorder extends CI_Controller {
         
         $key_color = null;
         foreach ($sku_details as $key_s => $rows) {
+            
+            $reason = "";
               $started = microtime(true);
             if(empty($total_stock[$rows['sku']]))
              $total_stock[$rows['sku']] = $this->Backorder_model->getcheckSku($rows['sku'],$val['cust_id'],$super_id,$whid);
@@ -97,6 +100,7 @@ Class Backorder extends CI_Controller {
             $this->Backorder_model->updateDiaBatch(array('slip_no'=>$val['slip_no'],'sku'=>$rows['sku'],'back_reason'=>'Sku Not Available' ),$super_id);
            
             array_push($backOrdersSlip,array('slip_no'=>$val['slip_no'],'backorder'=>'1' ));
+            $reason = 'Move into backorder due to Sku ['.$rows['sku'].'] Not Found';
          }
          else
          {
@@ -106,6 +110,8 @@ Class Backorder extends CI_Controller {
             $this->Backorder_model->updateDiaBatch(array('slip_no'=>$val['slip_no'],'sku'=>$rows['sku'],'back_reason'=>'Out Of Stock' ),$super_id);
            
             array_push($backOrdersSlip,array('slip_no'=>$val['slip_no'],'backorder'=>'1' ));
+            
+            $reason = 'Move into backorder due to sku ['.$rows['sku'].'] Out Of Stock';
             
            }
            else
@@ -119,10 +125,25 @@ Class Backorder extends CI_Controller {
                 
                 array_push($backOrdersSlip,array('slip_no'=>$val['slip_no'],'backorder'=>'0' ));
                 array_push($backOrdersDia,$val['slip_no']);
+                $reason = 'Remove From backorder due to sku ['.$rows['sku'].'] Stock Available';
             }
            }
          }
+         
         }
+        
+        
+        $StatusArray[$key]['slip_no'] = $val['slip_no'];
+        $StatusArray[$key]['new_status'] = 11;
+        $StatusArray[$key]['pickup_time'] = date("H:i:s");
+        $StatusArray[$key]['pickup_date'] = date("Y-m-d H:i:s");
+        $StatusArray[$key]['Details'] = $reason;
+        $StatusArray[$key]['Activites'] = "Back Order";
+        $StatusArray[$key]['entry_date'] = date("Y-m-d H:i:s");
+        $StatusArray[$key]['user_id'] = $this->session->userdata('user_details')['user_id'];
+        $StatusArray[$key]['user_type'] = 'fulfillment';
+        $StatusArray[$key]['code'] = 'OG';
+        $StatusArray[$key]['super_id'] = $super_id;
 
      }
      if(!empty($backOrdersSlip))
@@ -146,8 +167,11 @@ Class Backorder extends CI_Controller {
          
 
        array_values($backOrdersSlip);
-        // print_r( $backOrdersSlip);
+//        print "<pre>"; print_r( $StatusArray);die;
       $this->Backorder_model->updateShipBatch($backOrdersSlip,$super_id); 
+      if(!empty($StatusArray)){
+          $this->Shipment_model->destinationStatusAdd($StatusArray);
+      }
       //$this->Backorder_model->updateShipBatch_dimension($backOrdersDia,$super_id); 
       //  $this->Backorder_model->updateDiaBatch($backOrdersDia,$super_id);  
 

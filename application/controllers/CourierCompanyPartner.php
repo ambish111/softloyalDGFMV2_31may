@@ -1133,7 +1133,23 @@ class CourierCompanyPartner extends MY_Controller
                 $return = array('status' => 201, 'error' => $returnArr);
                 return $return;
             }
-        } elseif ($company == 'Safearrival') {
+        } 
+        elseif( $company == 'TD Logistics' ) //shipsy 3pl company
+        { 
+            $this->load->helper('shipsy'); 
+            $responseArr = ForwardToshipsy($ShipArr, $counrierArr,  $c_id , $box_pieces1, $complete_sku, $super_id,$pay_mode);
+
+
+            if ($responseArr['error'] == "false"){
+                $return= array('status'=>200,'label'=> $responseArr['data']['fastcoolabel'],'client_awb'=>$responseArr['data']['client_awb']); 
+                return $return;
+            }else{
+                $returnArr['responseError'][] = $slipNo . ':' .$responseArr['msg'];
+                $return= array('status'=>201,'error'=> $returnArr);
+                return $return;
+            } 
+        }
+        elseif ($company == 'Safearrival') {
 
             $charge_items = array();
             $Auth_response = SafeArrival_Auth_cURL($counrierArr);
