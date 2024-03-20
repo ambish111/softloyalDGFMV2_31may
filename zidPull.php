@@ -101,7 +101,7 @@ class Zid {
     }
 
     public function pushOrder($cust_id=null) {
-
+//        echo "select * from customer where  uniqueid='".$cust_id."'  ";die;
         $listingQry = $this->db->query("select * from customer where  uniqueid='".$cust_id."'  ");
     
 while( $customer_data=$listingQry->fetch_array())
@@ -129,7 +129,7 @@ while( $customer_data=$listingQry->fetch_array())
        $cURL = $this->store_link . "managers/store/orders?per_page=100&order_status=".$zid_status;
 //       echo $cURL;die;
         $result1 = $this->OrderCount($cURL, $this->athentication, $manager_token, $user_Agent, 0);
-//        echo '<pre>xxxx'; print_r($result1); exit;
+
         $PageCount = $result1 / 100;
         $PageCount = ceil($PageCount);
 

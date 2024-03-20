@@ -1755,6 +1755,12 @@ class Excel_export extends MY_Controller {
                                 $dynmicColumn = 'drb_logistics_city';
                             if ($colimn == 'Saudi Hajer V2') 
                                 $dynmicColumn = 'rozx_city';
+                            if ($colimn == 'PDC-EG Governorate') 
+                                $dynmicColumn = 'pdc_governorate';
+                            if ($colimn == 'PDC-EG Region') 
+                                $dynmicColumn = 'pdc_region';
+                            if ($colimn == 'PDC-EG') 
+                                $dynmicColumn = 'pdc_eg_city';
 
                             if (!empty($cityArrayName)) {
                                 $UpdateArray_new[] = array($dynmicColumn => addslashes($dynmicColumnVal), 'id' => $old_id);

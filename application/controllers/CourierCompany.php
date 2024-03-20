@@ -545,6 +545,7 @@ class CourierCompany extends MY_Controller
                             $wh_city = json_decode($wh_address['city_id'], true);                    
                             $sender_address =  $wh_address['wh_address'] ;
                             $sender_origin = $wh_city[0];
+                            $sender_phone = $ShipArr['sender_phone'];
                         } 
                         else 
                         {
@@ -574,6 +575,7 @@ class CourierCompany extends MY_Controller
                             'origin' => $sender_origin,
                             'slip_no' => $ShipArr['slip_no'],
                             'mode' => $pay_mode,
+                            'area_name' => $ShipArr['area_name'],
                             'pay_mode' => $ShipArr['mode'],
                             'total_cod_amt' => $ShipArr['total_cod_amt'],
                             'pieces' =>  $box_pieces1,
@@ -1097,7 +1099,7 @@ class CourierCompany extends MY_Controller
                 return $return;
                 // }
             }
-        } elseif ($company == 'Aramex International') {
+        } elseif ($company == 'Aramex International') { 
 
             $params = $this->Ccompany_model->AramexArrayAdvance($sellername, $ShipArr, $counrierArr, $complete_sku, $pay_mode, $CashOnDeliveryAmount, $services, $box_pieces1, $cod_amount, $super_id);
 
@@ -1163,6 +1165,22 @@ class CourierCompany extends MY_Controller
                 return $return;
             }
         } 
+        elseif( $company == 'TD Logistics' ) //shipsy 3pl company
+        { 
+            // echo "djsfkjsdgf"; die; 
+            $this->load->helper('shipsy');
+            $responseArr = ForwardToshipsy($ShipArr, $counrierArr,  $c_id , $box_pieces1, $complete_sku, $super_id,$pay_mode);
+
+
+            // if ($responseArr['error'] == "false"){
+            //     $return= array('status'=>200,'label'=> $responseArr['fastcoolabel'],'client_awb'=>$responseArr['client_awb']); 
+            //     return $return;
+            // }else{
+            //     $returnArr['responseError'][] = $slipNo . ':' .$responseArr['msg'];
+            //     $return= array('status'=>201,'error'=> $returnArr);
+            //     return $return;
+            // } 
+        }
         elseif($company == 'PDC-EG'){
             // echo "djsfkjsdgf"; die; 
             $this->load->helper('pdceg');
