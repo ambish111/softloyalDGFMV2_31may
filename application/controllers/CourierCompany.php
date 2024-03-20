@@ -1168,18 +1168,18 @@ class CourierCompany extends MY_Controller
         elseif( $company == 'TD Logistics' ) //shipsy 3pl company
         { 
             // echo "djsfkjsdgf"; die; 
-            $this->load->helper('shipsy');
+            $this->load->helper('shipsy'); 
             $responseArr = ForwardToshipsy($ShipArr, $counrierArr,  $c_id , $box_pieces1, $complete_sku, $super_id,$pay_mode);
 
 
-            // if ($responseArr['error'] == "false"){
-            //     $return= array('status'=>200,'label'=> $responseArr['fastcoolabel'],'client_awb'=>$responseArr['client_awb']); 
-            //     return $return;
-            // }else{
-            //     $returnArr['responseError'][] = $slipNo . ':' .$responseArr['msg'];
-            //     $return= array('status'=>201,'error'=> $returnArr);
-            //     return $return;
-            // } 
+            if ($responseArr['error'] == "false"){
+                $return= array('status'=>200,'label'=> $responseArr['data']['fastcoolabel'],'client_awb'=>$responseArr['data']['client_awb']); 
+                return $return;
+            }else{
+                $returnArr['responseError'][] = $slipNo . ':' .$responseArr['msg'];
+                $return= array('status'=>201,'error'=> $returnArr);
+                return $return;
+            } 
         }
         elseif($company == 'PDC-EG'){
             // echo "djsfkjsdgf"; die; 

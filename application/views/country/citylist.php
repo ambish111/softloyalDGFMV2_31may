@@ -320,6 +320,10 @@
                                             <?php if (GetCourierCompanyStausActive('DAL') == 'Y') { ?>
                                                 <th class="head1">DAL city</th>
                                             <?php } ?>
+                                            <?php if (GetCourierCompanyStausActive('TD Logistics') == 'Y') { ?>
+                                                <th class="head1">Shipsy city(TD logistics)</th>
+                                                <th class="head1">Shipsy zipcode (TD logistics)</th>
+                                            <?php } ?>
                                             <?php if (GetCourierCompanyStausActive('PDC-EG') == 'Y') { ?>
                                                 <th class="head1">PDC EG city</th>
                                                 <th class="head1">PDC Region</th>
@@ -842,6 +846,20 @@
                                                             <br>
                                                             <a class="btn btn-info" style="" onclick="updateCityListData('<?php echo $listdata['id']; ?>', 'dal_city');" value="<?php echo $listdata['id']; ?>"><?= lang('lang_Update'); ?></a>
                                                         </td>
+                                                    <?php } ?>
+                                                    <?php if (GetCourierCompanyStausActive('TD Logistics') == 'Y') { ?>
+                                                        <td><input type="text" name="shipsy_city" id="shipsy_city<?php echo $listdata['id']; ?>" placeholder="Shipsy City" value="<?php echo $listdata['shipsy_city']; ?>" class="form-control">
+                                                            <br>
+                                                            <a class="btn btn-info" style="" onclick="updateCityListData('<?php echo $listdata['id']; ?>', 'shipsy_city');" value="<?php echo $listdata['id']; ?>"><?= lang('lang_Update'); ?></a>
+                                                        </td>
+
+
+                                                        <td><input type="text" name="shipsy_zipcode" id="shipsy_zipcode<?php echo $listdata['id']; ?>" placeholder="Shipsy Zipcode" value="<?php echo $listdata['shipsy_zipcode']; ?>" class="form-control">
+                                                            <br>
+                                                            <a class="btn btn-info" style="" onclick="updateCityListData('<?php echo $listdata['id']; ?>', 'shipsy_zipcode');" value="<?php echo $listdata['id']; ?>"><?= lang('lang_Update'); ?></a>
+                                                        </td>
+
+
                                                     <?php } ?>
                                                     <?php if (GetCourierCompanyStausActive('PDC-EG') == 'Y') { ?>
                                                         <td><input type="text" name="pdc_eg_city" id="pdc_eg_city<?php echo $listdata['id']; ?>" placeholder="PDC  City" value="<?php echo $listdata['pdc_eg_city']; ?>" class="form-control">

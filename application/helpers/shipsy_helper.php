@@ -46,8 +46,21 @@ function ForwardToshipsy($ShipArr = array(), $counrierArr = array(), $c_id = nul
     $sender_city = getdestinationfieldshow_auto_array($ShipArr['origin'], 'shipsy_city', $super_id);
     $sender_zipcode = getdestinationfieldshow_auto_array($ShipArr['origin'], 'shipsy_zipcode', $super_id);
     $receiver_zipcode = getdestinationfieldshow_auto_array($ShipArr['destination'], 'shipsy_zipcode', $super_id);
-    // echo "sender_city = ".$sender_city; 
+    // echo "sender_city = ".$ShipArr['origin']. $sender_city; 
     // echo "<br/>receiver_city = ".$receiver_city; //die;
+    if(empty($receiver_city)){
+        $successstatus = "Fail";
+        $return_array =  array("error"=>"true","msg"=>'Receiver city empty');
+        return $return_array;			
+    }
+
+    if(empty($sender_city)){
+        $successstatus = "Fail";
+        $return_array =  array("error"=>"true","msg"=>'Sender city empty');
+        return $return_array;			
+    }
+
+
 
     if ($ShipArr['weight'] >= 0 && $ShipArr['weight'] <= 0.99) {
         $weight = 1;
@@ -66,21 +79,7 @@ function ForwardToshipsy($ShipArr = array(), $counrierArr = array(), $c_id = nul
     }
     $area_name = $ShipArr['area_name'];
 
-    if(empty($receiver_city)){
-        $successstatus = "Fail";
-        $return_array =  array("error"=>"true","msg"=>'Receiver address/city empty');
-        // return $return_array;	
-    }
-    if(empty($sender_city)){
-        $successstatus = "Fail";
-        $return_array =  array("error"=>"true","msg"=>'Sender address/city empty');
-        // return $return_array;			
-    }
-
-    echo "sender_city = ".$sender_city; 
-    echo "<br/>receiver_city = ".$receiver_city; 
-
-    die; 
+    
 
     $sender = ltrim($sender_phone, '0');
     $senderphone = '0' . $sender;
@@ -90,8 +89,8 @@ function ForwardToshipsy($ShipArr = array(), $counrierArr = array(), $c_id = nul
     $recieverphone = '0' . $reciever;
 
 
-    $currentDateTime = new DateTime('now', new DateTimeZone('UTC'));
-    $date = $currentDateTime->format('Y-m-d\TH:i:s.u\Z');
+    // $currentDateTime = new DateTime('now', new DateTimeZone('UTC'));
+    // $date = $currentDateTime->format('Y-m-d\TH:i:s.u\Z');
     //  print_r($date);die;
 
     $complete_sku = empty($complete_sku) ? $ShipArr['status_description'] : $complete_sku;
@@ -187,54 +186,43 @@ function ForwardToshipsy($ShipArr = array(), $counrierArr = array(), $c_id = nul
 
     );
     $json_final_data = json_encode($all_param_array);
-    // echo "<pre>";
-    // print_r($json_final_data);
-    // die;
-
-
-    // echo "<pre>";
-    // print_r($counrierArr);
-    // die;
-
-
+ 
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-        CURLOPT_URL => $API_URL,
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_ENCODING => '',
-        CURLOPT_MAXREDIRS => 10,
-        CURLOPT_TIMEOUT => 0,
-        CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_CUSTOMREQUEST => 'POST',
-        CURLOPT_POSTFIELDS => $param,
-        CURLOPT_HTTPHEADER => array(
-            'api-key:' . $token,
-            'Content-Type: application/json'
-        ),
-
+      CURLOPT_URL => $API_URL,
+      CURLOPT_RETURNTRANSFER => true,
+      CURLOPT_ENCODING => '',
+      CURLOPT_MAXREDIRS => 10,
+      CURLOPT_TIMEOUT => 0,
+      CURLOPT_FOLLOWLOCATION => true,
+      CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+      CURLOPT_CUSTOMREQUEST => 'POST',
+      CURLOPT_POSTFIELDS =>$json_final_data,
+      CURLOPT_HTTPHEADER => array(
+        'api-key:'.$token,
+        'Content-Type: application/json'
+      ),
     ));
-    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
-    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
 
-    $response = curl_exec($curl);
-    $error = curl_error($curl);
-    $logresponse =   json_encode($response);
-   
+     $response = curl_exec($curl);
+  
     $response_array = json_decode($response, true);
     $successres = $response_array['data'][0]['success'];
 
-    if ($successres == 1) {
-        $successstatus  = "Success";
-        $slipNo = $ShipArr['slip_no'];
-        $client_awb = $response_array['data'][0]['reference_number'];
-        $LabelResponse = Shipsy_Label($counrierArr['api_url'], $client_awb, $counrierArr['auth_token'], $company, $super_id);
 
+    if ($successres == 1) {
+      
+        $successstatus  = "Success";
+        $client_awb = $response_array['data'][0]['reference_number'];
+       
+        $LabelResponse = Shipsy_Label($counrierArr['api_url'], $client_awb, $counrierArr['auth_token'], $company, $super_id);
         file_put_contents("assets/all_labels/$slipNo.pdf", $LabelResponse);
         $fastcoolabel = base_url() . 'assets/all_labels/' . $slipNo . '.pdf';
+        
         $return_array = array("error" => 'false', "data" => array('client_awb' => $client_awb, 'label' => $fastcoolabel));
     } else {
+       
         $successstatus  = "Fail";
         $res_error = $response_array['data'][0]['message'] . " - " . $response_array['data'][0]['reason'];
         $return_array =  array("error" => "true", "msg" => $res_error);
@@ -249,16 +237,9 @@ function ForwardToshipsy($ShipArr = array(), $counrierArr = array(), $c_id = nul
 }
 function Shipsy_Label($API_URL = null, $client_awb = null, $token = null, $company = null, $super_id = null)
 {
-    //$url = str_replace('softdata', 'shippinglabel/link?reference_number=', $counrierArr['api_url']);
-    if ($company == 'Mahmool') {
-        $url = $API_URL . 'shippinglabel/stream?reference_number=' . $client_awb . "&is_small=true";
-    } elseif ($company == 'Zajil') {
-        $url = $API_URL . "shippinglabel/stream?reference_number=$client_awb&is_small=true";
-    } else {
-        $url = $API_URL . "shippinglabel/stream?reference_number=" . $client_awb;
-    }
-
-
+    sleep(2);
+     $url = $API_URL."shippinglabel/stream?reference_number=$client_awb&is_small=true";
+    //  $url = $API_URL."shippinglabel/stream?reference_number=$client_awb";
 
     $curl = curl_init();
 
@@ -276,17 +257,11 @@ function Shipsy_Label($API_URL = null, $client_awb = null, $token = null, $compa
             'Content-Type: application/json'
         ),
     ));
-    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
-    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
+
 
     $response = curl_exec($curl);
     //$error = curl_error($curl);
-    //echo "<pre>"; print_r($response); die;
+    // echo "<pre>"; print_r($response); die;
     curl_close($curl);
-    // $response = json_decode($response, true);
-
-    // $labelURL = $response['data']['url'];
-    //$labelURL = str_replace('isSmall=false', 'isSmall=true', $labelURL);
-
     return $response;
 }

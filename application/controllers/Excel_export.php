@@ -1543,6 +1543,10 @@ class Excel_export extends MY_Controller {
         $table_columns[] = "Shipox Country Code";
         $table_columns[] = "Ajex City Code";
         $table_columns[] = "Ajex Province";
+        $table_columns[] = "PDC-EG Region";
+        $table_columns[] = "PDC-EG Governorate";
+        $table_columns[] = "TD Logistics zipcode";
+        $table_columns[] = "TD Logistics zipcode";
         
         sort($table_columns);
 
@@ -1755,12 +1759,17 @@ class Excel_export extends MY_Controller {
                                 $dynmicColumn = 'drb_logistics_city';
                             if ($colimn == 'Saudi Hajer V2') 
                                 $dynmicColumn = 'rozx_city';
-                            if ($colimn == 'PDC-EG Governorate') 
+                            if ($colimn == 'PDC-EG Governorate')  
                                 $dynmicColumn = 'pdc_governorate';
                             if ($colimn == 'PDC-EG Region') 
                                 $dynmicColumn = 'pdc_region';
                             if ($colimn == 'PDC-EG') 
                                 $dynmicColumn = 'pdc_eg_city';
+                            if ($colimn == 'TD Logistics') 
+                                $dynmicColumn = 'shipsy_city';
+                            if ($colimn == 'TD Logistics zipcode') 
+                                $dynmicColumn = 'shipsy_zipcode';
+
 
                             if (!empty($cityArrayName)) {
                                 $UpdateArray_new[] = array($dynmicColumn => addslashes($dynmicColumnVal), 'id' => $old_id);
