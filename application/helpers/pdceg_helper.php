@@ -14,6 +14,7 @@ function ForwardToPDC($ShipArr = array(), $counrierArr = array(), $c_id = null, 
         $sender_governorate = getdestinationfieldshow_auto_array($ShipArr['origin'], 'pdc_governorate', $super_id);
         $receiver_city = getdestinationfieldshow_auto_array($ShipArr['destination'], 'pdc_eg_city', $super_id);
         $reciver_governorate = getdestinationfieldshow_auto_array($ShipArr['destination'], 'pdc_governorate', $super_id);
+        $PDCarea_name = getdestinationfieldshow_auto_array($ShipArr['destination'], 'pdc_areaname', $super_id);
         // print_r($reciever_country_code);die;
         $box_pieces = empty($box_pieces1) ? 1 : $box_pieces1;
         if ($ShipArr['weight'] >= 0 && $ShipArr['weight'] <= 0.99)
@@ -64,7 +65,7 @@ function ForwardToPDC($ShipArr = array(), $counrierArr = array(), $c_id = null, 
                     "referenceNumber" => $ShipArr['slip_no'],
                     "toGovernorate" => $reciver_governorate,
                     "toCity" => $receiver_city,
-                    "toArea" => $ShipArr['area_name'],
+                    "toArea" => $PDCarea_name,
                     "toDistrict" => "",
                     "toAddress" => $ShipArr['reciever_address'],
                     "productType" => $counrierArr['account_entity_code'],

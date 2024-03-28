@@ -2,6 +2,7 @@
     
     <?php
 $config_data_head = Getsite_configData();
+//print "<pre>"; print_r($config_data_head);die;
 $color = $config_data_head['theme_color_fm'];
 $font_color = $config_data_head['font_color'];
 ?>

@@ -860,7 +860,7 @@ $color = Getsite_configData_field('theme_color_fm'); ?>
 
                     <?php if (menuIdExitsInPrivilageArray_check(24,$LeftFmenuArr) == 'Y') { ?>
 
-                        <li>
+                        <li <?php if ($this->uri->segment(1) == 'add_template' || $this->uri->segment(1) == 'show_template' || $this->uri->segment(1) == 'bulksms') echo 'class="active"'; ?> >
                             <a href="javascript: void(0);">
                                 <i class="fa fa-envelope-open"></i>
                                 <span><?= lang('lang_Sms_Management'); ?></span>
@@ -873,6 +873,12 @@ $color = Getsite_configData_field('theme_color_fm'); ?>
                                 <?php } ?>
                                 <?php if (menuIdExitsInPrivilageArray_check(100,$LeftFmenuArr) == 'Y') { ?>
                                     <li class="nav-item"> <a class="nav-link" href="<?= base_url('show_template'); ?>"><?= lang('lang_Show_Template'); ?></a> </li>
+                                <?php } ?>
+
+
+                                <?php if (menuIdExitsInPrivilageArray_check(264,$LeftFmenuArr) == 'Y') { ?>
+                                    
+                                    <li class="nav-item"><a class="nav-link" href="<?= base_url('bulksms');?>">Bulk SMS</a></li>
                                 <?php } ?>
 
 

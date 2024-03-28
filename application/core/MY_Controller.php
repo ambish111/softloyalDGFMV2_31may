@@ -11,9 +11,11 @@ class MY_Controller extends CI_Controller {
     function __construct() {
         parent::__construct();
         $url = $_SERVER['HTTP_HOST'];
+//        echo $url;die;
         //$url = ltrim($url, 'fm.'); 
         $neeUrlArr = explode('.', $url);
         $url = $neeUrlArr[1] . '.' . $neeUrlArr[2];
+        
 
         $this->system_type = Getsite_configData_field('system_type');
         if ($this->session->userdata('langCheck') == 'AR') {
@@ -30,12 +32,14 @@ class MY_Controller extends CI_Controller {
 
 
         if ('diggipacks.com' != $url) {
+            
 
 
             $this->site_data = site_config($url);
              $this->site_data->checkSystemType="Other";
             //print_r($this->site_data  ); die();
             $this->site_data->newlogo = 'https://super.diggipacks.com/'.$this->site_data->logo; 
+//            echo$this->site_data->newlogo;die;
             //echo "<script> var string =JSON.stringify(" . json_encode($this->site_data) . ") localStorage.setItem('site_data', JSON.stringify(string)); </script>";
         } else {
 
@@ -53,6 +57,7 @@ class MY_Controller extends CI_Controller {
                 }
             }
         }
+
         
     }
     

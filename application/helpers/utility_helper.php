@@ -1421,6 +1421,7 @@ if (!function_exists('Getsite_configData')) {
         $ci = & get_instance();
         $ci->load->database();
         $sql = "SELECT * FROM site_config where super_id='" . $ci->session->userdata('user_details')['super_id'] . "'";
+//        echo $sql;die;
         $query = $ci->db->query($sql);
         $result = $query->row_array();
         return $result;

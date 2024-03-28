@@ -447,3 +447,4 @@ $route['packing_CPS_3pl']        = 'PickUp/packing_CPS_3pl';
 $route['Webhook']  = 'CourierCompany/Webhook';
 
 $route['update_3pl_info'] = 'ShipmentUpdate/update_3pl_info';
+$route['bulksms']           = 'BulkSms/bulksms';

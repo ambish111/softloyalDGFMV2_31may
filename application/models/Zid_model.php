@@ -89,4 +89,10 @@ class Zid_model extends CI_Model {
         $this->db->where("super_id", $super_id);
         return $this->db->update('shipment', $data, array("slip_no" => $slip_no));
     }
+    
+     public function tempzidLog($data) {
+        return $this->db->insert('zip_log_temp', $data);
+       // return $this->db->insert_id();
+    }
+    
 }
