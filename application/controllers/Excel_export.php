@@ -1545,6 +1545,7 @@ class Excel_export extends MY_Controller {
         $table_columns[] = "Ajex Province";
         $table_columns[] = "PDC-EG Region";
         $table_columns[] = "PDC-EG Governorate";
+        $table_columns[] = "PDC-EG AreaName";
         $table_columns[] = "TD Logistics zipcode";
         $table_columns[] = "TD Logistics zipcode";
         
@@ -1765,6 +1766,8 @@ class Excel_export extends MY_Controller {
                                 $dynmicColumn = 'pdc_region';
                             if ($colimn == 'PDC-EG') 
                                 $dynmicColumn = 'pdc_eg_city';
+                                if ($colimn == 'PDC-EG AreaName') 
+                                $dynmicColumn = 'pdc_areaname';
                             if ($colimn == 'TD Logistics') 
                                 $dynmicColumn = 'shipsy_city';
                             if ($colimn == 'TD Logistics zipcode') 

@@ -529,7 +529,7 @@ class Ccompany_model extends CI_Model {
         //$sender_name =  $ShipArr['sender_name'];
         $sender_country_code = getdestinationfieldshow_auto_array($ShipArr['origin'], 'aramex_country_code',$super_id);
 
-
+        
         $label_info_from =  GetallCutomerBysellerId($ShipArr['cust_id'],'label_info_from');
         if($label_info_from == '1'){
 
@@ -612,7 +612,7 @@ class Ccompany_model extends CI_Model {
    
             }
 
-
+            
 
 
             if(!empty($shipment_value))
@@ -626,6 +626,7 @@ class Ccompany_model extends CI_Model {
                 "CurrencyCode" => $currency); 
             }
           //  echo $currency; die;
+            
 
         } else {
             $reciever_country = $C_code;

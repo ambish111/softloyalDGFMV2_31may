@@ -119,7 +119,10 @@ class Zid_v2 extends CI_Controller {
             $product = array();
     
             $booking_id = $Order['id'];
-            $this->db->query("insert into zip_log_temp(r_data,booking_id)values('" . json_encode($Order) . "','" . $booking_id . "')");
+            $log_data=json_encode($Order);
+            $log_arr=array("r_data"=>$log_data,"booking_id"=>$booking_id,"cust_id"=>$customers['id']);
+             $this->Zid_model->tempzidLog($log_arr);
+            //$this->db->query("insert into zip_log_temp(r_data,booking_id)values('" . json_encode($Order) . "','" . $booking_id . "')");
 
             // print "<pre>"; print_r($customers);die;
             if (!empty($customers)) {

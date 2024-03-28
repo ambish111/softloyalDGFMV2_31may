@@ -328,6 +328,8 @@
                                                 <th class="head1">PDC EG city</th>
                                                 <th class="head1">PDC Region</th>
                                                 <th class="head1">PDC Governorate</th>
+                                                <th class="head1">PDC Areaname</th>
+                                              
                                             <?php } ?>
 
                                             <?php if (GetCourierCompanyStausActive('Ajex') == 'Y') { ?>
@@ -873,6 +875,10 @@
                                                         <td><input type="text" name="pdc_governorate" id="pdc_governorate<?php echo $listdata['id']; ?>" placeholder="PDC Governorate" value="<?php echo $listdata['pdc_governorate']; ?>" class="form-control">
                                                             <br>
                                                             <a class="btn btn-info" style="" onclick="updateCityListData('<?php echo $listdata['id']; ?>', 'pdc_governorate');" value="<?php echo $listdata['pdc_governorate']; ?>"><?= lang('lang_Update'); ?></a>
+                                                        </td>
+                                                        <td><input type="text" name="pdc_areaname" id="pdc_areaname<?php echo $listdata['id']; ?>" placeholder="PDC AreaName" value="<?php echo $listdata['pdc_areaname']; ?>" class="form-control">
+                                                            <br>
+                                                            <a class="btn btn-info" style="" onclick="updateCityListData('<?php echo $listdata['id']; ?>', 'pdc_areaname');" value="<?php echo $listdata['pdc_areaname']; ?>"><?= lang('lang_Update'); ?></a>
                                                         </td>
                                                     <?php } ?>
 

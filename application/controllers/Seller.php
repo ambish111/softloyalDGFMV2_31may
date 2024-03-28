@@ -2197,9 +2197,15 @@ class Seller extends MY_Controller {
         $zid_provider_token = site_configTable('zid_provider_token');
         $manager_token = getallsellerdatabyID($seller_id, 'manager_token');
         $uniqueid = getallsellerdatabyID($seller_id, 'uniqueid');
+        $zid_authorization = getallsellerdatabyID($seller_id, 'zid_authorization');
+        if ($zid_authorization != NULL) {
+            $bearer = $zid_authorization;
+        } else {
+            $bearer = $zid_provider_token;
+        }
         if (!empty($seller_id) && !empty($order_no)) {
 
-            $resutl = $this->GetHttprequest($zid_provider_token, $manager_token, $order_no);
+            $resutl = $this->GetHttprequest($bearer, $manager_token, $order_no);
             $return['req'] = $resutl;
             // $return=array("status" => "error", "req" => $resutl);
         } else {
@@ -2212,6 +2218,7 @@ class Seller extends MY_Controller {
 
     public function GetCreateProcessOrder() {
         $postData = json_decode(file_get_contents('php://input'), true);
+//        print "<<pre>"; print_r($postData);die;
         $orderdata = $postData['order'];
         $seller_id = $postData['filterArr']['seller'];
         
@@ -2255,6 +2262,9 @@ class Seller extends MY_Controller {
 
     private function GetHttprequest($zid_provider_token = 0, $manager_token = 0, $order_no = 0) {
 
+        
+        
+        
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
@@ -2275,7 +2285,7 @@ class Seller extends MY_Controller {
             ),
         ));
 
-        $response = curl_exec($curl);
+         $response = curl_exec($curl);
 
         curl_close($curl);
         $result = json_decode($response, true);

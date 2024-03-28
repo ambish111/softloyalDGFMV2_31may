@@ -1106,7 +1106,7 @@ class CourierCompany extends MY_Controller
             // $params = $this->Ccompany_model->AramexArrayAdvance($sellername,$ShipArr, $counrierArr, $complete_sku, $pay_mode, $CashOnDeliveryAmount, $services, $box_pieces1,$cod_amount,$super_id);
             $dataJson = json_encode($params);
             // print "<pre>"; print_r($dataJson); 
-            //echo $dataJson;die;
+//            echo $dataJson;die;
             $headers = array("Content-type:application/json");
             $url = $api_url;
             //echo  $url;die;                 
