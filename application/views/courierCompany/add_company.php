@@ -112,6 +112,7 @@
                   <label> <?=lang('lang_Awb_Sequence_End');?>:<span class="bold_alert">*</span></label>
                   <input class="form-control" type="text" name="end_awb_sequence" id="end_awb_sequence" value="<?=set_value('end_awb_sequence');?>" placeholder="Awb Sequence End"/>
                 </div>
+                
                 </fieldset>
             
               <fieldset class="scheduler-border">

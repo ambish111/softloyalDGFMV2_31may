@@ -80,9 +80,10 @@ Class Backorder extends CI_Controller {
            // echo $val['slip_no']."== dia time== $getqueryTime seconds.<br>";
         
         $key_color = null;
+        $reason = "";
         foreach ($sku_details as $key_s => $rows) {
             
-            $reason = "";
+            
               $started = microtime(true);
             if(empty($total_stock[$rows['sku']]))
              $total_stock[$rows['sku']] = $this->Backorder_model->getcheckSku($rows['sku'],$val['cust_id'],$super_id,$whid);
@@ -132,20 +133,24 @@ Class Backorder extends CI_Controller {
          
         }
         
+        if(!empty($reason)){
+            $StatusArray[$key]['slip_no'] = $val['slip_no'];
+            $StatusArray[$key]['new_status'] = 11;
+            $StatusArray[$key]['pickup_time'] = date("H:i:s");
+            $StatusArray[$key]['pickup_date'] = date("Y-m-d H:i:s");
+            $StatusArray[$key]['Details'] = $reason;
+            $StatusArray[$key]['Activites'] = "Back Order";
+            $StatusArray[$key]['entry_date'] = date("Y-m-d H:i:s");
+            $StatusArray[$key]['user_id'] = $this->session->userdata('user_details')['user_id'];
+            $StatusArray[$key]['user_type'] = 'fulfillment';
+            $StatusArray[$key]['code'] = 'OG';
+            $StatusArray[$key]['super_id'] = $super_id;
+        }
         
-        $StatusArray[$key]['slip_no'] = $val['slip_no'];
-        $StatusArray[$key]['new_status'] = 11;
-        $StatusArray[$key]['pickup_time'] = date("H:i:s");
-        $StatusArray[$key]['pickup_date'] = date("Y-m-d H:i:s");
-        $StatusArray[$key]['Details'] = $reason;
-        $StatusArray[$key]['Activites'] = "Back Order";
-        $StatusArray[$key]['entry_date'] = date("Y-m-d H:i:s");
-        $StatusArray[$key]['user_id'] = $this->session->userdata('user_details')['user_id'];
-        $StatusArray[$key]['user_type'] = 'fulfillment';
-        $StatusArray[$key]['code'] = 'OG';
-        $StatusArray[$key]['super_id'] = $super_id;
 
      }
+     
+//     print "<pre>"; print_r(array_values($StatusArray));die;
      if(!empty($backOrdersSlip))
      {
         echo '<pre>';
@@ -170,7 +175,7 @@ Class Backorder extends CI_Controller {
 //        print "<pre>"; print_r( $StatusArray);die;
       $this->Backorder_model->updateShipBatch($backOrdersSlip,$super_id); 
       if(!empty($StatusArray)){
-          $this->Shipment_model->destinationStatusAdd($StatusArray);
+          $this->Shipment_model->destinationStatusAdd(array_values($StatusArray) );
       }
       //$this->Backorder_model->updateShipBatch_dimension($backOrdersDia,$super_id); 
       //  $this->Backorder_model->updateDiaBatch($backOrdersDia,$super_id);  

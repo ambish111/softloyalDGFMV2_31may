@@ -579,11 +579,11 @@ class Ccompany_model extends CI_Model {
         if ($pay_mode == 'COD') {
             $cod_amount= $totalcustomerAmt;
             $shipment_value = $ShipArr['total_cod_amt'];
-            $pay_mode = 'P';
+            $pay_mode = $counrierArr['aramex_payment_type'];
             //$CashOnDeliveryAmount = array("Value" => $cod_amount,                "CurrencyCode" => $currency);            $services = 'CODS';
         } elseif ($pay_mode == 'CC') {
             $cod_amount= "1.00"; 
-            $pay_mode = 'P';
+            $pay_mode = $counrierArr['aramex_payment_type'];
             $CashOnDeliveryAmount = NULL;
             $services = '';
            // $shipment_value = $ShipArr['shipment_value'];  
@@ -592,8 +592,8 @@ class Ccompany_model extends CI_Model {
 
         if ($C_code != $sender_country_code && $C_code != '') {
             $reciever_country = $C_code;
-                $ProductGroup = 'EXP';
-              $ProductType = 'EPX';
+                $ProductGroup = $counrierArr['ProductGroup'];
+              $ProductType = $counrierArr['ProductType'];
             $currency = getdestinationfieldshow($ShipArr['destination'], 'currency'); //"USD";
             if($currency=='BHD' || $currency=='QAR' || $currency=='EGP')
             {

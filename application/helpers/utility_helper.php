@@ -1987,8 +1987,9 @@ if (!function_exists('PrintPiclist3PL_bulk')) {
                 if($forwardCompanyType == 'F')
                 { 
                     if (!file_exists("assets/all_labels/$slip_no.pdf") || filesize("assets/all_labels/$slip_no.pdf") <= 0) {
-
+                            
                         $lab_url = "https://api.fastcoo-tech.com/API/Print/".$awb_no;
+//                        echo $lab_url;die;
                         $generated_pdf = file_get_contents($lab_url);
                         file_put_contents("assets/all_labels/$slip_no.pdf", $generated_pdf);
                     }                    
