@@ -243,6 +243,19 @@
                                             <label class="text-bold"><?=lang('lang_Awb_Sequence_End');?></label>
                                             	<input type="text"  class="form-control" aria-describedby="textHelpBlock"  ng-model="EditDataArr.end_awb_sequence">
                                         </div>
+                                        <div class="form-group">
+                                            <label class="text-bold">Product Type </label>
+                                            	<input type="text"  class="form-control" aria-describedby="textHelpBlock"  ng-model="EditDataArr.ProductType_t">
+                                        </div>
+                                       
+                                        <div class="form-group">
+                                            <label class="text-bold">Product Group</label>
+                                            	<input type="text"  class="form-control" aria-describedby="textHelpBlock"  ng-model="EditDataArr.ProductGroup_t">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="text-bold">Aramex Payment Type</label>
+                                            	<input type="text"  class="form-control" aria-describedby="textHelpBlock"  ng-model="EditDataArr.aramex_payment_type_t">
+                                        </div>
                                     </div>
                                     
                                     
@@ -291,6 +304,19 @@
                                         <div class="form-group">
                                             <label class="text-bold"><?=lang('lang_Awb_Sequence_End');?></label>
                                             	<input type="text"  class="form-control" aria-describedby="textHelpBlock"  ng-model="EditDataArr.end_awb_sequence_t">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="text-bold">Product Type </label>
+                                            	<input type="text"  class="form-control" aria-describedby="textHelpBlock"  ng-model="EditDataArr.ProductType">
+                                        </div>
+                                       
+                                        <div class="form-group">
+                                            <label class="text-bold">Product Group</label>
+                                            	<input type="text"  class="form-control" aria-describedby="textHelpBlock"  ng-model="EditDataArr.ProductGroup">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="text-bold">Aramex Payment Type</label>
+                                            	<input type="text"  class="form-control" aria-describedby="textHelpBlock"  ng-model="EditDataArr.aramex_payment_type">
                                         </div>
                                           
                                     </div>

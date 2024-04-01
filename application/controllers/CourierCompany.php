@@ -416,6 +416,10 @@ class CourierCompany extends MY_Controller
                         $account_entity_code = $counrierArr_table['account_entity_code_t'];
                         $account_country_code = $counrierArr_table['account_country_code_t'];
                         $service_code = $counrierArr_table['service_code_t'];
+                        $ProductType = $counrierArr_table['ProductType_t'];
+                        $ProductGroup = $counrierArr_table['ProductGroup_t'];
+                        $aramex_payment_type = $counrierArr_table['aramex_payment_type_t'];
+
                     } else {
                         $user_name = $counrierArr_table['user_name'];
                         $password = $counrierArr_table['password'];
@@ -431,8 +435,12 @@ class CourierCompany extends MY_Controller
                         $account_entity_code = $counrierArr_table['account_entity_code'];
                         $account_country_code = $counrierArr_table['account_country_code'];
                         $service_code = $counrierArr_table['service_code'];
+                        $ProductType = $counrierArr_table['ProductType'];
+                        $ProductGroup = $counrierArr_table['ProductGroup'];
+                        $aramex_payment_type = $counrierArr_table['aramex_payment_type'];
                     }
 
+                   
                     $counrierArr['user_name'] = $user_name;
                     $counrierArr['password'] = $password;
                     $counrierArr['courier_account_no'] = $courier_account_no;
@@ -453,6 +461,9 @@ class CourierCompany extends MY_Controller
                     $counrierArr['fp_status'] = $counrierArr_table['fp_flag'];
                     $counrierArr['fp_partner_type'] = $counrierArr_table['fp_partner_type'];
                     $counrierArr['wharehouse_flag'] = $counrierArr_table['wharehouse_flag'];
+                    $counrierArr['ProductType']=  $ProductType;
+                    $counrierArr['ProductGroup']= $ProductGroup ;
+                    $counrierArr['aramex_payment_type']= $aramex_payment_type;
 
 
 
