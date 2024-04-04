@@ -45,7 +45,7 @@ Class BulkSms extends MY_Controller {
     public function Smssend() {
         $AWB_NO = $this->input->post('show_awb_no');
         $AWB_array = explode("\n", $AWB_NO); 
-
+        $sms_awb  = array();
 
         $AWB_array = array_map('trim', $AWB_array);
         $SMS = $this->input->post('show_SMS');
@@ -54,8 +54,10 @@ Class BulkSms extends MY_Controller {
         // echo "<pre>" ; print_r($SlipNoArr);die;
         if(!empty($SlipNoArr)){
             foreach ($SlipNoArr as $key => $val) {
-                $recievermessage = SEND_SMS($val['reciever_phone'],$SMS);
-                $this->Bulksms_model->bulksmselog(trim($val['reciever_phone']), $val['slip_no'], $SMS );
+
+                array_push($sms_awb,$val['slip_no']);
+                // $recievermessage = SEND_SMS($val['reciever_phone'],$SMS);
+                // $this->Bulksms_model->bulksmselog(trim($val['reciever_phone']), $val['slip_no'], $SMS );
             }
             $this->session->set_flashdata('msg', 'send message succesfully');
         }else{
@@ -63,6 +65,23 @@ Class BulkSms extends MY_Controller {
         }
        
    
+
+        if(!empty($sms_awb)){
+            $awb_sms_new['super_id']=$this->session->userdata('user_details')['super_id'];
+            $awb_sms_new['host_url']=$_SERVER['HTTP_HOST'];
+            $awb_sms_new['message'] = $SMS;
+            $awb_sms_new['slip_nos']=$sms_awb;
+            $sms_final=json_encode($awb_sms_new);
+
+            // echo json_encode($whsms_final);die;
+            // $output = exec('/usr/bin/php '.SENDWEBHOOK.'SendWhSmsLm.php ' . escapeshellarg(serialize($whsms_final)) . '  2>&1 & ');
+            //  shell_exec('/usr/bin/php /var/www/html/diggipack_new/fs_files/BulkSendSms.php ' . escapeshellarg(serialize($sms_final)) . ' > /dev/null 2>/dev/null & ');   
+            $output = exec('/usr/bin/php /var/www/html/diggipack_new/fs_files/BulkSendSms.php ' . escapeshellarg(serialize($sms_final)) . '   2>&1 &/dev/null 2>&1 &  ',$output);
+
+            print_r($output); die;
+
+        }
+
 
         
  

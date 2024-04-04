@@ -222,16 +222,18 @@
                                       <table class="table table-striped table-hover table-bordered"  style="width:100%;">
                                         <thead>
                                             <?php
-                                            if(empty($Shipmentinfo['sender_name']))
+//                                            if(empty($Shipmentinfo['sender_name']))
                                             $sender_company=getallsellerdatabyID($Shipmentinfo['cust_id'],'company');
-                                            else
-                                            {
-                                                $sender_company=$Shipmentinfo['sender_name'];
-                                            }
-                                            if ($sender_company != '')
-                                                echo' <tr><th><b class="size-2">'.$lang_Sender.'</b></th><td>' . $sender_company . '</td></tr>';
-                                            else
-                                                 echo' <tr><th><b class="size-2">'.$lang_Sender.'</b></th><td style="color:grey;">No Info Found</td></tr>';
+//                                            else
+//                                            {
+//                                                $sender_company=$Shipmentinfo['sender_name'];
+//                                            }
+                                            
+                                            
+//                                            if ($sender_company != '')
+                                                echo' <tr><th><b class="size-2">'.$lang_Sender.'</b></th><td>' . $Shipmentinfo['sender_name'] ." [ ".$sender_company." ]". '</td></tr>';
+//                                            else
+//                                                 echo' <tr><th><b class="size-2">'.$lang_Sender.'</b></th><td style="color:grey;">No Info Found</td></tr>';
 
                                            
                                             if ($Shipmentinfo['sender_address'] != '')
