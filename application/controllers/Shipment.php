@@ -2401,7 +2401,7 @@ class Shipment extends MY_Controller {
         //$data['AWBNO']=getallsratusshipmentid($shipmentId,'slip_no');
         //$data['Shipmentinfo'] = $this->Shipment_model->getallshipmentdatashow($shipmentId);
         $data['Shipmentinfo'] = $this->Shipment_model->getShipmentDetails($shipmentId);
-
+//        print "<pre>"; print_r($data['Shipmentinfo']);die;
 
         $courierCompany = GetCourCompanynameId($data['Shipmentinfo']['frwd_company_id'], 'company');
         
