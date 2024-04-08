@@ -1,10 +1,12 @@
 <?php
 
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Zone extends MY_Controller {
+class Zone extends MY_Controller
+{
 
-    function __construct() {
+    function __construct()
+    {
 
         parent::__construct();
         if (menuIdExitsInPrivilageArray(23) == 'N') {
@@ -14,113 +16,146 @@ class Zone extends MY_Controller {
         //$this->load->library('pagination');
         $this->load->model('Zone_model');
         $this->load->model('Ccompany_model');
-       
-       
+
+
 
         $this->load->library('form_validation');
     }
 
-    public function list_view() {
+    public function list_view()
+    {
         $data['sellers'] = $this->Zone_model->all();
 
         $this->load->view('Zone/list_view', $data);
-    } 
+    }
 
-    public function list_view_customer() {
+    public function list_view_customer()
+    {
         $sellers = $this->Zone_model->all_customer();
-       
-        foreach($sellers as $key=>$val)
-        {
-            $sellers[$key]->cust_name=getallsellerdatabyID(  $sellers[$key]->cust_id,'company',$sellers[$key]->super_id);
+
+        foreach ($sellers as $key => $val) {
+            $sellers[$key]->cust_name = getallsellerdatabyID($sellers[$key]->cust_id, 'company', $sellers[$key]->super_id);
             //cust_name=
         }
-         $data['sellers']=$sellers;
-         //print "<pre>"; print_r($data);die;
+        $data['sellers'] = $sellers;
+        //print "<pre>"; print_r($data);die;
         $this->load->view('Zone/list_view_customer', $data);
-    } 
+    }
 
-     public function add_view($id = null) {
-         
+    public function add_view($id = null)
+    {
+
         if (($this->session->userdata('user_details') != '')) {
 
             $data['EditData'] = $this->Zone_model->find_customer_sellerm($id);
             $data['id'] = $id;
-            $data['customers'] = $this->Zone_model->Zone();           
+            $data['customers'] = $this->Zone_model->Zone();
             $data['company'] = $this->Ccompany_model->all();
             $masterCity = array();
             // echo '<pre>';
             // print_r($data['company']); exit;
-            if($id!=null)
-            {
-                $precityData=$this->Zone_model->previousCity($id);
-                
-                $precity=json_decode($precityData['city_id']);
+            if ($id != null) {
+                $precityData = $this->Zone_model->previousCity($id);
 
-                $keyArray=array();
-                $preArray=array();
+                $precity = json_decode($precityData['city_id']);
+                $prerescity = json_decode($precityData['restricted_city_id']);
 
-                
+
+
+                $keyArray = array();
+                $preArray = array();
+                $keyresArray = array();
+                $preresArray = array();
+
+
+
                 $cNanme = $this->Ccompany_model->ccNamebYccid($precityData['cc_id']);
-              if($cNanme['company_type']=='O')
-              {
-                $cityColumn = $this->Zone_model->getCityColumnByCname($cNanme['company']);
-                
-              }
-              else
-              {
-                $cityColumn='city';
-              }
-              //echo "<pre>"; print_r($cNanme);  die();
-                
-                
-               // echo "<pre>"; print_r($cityColumn);  die();
-                if(!empty($cityColumn)){
+                if ($cNanme['company_type'] == 'O') {
+                    $cityColumn = $this->Zone_model->getCityColumnByCname($cNanme['company']);
+                } else {
+                    $cityColumn = 'city';
+                }
+                //echo "<pre>"; print_r($cNanme);  die();
+
+
+                // echo "<pre>"; print_r($cityColumn);  die();
+                if (!empty($cityColumn)) {
                     $masterCity = $this->Zone_model->get_cities_by_cc_city($cityColumn);
+                    $restrictedCity = $this->Zone_model->get_cities_by_cc_city($cityColumn);
                 }
                 //$masterCity = $this->Zone_model->fetch_all_cities_new();
-                 // echo "<pre>"; print_r($masterCity);  die();
+                // echo "<pre>"; print_r($masterCity);  die();
                 //echo $precityData['city_id'];die;
-                
-                
-                
-            // print_r( $precityData); exit;
-            if(!empty($masterCity)){
-                foreach($precity as $key=>$val)
+
+
+
+                // print_r( $precityData); exit;
+                if (!empty($masterCity)) {
+                    foreach ($precity as $key => $val) {
+                        // array_map($masterCity);
+                        $key1 = array_search($val, array_column($masterCity, 'id'));
+
+                        // echo '<br>'. $key1.'//' .  $val['city']; 
+                        if (!empty($key1) || $key1 == 0) {
+
+                            if (!in_array($key1, $keyArray)) {
+
+                                array_push($preArray, $masterCity[$key1]);
+                                array_push($keyArray, $key1);
+                                // $data['pre'][]=$masterCity[$key];
+                            }
+                            $key1 = null;
+                        }
+                    }
+
+                    foreach ($keyArray as $k1) {
+                        //echo '<pre>xx'.$k1 .print_r($masterCity[$k1]);
+                        unset($masterCity[$k1]);
+                    }
+                    array_values($masterCity);
+                }
+            }
+            //Restricted cities
+            if(!empty($restrictedCity)){
+                foreach($prerescity as $key=>$val)
                 {
                   // array_map($masterCity);
-                  $key1 = array_search($val, array_column($masterCity, 'id'));
+                  $key1 = array_search($val, array_column($restrictedCity, 'id'));
 
                  // echo '<br>'. $key1.'//' .  $val['city']; 
                    if(!empty($key1) || $key1==0 )
                    {
 
-                     if(!in_array($key1,$keyArray))
+                     if(!in_array($key1,$keyresArray))
                      {
 
-                        array_push($preArray,$masterCity[$key1]);
-                       array_push($keyArray,$key1);
+                        array_push($preresArray,$restrictedCity[$key1]);
+                       array_push($keyresArray,$key1);
                       // $data['pre'][]=$masterCity[$key];
                      }
                      $key1=null; 
                    }
 
                 }
+                
 
-                foreach($keyArray as $k1)
+                foreach($keyresArray as $k1)
                 {
                     //echo '<pre>xx'.$k1 .print_r($masterCity[$k1]);
-                  unset($masterCity[$k1]);  
+                  unset($restrictedCity[$k1]);  
 
                 }
-                array_values($masterCity); 
+                array_values($restrictedCity); 
+            //Restricted cities
             } 
-        }
-            
-        //  print "<pre>";  print_r($masterCity); exit;
-             
-            $data['ListArr']=$masterCity;
 
-            $data['pre']=$preArray;
+            //  print "<pre>";  print_r($masterCity); exit;
+
+            $data['ListArr'] = $masterCity;
+            $data['pre'] = $preArray;
+
+            $data['ResListArr']=$restrictedCity;
+            $data['Respre']=$preresArray;
 
 
             //print "<pre>"; print_r($data['ListArr']);die;
@@ -131,16 +166,18 @@ class Zone extends MY_Controller {
         }
     }
 
-  
 
-    public function editZoneUpdate($id = null) {
+
+    public function editZoneUpdate($id = null)
+    {
         if ($id > 0) {
             //print "<pre>"; print_r($this->input->post());die;
             $data = array(
                 'name' => $this->input->post('name'),
                 'capacity' => $this->input->post('capacity'),
-                'cc_id' => $this->input->post('c_id'),
+                // 'cc_id' => $this->input->post('c_id'),
                 'city_id' => json_encode($this->input->post('city_id')),
+                'restricted_city_id' => json_encode($this->input->post('restricted_city_id')),
                 'max_weight' => $this->input->post('max_weight'),
                 'flat_price' => $this->input->post('flat_price'),
                 'price' => $this->input->post('price'),
@@ -152,8 +189,9 @@ class Zone extends MY_Controller {
         redirect('viewZone');
     }
 
-    
-    public function editZoneUpdateCustomer($id = null) {
+
+    public function editZoneUpdateCustomer($id = null)
+    {
         if ($id > 0) {
             $data = array(
                 'name' => $this->input->post('name'),
@@ -173,85 +211,78 @@ class Zone extends MY_Controller {
 
 
 
-    public function add_view_customer($id=null) {
+    public function add_view_customer($id = null)
+    {
 
         if (($this->session->userdata('user_details') != '')) {
 
-          
+
             $data['id'] = $id;
             $data['customers'] = $this->Zone_model->ZoneCustomer();
 
             $data['sellers'] = $this->Zone_model->custList();
-            
+
             $data['company'] = $this->Ccompany_model->all();
 
 
-           // $masterCity = $this->Zone_model->fetch_all_cities_new();
+            // $masterCity = $this->Zone_model->fetch_all_cities_new();
 
 
             //print_r($masterCity); exit;
-            if($id!=null)
-            {
+            if ($id != null) {
                 $data['EditData'] = $this->Zone_model->find_customer_sellerm_cust($id);
                 //print "<pre>"; print_r($data['EditData']);die;
-                $precityData=$this->Zone_model->previousCity_customer($id);
-                $precity=json_decode($precityData['city_id']);
+                $precityData = $this->Zone_model->previousCity_customer($id);
+                $precity = json_decode($precityData['city_id']);
 
-               //print "<pre>";  print_r( $precity); exit;
-                
-                $data['EditData'][0]->cust_name = getallsellerdatabyID(  $data['EditData'][0]->cust_id,'company',$data['EditData'][0]->super_id);
-            
-            //cust_name=
-    
+                //print "<pre>";  print_r( $precity); exit;
+
+                $data['EditData'][0]->cust_name = getallsellerdatabyID($data['EditData'][0]->cust_id, 'company', $data['EditData'][0]->super_id);
+
+                //cust_name=
+
 
                 //print_r($precityData); exit;
-           
-                $keyArray=array();
-                $preArray=array();
+
+                $keyArray = array();
+                $preArray = array();
                 $cNanme = $this->Ccompany_model->ccNamebYccid($precityData['cc_id']);
                 $cityColumn = $this->Zone_model->getCityColumnByCname($cNanme['company']);
-         
-                if(!empty($cityColumn)){
+
+                if (!empty($cityColumn)) {
                     $masterCity = $this->Zone_model->get_cities_by_cc_city($cityColumn);
                 }
-         
-            if(!empty($masterCity)){
-            foreach($precity as $key=>$val)
-            {
-              // array_map($masterCity);
-              $key1 = array_search($val, array_column($masterCity, 'id'));
-              
-             // echo '<br>'. $key1.'//' .  $val['city']; 
-               if(!empty($key1) || $key1==0 )
-               { 
-              
-                 if(!in_array($key1,$keyArray))
-                 {
-                    
-                    array_push($preArray,$masterCity[$key1]);
-                   array_push($keyArray,$key1);
-                  // $data['pre'][]=$masterCity[$key];
-                 }
-                 $key1=null; 
-               }
-          
-            }
-            foreach($keyArray as $k1)
-            {
-                //echo '<pre>xx'.$k1 .print_r($masterCity[$k1]);
-              unset($masterCity[$k1]);  
-              
-            }
-            array_values($masterCity); 
-        }
-            
-        }
-            
-          //  print_r($preArray); exit;
-             
-            $data['ListArr']=$masterCity;
 
-            $data['pre']=$preArray;
+                if (!empty($masterCity)) {
+                    foreach ($precity as $key => $val) {
+                        // array_map($masterCity);
+                        $key1 = array_search($val, array_column($masterCity, 'id'));
+
+                        // echo '<br>'. $key1.'//' .  $val['city']; 
+                        if (!empty($key1) || $key1 == 0) {
+
+                            if (!in_array($key1, $keyArray)) {
+
+                                array_push($preArray, $masterCity[$key1]);
+                                array_push($keyArray, $key1);
+                                // $data['pre'][]=$masterCity[$key];
+                            }
+                            $key1 = null;
+                        }
+                    }
+                    foreach ($keyArray as $k1) {
+                        //echo '<pre>xx'.$k1 .print_r($masterCity[$k1]);
+                        unset($masterCity[$k1]);
+                    }
+                    array_values($masterCity);
+                }
+            }
+
+            //  print_r($preArray); exit;
+
+            $data['ListArr'] = $masterCity;
+
+            $data['pre'] = $preArray;
 
 
 
@@ -261,11 +292,12 @@ class Zone extends MY_Controller {
             redirect(base_url() . 'Login');
         }
     }
-    
 
 
-    public function add() {
-        
+
+    public function add()
+    {
+
         // print_r($this->input->post('dd_customer'));
         // print_r($this->input->post('warehousing_charge'));
         // print_r($this->input->post('fulfillment_charge'));
@@ -276,8 +308,8 @@ class Zone extends MY_Controller {
         $this->form_validation->set_rules("capacity", 'capacity', 'trim|required');
         $this->form_validation->set_rules("c_id", 'Seller', 'trim|required');
         $this->form_validation->set_rules("city_id[]", 'City', 'trim|required');
-//		  $this->form_validation->set_rules("password", 'Password ', 'trim|required|min_length[6]');
-//		  $this->form_validation->set_rules('conf_password', 'Confirm Password', 'required|matches[password]'); 
+        //		  $this->form_validation->set_rules("password", 'Password ', 'trim|required|min_length[6]');
+        //		  $this->form_validation->set_rules('conf_password', 'Confirm Password', 'required|matches[password]'); 
         if ($this->form_validation->run() == FALSE) {
 
             $this->add_view();
@@ -291,16 +323,19 @@ class Zone extends MY_Controller {
                 'cc_id' => $this->input->post('c_id'),
                 'super_id' => $this->session->userdata('user_details')['super_id'],
                 'city_id' => json_encode($this->input->post('city_id')),
+                'restricted_city_id' => json_encode($this->input->post('restricted_city_id')),
                 'max_weight' => $this->input->post('max_weight'),
                 'flat_price' => $this->input->post('flat_price'),
                 'price' => $this->input->post('price'),
             );
             //print "<pre>"; print_r($data); die;
-            if (empty($errors)) { 
-                if ($this->Zone_model->add_company($data))
+            if (empty($errors)) {
+                // $cNanme = $this->Ccompany_model->ccNamebYccid($data['cc_id']);
+
+               if ($this->Zone_model->add_company($data))
 
 
-                //echo  $customer_id.'//'. $seller_id;     exit();  
+                    //echo  $customer_id.'//'. $seller_id;     exit();  
                     $this->session->set_flashdata('msg', $this->input->post('name') . '   has been added successfully');
                 else {
                     $this->session->set_flashdata('msg', $this->input->post('name') . '    adding is failed');
@@ -309,14 +344,15 @@ class Zone extends MY_Controller {
                 $this->session->set_flashdata('msg', $this->input->post('name') . '    adding is failed');
             }
 
-//die;
+            //die;
 
             redirect('viewZone');
         }
     }
 
 
-    public function add_zone_customer() {
+    public function add_zone_customer()
+    {
 
         // print_r($this->input->post('dd_customer'));
         // print_r($this->input->post('warehousing_charge'));
@@ -329,8 +365,8 @@ class Zone extends MY_Controller {
         $this->form_validation->set_rules("c_id", 'Courier Company', 'trim|required');
         $this->form_validation->set_rules("cust_id", 'Seller', 'trim|required');
         $this->form_validation->set_rules("city_id[]", 'City', 'trim|required');
-//		  $this->form_validation->set_rules("password", 'Password ', 'trim|required|min_length[6]');
-//		  $this->form_validation->set_rules('conf_password', 'Confirm Password', 'required|matches[password]'); 
+        //		  $this->form_validation->set_rules("password", 'Password ', 'trim|required|min_length[6]');
+        //		  $this->form_validation->set_rules('conf_password', 'Confirm Password', 'required|matches[password]'); 
         if ($this->form_validation->run() == FALSE) {
 
             $this->add_view();
@@ -353,7 +389,7 @@ class Zone extends MY_Controller {
                 if ($this->Zone_model->add_company_customer($data))
 
 
-                //echo  $customer_id.'//'. $seller_id;     exit();  
+                    //echo  $customer_id.'//'. $seller_id;     exit();  
                     $this->session->set_flashdata('msg', $this->input->post('name') . '   has been added successfully');
                 else {
                     $this->session->set_flashdata('msg', $this->input->post('name') . '    adding is failed');
@@ -362,7 +398,7 @@ class Zone extends MY_Controller {
                 $this->session->set_flashdata('msg', $this->input->post('name') . '    adding is failed');
             }
 
-//die;
+            //die;
 
             redirect('viewZoneCustomer');
         }
@@ -370,7 +406,8 @@ class Zone extends MY_Controller {
 
 
 
-    public function edit_view($id) {
+    public function edit_view($id)
+    {
         // $id = $this->input->get('id');
         $data['seller'] = $this->Zone_model->edit_view($id);
         $data['city_drp'] = $this->Zone_model->fetch_all_cities();
@@ -379,7 +416,8 @@ class Zone extends MY_Controller {
         $this->load->view('Zone/edit_view', $data);
     }
 
-    public function edit($id) {
+    public function edit($id)
+    {
         //$id=$this->input->post('id');
         if (!empty($_FILES['upload_cr']['name'])) {
             $config['upload_path'] = 'assets/sellerupload/';
@@ -454,8 +492,9 @@ class Zone extends MY_Controller {
         redirect('viewZone');
     }
 
-    
-    public function report_view($id = null) {
+
+    public function report_view($id = null)
+    {
 
 
 
@@ -480,7 +519,7 @@ class Zone extends MY_Controller {
             // {
             $array = array(
                 'seller_id' => $id,
-                    //'item_sku'=>$data['seller_shipments'][$i]->sku
+                //'item_sku'=>$data['seller_shipments'][$i]->sku
             );
             // print_r($data['seller_shipments'][$i]);
             // exit();
@@ -545,47 +584,83 @@ class Zone extends MY_Controller {
             $this->load->view('SellerM/seller_report', $data);
         }
     }
-    
-    public function filter_zone_by_cc(){
+
+    public function filter_zone_by_cc()
+    {
         $cc_id = $this->input->post('cc_id');
         $cRetsult = $this->Ccompany_model->ccNamebYccid($cc_id);
-        
-        if(!empty($cRetsult)){
-         
-            if($cRetsult['company_type'] == "F"){
-                $cityColumn = 'city';
-            }else{
-               $cNanme = $cRetsult['company'];
-               $cityColumn = $this->Zone_model->getCityColumnByCname($cNanme);
-            }
-           
-            if(!empty($cityColumn)){
-                
-                $masterCity = $this->Zone_model->get_cities_by_cc_city($cityColumn);
-                if(!empty($masterCity)){
-                    $response = json_encode(array("status"=>"true","data"=>$masterCity));
-                }else{
-                    $response = json_encode(array("status"=>"false","message"=>"City Not Found"));
-                }
-            }else{
-                $response = json_encode(array("status"=>"false","message"=>"City Not Found"));
-            }
-        }elseif($cc_id == 0 ) {
 
-             $cityColumn = 'city';
-            $masterCity = $this->Zone_model->get_cities_by_cc_city($cityColumn);
-            if(!empty($masterCity)){
-                $response = json_encode(array("status"=>"true","data"=>$masterCity));
-            }else{
-                $response = json_encode(array("status"=>"false","message"=>"City Not Found"));
+        if (!empty($cRetsult)) {
+
+            if ($cRetsult['company_type'] == "F") {
+                $cityColumn = 'city';
+            } else {
+                $cNanme = $cRetsult['company'];
+                $cityColumn = $this->Zone_model->getCityColumnByCname($cNanme);
             }
-        }
-        else{
-            $response = json_encode(array("status"=>"false","message"=>"City Column Not Found"));
+
+            if (!empty($cityColumn)) {
+
+                $masterCity = $this->Zone_model->get_cities_by_cc_city($cityColumn);
+                $zonecity = $this->Zone_model->get_old_city($cc_id);
+                $mergeArray=[];
+                foreach ($zonecity as $key) {
+                    $cityIds = json_decode($key['city_id'], true); // Decode JSON string to array
+                        //  print_r($cityIds);
+                // exit();
+                    foreach ($cityIds as $city) {
+                        $mergeArray[] = $city;
+                    }
+                }
+             
+                        $uniqueCities = array_unique($mergeArray);
+                //   print_r($uniqueCities);die;
+                foreach ($masterCity as $key => $city) {
+                 
+                    if (in_array($city['id'], $uniqueCities)) {
+                        // If it exists, remove the city from $masterCity
+                        unset($masterCity[$key]);
+                    }
+                
+                }
+                
+                // Re-index the array
+                $masterCity = array_values($masterCity);
+
+
+                if (!empty($masterCity)) {
+                    $response = json_encode(array("status" => "true", "data" => $masterCity));
+                } else {
+                    $response = json_encode(array("status" => "false", "message" => "City Not Found"));
+                }
+            } else {
+                $response = json_encode(array("status" => "false", "message" => "City Not Found"));
+            }
+        } elseif ($cc_id == 0) {
+
+            $cityColumn = 'city';
+            $masterCity = $this->Zone_model->get_cities_by_cc_city($cityColumn);
+            if (!empty($masterCity)) {
+                $response = json_encode(array("status" => "true", "data" => $masterCity));
+            } else {
+                $response = json_encode(array("status" => "false", "message" => "City Not Found"));
+            }
+        } else {
+            $response = json_encode(array("status" => "false", "message" => "City Column Not Found"));
         }
         echo $response;
     }
 
+    public function deleteCourierZone($courier_zone_id=null){
+    
+        // echo $courier_zone_id;die;
+        if($courier_zone_id >0){
+            $this->Zone_model->deleteCourierZoneById($courier_zone_id);
+            
+            $this->session->set_flashdata('msg','Zone deleted successfully.');
+        }else{
+            $this->session->set_flashdata('msg','Somethings went wrong.');          
+        }
+        redirect('viewZone');
+   }
 }
-
-?>

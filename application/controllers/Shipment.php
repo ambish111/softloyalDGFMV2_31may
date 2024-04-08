@@ -2312,7 +2312,7 @@ class Shipment extends MY_Controller {
         $data['traking_awb_no'] = preg_split('/\s+/', trim($searchids));
         // print_r($data['traking_awb_no']); exit;
         if (!empty($data['traking_awb_no'])) {
-            $shipmentdata = $this->Shipment_model->getawbdataquery($data['traking_awb_no']);
+            $shipmentdata = $this->Shipment_model->getawbdataqueryForward($data['traking_awb_no']);
             $slipRArray = array();
             foreach ($shipmentdata as $shData) {
                 $slipRArray[] = $shData['slip_no'];

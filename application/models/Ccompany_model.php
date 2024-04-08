@@ -2415,7 +2415,7 @@ class Ccompany_model extends CI_Model {
            // echo $this->db->last_query(); die;
         }
 
-    public function forwardshfilter($awb, $warehouse, $origin, $destination, $forwarded_type, $mode, $sku, $booking_id, $page_no,$seller_id=null) {
+    public function forwardshfilter($awb, $warehouse, $origin, $destination, $forwarded_type, $mode, $sku, $booking_id, $page_no,$seller_id=null,$typeship=null) {
         $page_no;
         $limit = ROWLIMIT;
         if (empty($page_no)) {
@@ -2464,9 +2464,13 @@ class Ccompany_model extends CI_Model {
 
             $this->db->where_in('shipment_fm.wh_id', $warehouse);
         }
+        
 
         if (!empty($awb)) {
             $this->db->where('shipment_fm.slip_no', $awb);
+        }
+        if (!empty($typeship)) {
+            $this->db->where('shipment_fm.typeship', $typeship);
         }
         if (!empty($booking_id)) {
             $this->db->where_in('booking_id', explode(' ', $booking_id));

@@ -241,7 +241,20 @@ select[size] {
                                             <div class="form-group">
                                                 <label><?= lang('lang_Courier_Company'); ?></label>
                                                 <span id="c_id"></span>
+                                                <br>
+                                                <?php
+                                                if (!empty($EditData[0]->cc_id && !empty($company))) {
+                                                    foreach ($company as $cmpy) {
+                                                        if($EditData[0]->cc_id == $cmpy->cc_id){                                            
+                                                        echo '<strong> '. $cmpy->company. '</strong>';
+                                                        
+                                                        }
+                                                    }?>
+                                                    
+                                                <?php } else{?>
+
                                                 <select name="c_id" id="courier_id" required class="js-select4 bigdrop"  required > 
+                                                            
                                                 <option value="" selected="selected"> Please select city  </option>
 
                                                 <option value="0" ><?= lang('lang_Last_Mile'); ?> </option>
@@ -250,11 +263,12 @@ select[size] {
                                                         foreach ($company as $cmpy) {
                                                             ?>
                                                             <option value="<?php echo $cmpy->cc_id; ?>" <?php if ($cmpy->cc_id == $EditData[0]->cc_id) {
-                                                                echo "selected=selected";
+                                                                echo "selected=selected"; 
                                                             } ?>><?php echo $cmpy->company ?></option>
-                                                <?php }
-                                            } ?>
+                                                    <?php }
+                                                    } ?> 
                                                 </select>
+                                            <?php }?>
                                             </div>
                                             <div class="form-group ">
                                                 <label><?= lang('lang_Capcity'); ?></label>
@@ -308,6 +322,38 @@ select[size] {
                                     </select>
                                     </div>
                                     </div>
+                                    <div class="form-group " style="margin-bottom 50px !important; min-height: 250px;" >  
+                                    <div class="form-group ">
+                                    <label>Restricted cities </label>&nbsp;<span class="city_error text-danger hidden"> <b>(City Not Found) </b></span>
+                                    </div> 
+                                    <div class="d-flex" style="display: flex;"> 
+                                    <div class="subject-info-box-1">
+                                        <select multiple="multiple" id='lstBox3'  class="form-control">
+                                        <?php if (!empty($ResListArr)): ?>
+                                                    <?php foreach ($ResListArr as $rows): ?>
+                                                        <option value="<?= $rows['id']; ?>"> <?= $rows['city']; ?> </option>
+                                                <?php endforeach; ?>
+                                                <?php endif; ?>
+                                        </select>
+                                    </div>
+                                   
+                                    <div id="subject-info-row text-center" style="float: left; width: 10%;">
+                                        <input type='button' style="margin-top:5px; margin-left:15px; width:70%;" id='AllRight' value='>>' class="btn btn-info" /><br />
+                                        <input type='button' style="margin-top:5px; margin-left:15px; width:70%;" id='Right' value='>' class="btn btn-info" /><br />
+                                        <input type='button' style="margin-top:5px; margin-left:15px; width:70%;" id='Left' value='<' class="btn btn-info" /><br />
+                                        <input type='button' style="margin-top:5px; margin-left:15px; width:70%;" id='AllLeft' value='<<' class="btn btn-info" />
+                                    </div>
+                                    <div class="subject-info-box-2">
+                                        <select multiple="multiple" name="restricted_city_id[]"id='lstBox4' class="form-control">
+                                        <?php if (!empty($Respre)): ?>
+                                                    <?php foreach ($Respre as $rows): ?>
+                                                    <option selected value="<?= $rows['id']; ?>" > <?= $rows['city']; ?> </option>
+                                                <?php endforeach; ?>
+                                                <?php endif; ?>  
+                                        </select>
+                                    </div>
+                                    </div>
+                                </div> 
                                   
                                                                           
 
@@ -375,12 +421,12 @@ select[size] {
 </script>  
 
 
-
 <Script>
         $(document).ready(function(){
             $('#selectAll').click(function(){
 
                 $('#lstBox2 option').prop('selected', true);
+                $('#lstBox4 option').prop('selected', true);
                 $('#subButton').prop('disabled', false);
             });
             
@@ -406,9 +452,11 @@ select[size] {
                           str += '<option value="'+response.data[i].id+'">'+response.data[i].city+'</option> '
                       }
                       $("#lstBox1").html(str);
+                      $("#lstBox3").html(str);
                   }
               }else{
                   $("#lstBox1").html("");  
+                  $("#lstBox3").html("");  
                   $(".city_error").removeClass('hidden');
                   //alert(response.message);
               }
@@ -434,6 +482,8 @@ select[size] {
     $('#subButton').prop('disabled', true);
     e.preventDefault();
   });
+
+
 
   $("#btnAllRight").click(function (e) {
    var isconfirm= confirm("Do you really want to add cities! its huge...");
@@ -479,5 +529,70 @@ select[size] {
     $('#subButton').prop('disabled', true);
     e.preventDefault();
   });
+
+
+  //Restricted cities
+
+ 
+  $("#Right").click(function (e) {
+    var selectedOpts = $("#lstBox3 option:selected");
+    if (selectedOpts.length == 0) {
+      alert("Nothing to move.");
+      e.preventDefault();
+    }
+
+    $("#lstBox4").append($(selectedOpts).clone());
+    $(selectedOpts).remove();
+    $('#subButton').prop('disabled', true);
+    e.preventDefault();
+  });
+  $("#AllRight").click(function (e) {
+   var isconfirm= confirm("Do you really want to add cities! its huge...");
+   if(isconfirm)
+{
+
+
+    var selectedOpts = $("#lstBox3 option");
+    if (selectedOpts.length == 0) {
+      alert("Nothing to move.");
+      e.preventDefault();
+    }
+
+    $("#lstBox4").append($(selectedOpts).clone());
+    $(selectedOpts).remove();
+    $('#subButton').prop('disabled', true);
+    e.preventDefault();
+}
+  });
+
+  $("#Left").click(function (e) {
+    var selectedOpts = $("#lstBox4 option:selected");
+    if (selectedOpts.length == 0) {
+      alert("Nothing to move.");
+      e.preventDefault();
+    }
+
+    $("#lstBox3").append($(selectedOpts).clone());
+    $(selectedOpts).remove();
+    $('#subButton').prop('disabled', true);
+    e.preventDefault();
+  });
+
+  $("#AllLeft").click(function (e) {
+    var selectedOpts = $("#lstBox4 option");
+    if (selectedOpts.length == 0) {
+      alert("Nothing to move.");
+      e.preventDefault();
+    }
+
+    $("#lstBox3").append($(selectedOpts).clone());
+    $(selectedOpts).remove();
+    $('#subButton').prop('disabled', true);
+    e.preventDefault();
+
+   
+  }); 
+  
+  //Restricted cities
 })(jQuery);
 </Script>

@@ -119,8 +119,9 @@ class CourierCompany extends MY_Controller
         $sku = isset($_POST['sku_val']) ? $_POST['sku_val'] : '';
         $booking_id = isset($_POST['booking_id']) ? $_POST['booking_id'] : '';
         $seller_id = isset($_POST['seller']) ? $_POST['seller'] : '';
+        $typeship = isset($_POST['typeship']) ? $_POST['typeship'] : '';
 
-        $shipments = $this->Ccompany_model->forwardshfilter($awb, $warehouse, $origin, $destination, $forwarded_type, $mode, $sku, $booking_id, $page_no, $seller_id);
+        $shipments = $this->Ccompany_model->forwardshfilter($awb, $warehouse, $origin, $destination, $forwarded_type, $mode, $sku, $booking_id, $page_no, $seller_id,$typeship);
 
         //echo '<pre>';
         //$shiparrayexcel = $shipmentsexcel['result'];
@@ -556,6 +557,7 @@ class CourierCompany extends MY_Controller
                             $wh_city = json_decode($wh_address['city_id'], true);                    
                             $sender_address =  $wh_address['wh_address'] ;
                             $sender_origin = $wh_city[0];
+//                            echo "ciyt=".$sender_origin;die;
                             $sender_phone = $ShipArr['sender_phone'];
                         } 
                         else 
@@ -613,6 +615,19 @@ class CourierCompany extends MY_Controller
                         );
                         //  print_r($ShipArr);die;
                         $imileordertype = 100;
+                        $reciever_city = getdestinationfieldshow($ShipArr['destination'], 'city', $super_id);
+                        $Restricted_city = Restrictedcity($c_id, $super_id);
+                        // print_r($Restricted_city);die;
+                        $Restricted = json_decode($Restricted_city);
+                        // print_r($Restricted);die;
+                        if (in_array($ShipArr['destination'], $Restricted, TRUE)) {
+                            $returnArr['responseError'][] = $slipNo . ': Receiver city is in Restricted city zone';
+                            $company = '';
+                            $successstatus = "Fail";
+                            $logresponse = $reciever_city . " Receiver city is in Restricted city zone";
+                            $this->Ccompany_model->shipmentLog($c_id, $logresponse, $successstatus, $ShipArr['slip_no'],'');
+                        }
+
                         // echo $company;die;
                         $ccRetrundata = $this->courierComanyForward($sellername, $Auth_token, $company, $ShipArr, $counrierArr, $complete_sku, $pay_mode, $CashOnDeliveryAmount, $services, $box_pieces1, $super_id, $company_type, $c_id, $api_url, $imileordertype, $open_package_flag);
 

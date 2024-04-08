@@ -376,6 +376,24 @@
                                                                     </select>
                                                                 </div> 
                                                             </td>
+                                                            <?php if($this->session->userdata('user_details')['super_id'] == 333){ ?> 
+                                                                <td>
+                                                                    <div class="form-group" ><strong>Type Ship:</strong>
+                                                                        <br>
+                                                                       <select class="form-control"  ng-model="filterData.typeship">
+                                                                           <option value="">Ship Type</option>
+                                                                           <option  value="Sonyworld">Sonyworld</option>
+                                                                           <option  value="Amazon pay">Amazon Pay</option>
+                                                                           <option  value="same day">Same Day</option>
+                                                                           <option  value="Mestores">Mestores</option>
+                                                                           <option  value="me-ad">Me-Ad</option>
+                                                                           <option  value="me-ad-no">Me-Ad-No</option>
+                                                                           <option  value="me-pa-no">Me-Pa-No</option>
+
+                                                                       </select>
+                                                                   </div>
+                                                                </td>
+                                                               <?php } ?>
                                                             <td ><button type="button" class="btn btn-success" style="margin-left: 7%"><?=lang('lang_Total');?> <span class="badge">{{shipData.length}}/{{totalCount}}</span></button></td>
 
                                                             <td colspan=""><a  class="btn btn-danger" ng-click="loadMore(1, 1);" ><?=lang('lang_Search');?></a></td>
@@ -475,6 +493,9 @@
 
                                                 <tr>
                                                     <th><?=lang('lang_SrNo');?>. <input type="checkbox" ng-model="selectedAll" ng-change="selectAll();"></th>
+                                                    <?php  if(menuIdExitsInPrivilageArray(230) == 'Y') {  ?>
+                                                            <th>Type</th>
+                                                     <?php } ?>
                                                     <th><?=lang('lang_AWBNo');?>.</th>
                                                     <th><?=lang('lang_Ref_No');?>.</th>
                                                 <th><?=lang('lang_Origin');?></th>  
@@ -488,14 +509,15 @@
                                                      
                                                       <?php  if(menuIdExitsInPrivilageArray(230) == 'Y') {  ?>
                                                       <th>Sku</th>
-                                                      <th>Type</th>
-                                                       
                                                          <?php } ?>
                                                 </tr>
                                             </thead>
                                             <tr ng-if='shipData != 0' ng-repeat="data in shipData"> 
 
                                                 <td>{{$index + 1}} <input type="checkbox"  class="checkBoxClass" check-list='Items' ng-model="data.Selected" ng-click="checkIfAllSelected()" value="{{data.slip_no}}"> </td>
+                                                <?php  if(menuIdExitsInPrivilageArray(230) == 'Y') {  ?>
+                                                <td>{{data.typeship}}</td>
+                                                <?php } ?>
                                                 <td>{{data.slip_no}}</td>
                                                 <td>{{data.booking_id}}</td>
                                                 <td>{{data.origin}}</td>
@@ -513,7 +535,7 @@
                                                     <td><a  ng-click="GetInventoryPopup(data.slip_no);"><span class="label label" style="background-color:<?= DEFAULTCOLOR; ?>;"><?=lang('lang_Get_Details');?></span></a></td>
                                                 <?php } ?>
                                                 
-                                                <td>{{data.typeship}}</td>
+                                                
                                              
                                                <?php } ?>
                                             </tr>

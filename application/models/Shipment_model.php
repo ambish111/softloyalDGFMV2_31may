@@ -5787,6 +5787,35 @@ if(!empty($awbids ))
         // echo $this->db->last_query(); die;
         return true;
     }
+    
+    
+    public function getawbdataqueryForward($awbids = array()) {
+        
+        // print_r($awbids[0]);
+        $awbarray = $awbids;
+if(!empty($awbids ))
+{
+        $counter = 0;
+        $conditions = "";
+        $wh_condition="";
+        foreach ($awbarray as $ids) {
+            if ($counter == 0)
+                $conditions = $ids;
+            else
+                $conditions .= "','" . $ids;
+            $counter++;
+        }
+        if ($this->session->userdata('user_details')['user_type'] != 1) {
+           $wh_condition=" and shipment_fm.wh_id='".$this->session->userdata('user_details')['wh_id']."'";
+       }
+        //echo "select * from shipment_fm where (slip_no IN('$conditions') or frwd_company_awb IN('$conditions') or booking_id IN('$conditions')) and super_id='" . $this->session->userdata('user_details')['super_id'] . "'";die;
+        $query = $this->db->query("select * from shipment_fm where code NOT in('POD','RTC','C') AND (slip_no IN('$conditions') or frwd_company_awb IN('$conditions') or booking_id IN('$conditions')) and super_id='" . $this->session->userdata('user_details')['super_id'] . "' $wh_condition");
+        // echo $this->db->last_query();
+        if ($query->num_rows() > 0) {
+            return $query->result_array();
+        }
+    }
+    }
 
 
 
