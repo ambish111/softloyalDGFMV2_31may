@@ -70,6 +70,7 @@
                                                 <th><?= lang('lang_company'); ?></th>
                                                 <th><?= lang('lang_Capacity'); ?></th>
                                                 <th><?= lang('lang_City'); ?></th>
+                                                <th>Restricted cities</th>
                                                 <th><?= lang('lang_Max_Weight_Range'); ?></th>   
                                                 <th><?= lang('lang_Max_Weight_Range_Rate'); ?></th> 
                                                 <th><?= lang('lang_Additional_Weight_Rate'); ?></th>                                               
@@ -87,6 +88,8 @@
                                                            <td><?= $seller->capacity; ?></td> 
 
                                                         <td><?= getdestinationfieldshow_array(implode(',', json_decode($seller->city_id)), 'city'); ?></td> 
+                                                        <td><?= getdestinationfieldshow_array(implode(',', json_decode($seller->restricted_city_id)), 'city'); ?> 
+                                                    </td>
                                                          <td><?= $seller->max_weight; ?></td> 
                                                          <td><?= $seller->flat_price; ?></td>
                                                           <td><?= $seller->price; ?></td>  
@@ -100,7 +103,7 @@
 
                                                                     <ul class="dropdown-menu dropdown-menu-right">
                                                                         <li><a href="<?= base_url(); ?>editZone/<?= $seller->id; ?>"><i class="icon-pencil7"></i>  <?= lang('lang_Edit'); ?></a></li>
-
+                                                                        <li><a href="javascript:;" onclick="removeZoneCourier(<?= $seller->id; ?>)" style="cursor:pointer;"><i class="fa-solid fa-trash fa-fw"></i> <?= lang('lang_Delete'); ?></a></li>
                                                                     </ul>
                                                                 </li>
                                                             </ul>
@@ -146,9 +149,14 @@
                 var table = $('#example').DataTable({});
 
             });
-
+            function removeZoneCourier(rid){
+                if(confirm('Are you want to sure delete this zone?') == true){
+                    window.location.href= '<?= base_url(); ?>Zone/deleteCourierZone/'+rid;
+                }
+            }
 
         </script>
+
 
         <!-- /page container -->
 

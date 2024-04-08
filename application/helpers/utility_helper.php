@@ -12,7 +12,23 @@ if (!function_exists('asset_url()')) {
 
 }
 
+if (!function_exists('Restrictedcity')) {
 
+    function Restrictedcity($cc_id = null, $super_id = null) {
+        $ci = & get_instance();
+        $ci->load->database();
+        if ($super_id == null)
+            $super_id = $ci->session->userdata('user_details')['super_id'];
+        $sql = "SELECT restricted_city_id FROM zone_list_fm where cc_id='$cc_id' and restricted_city_id !='null' and super_id='" . $super_id . "'";
+        //echo $sql;
+        $query = $ci->db->query($sql);
+        //   echo $ci->db->last_query();exit;
+        $result = $query->row_array();
+        // print_r($result);die;
+        return $result['restricted_city_id'];
+    }
+
+}
 if (!function_exists('Generate_awb_number_fm_slip')) {
 
     function Generate_awb_number_fm_slip() {
