@@ -216,7 +216,7 @@
                                             </td>
                                             <td >{{data.city}}</td>
                                             <td >{{data.address}}</td>
-                                          
+                                            <td ng-if="data.manifest_type == null"><span class="badge badge-warning">{{data.description}} </span></td>
                                             <td ng-if="data.manifest_type == 'D'"><span class="badge badge-danger">Delivery By Seller</span></td>
                                             <td ng-if="data.manifest_type == 'P'"><span class="badge badge-success">Pickup By Diggipacks </span></td>
                                               <td><img ng-if="data.vehicle_type != ''" src="<?= base_url(); ?>{{data.vehicle_type}}" width="65">

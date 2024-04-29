@@ -114,6 +114,10 @@
                                         <label for="expity_date"><strong><?=lang('lang_Expire_Date');?>:</strong></label>
                                         <input  type="text" class="form-control" name='expity_date' ng-model="filterData.expity_date"  id="expity_date"   >
                                     </div>
+                                    <div class="form-group">
+                                        <label for="comment"><strong>Remarks/Comments:</strong></label>
+                                        <textarea  type="text" class="form-control" name='comment' ng-model="filterData.comment" id="comment"></textarea>
+                                    </div>
                                     
                                     <button type="button" ng-show="buttonhide" class="btn btn-success" ng-click="GetaddconfirmDatashow()" ><?=lang('lang_Submit');?></button>
 
@@ -157,6 +161,12 @@
                                                             <tr style="width: 80%;">
                                                                 <td><strong><?=lang('lang_Expire_Date');?>:</strong></td>
                                                                 <td>{{filterData.expity_date}}</td>
+
+                                                            </tr>
+                                                            
+                                                             <tr style="width: 80%;">
+                                                                <td><strong>Remarks/Comments:</strong></td>
+                                                                <td>{{filterData.comment}}</td>
 
                                                             </tr>
 

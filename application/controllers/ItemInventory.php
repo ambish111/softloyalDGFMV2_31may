@@ -306,6 +306,7 @@ class ItemInventory extends MY_Controller {
         $sku_name = getalldataitemtables($this->input->post('sku'), 'sku');
         $item_type = getalldataitemtables($this->input->post('sku'), 'type');
         $first_out = getallsellerdatabyID($this->input->post('seller'), 'first_out');
+         $comment = $this->input->post('comment');
         $wh_id = $this->input->post('wh_id');
         $qty = $this->input->post('quantity');
 
@@ -336,7 +337,7 @@ class ItemInventory extends MY_Controller {
                         $lastQtyUp = GetuserToatalLOcationQty($val->id, 'quantity');
                         $stock_location_upHistory = GetuserToatalLOcationQty($val->id, 'stock_location');
                         $lastQtyUp_up = $lastQtyUp;
-                        $activitiesArr = array('exp_date' => $expdate, 'st_location' => $stock_location_upHistory, 'item_sku' => $this->input->post('sku'), 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $this->input->post('seller'), 'qty' => $check, 'p_qty' => $lastQtyUp, 'qty_used' => $qty, 'type' => 'Update', 'entrydate' => date("Y-m-d h:i:s"), 'super_id' => $this->session->userdata('user_details')['super_id'], 'shelve_no' => $shelve_no);
+                        $activitiesArr = array('exp_date' => $expdate, 'st_location' => $stock_location_upHistory, 'item_sku' => $this->input->post('sku'), 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $this->input->post('seller'), 'qty' => $check, 'p_qty' => $lastQtyUp, 'qty_used' => $qty, 'type' => 'Update', 'entrydate' => date("Y-m-d h:i:s"), 'super_id' => $this->session->userdata('user_details')['super_id'], 'shelve_no' => $shelve_no,'comment'=>!empty($comment)?$comment:"");
 
                         GetAddInventoryActivities($activitiesArr);
                         $this->ItemInventory_model->updateInventory(array('quantity' => $check, 'id' => $val->id));
@@ -347,7 +348,7 @@ class ItemInventory extends MY_Controller {
                         $lastQtyUp = GetuserToatalLOcationQty($val->id, 'quantity');
                         $stock_location_upHistory = GetuserToatalLOcationQty($val->id, 'stock_location');
                         $lastQtyUp_up = $lastQtyUp;
-                        $activitiesArr = array('exp_date' => $expdate, 'st_location' => $stock_location_upHistory, 'item_sku' => $this->input->post('sku'), 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $this->input->post('seller'), 'qty' => $sku_size, 'p_qty' => $lastQtyUp, 'qty_used' => $qty, 'type' => 'Update', 'entrydate' => date("Y-m-d h:i:s"), 'super_id' => $this->session->userdata('user_details')['super_id'], 'shelve_no' => $shelve_no);
+                        $activitiesArr = array('exp_date' => $expdate, 'st_location' => $stock_location_upHistory, 'item_sku' => $this->input->post('sku'), 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $this->input->post('seller'), 'qty' => $sku_size, 'p_qty' => $lastQtyUp, 'qty_used' => $qty, 'type' => 'Update', 'entrydate' => date("Y-m-d h:i:s"), 'super_id' => $this->session->userdata('user_details')['super_id'], 'shelve_no' => $shelve_no,'comment'=>!empty($comment)?$comment:"");
 
                         GetAddInventoryActivities($activitiesArr);
                         $this->ItemInventory_model->updateInventory(array('quantity' => $sku_size, 'id' => $val->id));
@@ -397,6 +398,7 @@ class ItemInventory extends MY_Controller {
                         'update_date' => date("Y/m/d h:i:sa"),
                         'stock_location' => $stocklocation[$ii],
                         'wh_id' => $this->input->post('wh_id'),
+                        'comment'=>!empty($comment)?$comment:"",
                         'shelve_no' => "",
                         'expity_date' => $this->input->post('expity_date'),
                         'super_id' => $this->session->userdata('user_details')['user_id']

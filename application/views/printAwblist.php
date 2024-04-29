@@ -159,7 +159,10 @@
                                                                                          </tr>
                                              </table>
                                                                  <table border="1">
-                                                                 
+                                                                 <tr >	<td align="center" style="font-size: 12px;" colspan="2">Toll free No :'.$tollfree.' </td>
+										
+									
+								</tr>
                                                                         <tr  align="center">
                                                                             <td style="font-size:10px; width:50%">
                                                                                     <strong> From</strong>  :  <br />

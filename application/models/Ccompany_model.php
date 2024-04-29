@@ -156,7 +156,7 @@ class Ccompany_model extends CI_Model {
            // $this->db->where('api_url != ', '');
             $this->db->order_by("company");
             $query = $this->db->get();
-        //    echo $this->db->last_query();exit;
+//            echo $this->db->last_query();exit;
             $result =  $query->row_array();
         }
         else
@@ -3479,6 +3479,7 @@ class Ccompany_model extends CI_Model {
 
         $number  = $sender_phone; 
         $number = ltrim($number, '966');
+        $number = ltrim($number, '+966');
         $number = ltrim($number, '0');
         $number = '966' . $number;
         $sender_phone = str_replace(' ', '', $number); 
@@ -11633,6 +11634,19 @@ public function DhlJonesArray($sellername = null, array $ShipArr, array $counrie
             );
             $this->db->insert('webhook_active_log', $data2);
         }
+    }
+    
+     public function HajerV2Label($slip_no = null,$cc_id=null)
+    {
+        $ci = &get_instance();
+        $ci->load->database();
+        $sql = "SELECT log FROM frwd_shipment_log where super_id='" . $ci->session->userdata('user_details')['super_id'] . "' and  slip_no='" . $slip_no . "' and cc_id='".$cc_id."' AND status='Success' ORDER BY ID DESC LIMIT 1";
+//        echo $sql;die;
+        $query = $ci->db->query($sql);
+        $result = $query->result_array();
+        $data = json_decode($result[0]['log'], true);
+//          echo "<pre>"; print_r($data); die;
+        return $data['printLable'];
     }
 
 

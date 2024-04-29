@@ -160,6 +160,21 @@
                                                             <option  value="B2C">B2C</option>
                                                         </select>
                                                     </div></div>
+                                                <?php if($this->session->userdata('user_details')['super_id'] == 333){ ?> 
+                                                
+                                                    <div class="col-md-2"><div class="form-group" ><strong>Ship Type:</strong>
+                                                        <select class="form-control"  ng-model="filterData.typeship">
+                                                            <option value="">Ship Type</option>
+                                                            <option  value="Sonyworld">Sonyworld</option>
+                                                            <option  value="Amazon pay">Amazon Pay</option>
+                                                            <option  value="same day">Same Day</option>
+                                                            <option  value="Mestores">Mestores</option>
+                                                            <option  value="me-ad">Me-Ad</option>
+                                                            <option  value="me-ad-no">Me-Ad-No</option>
+                                                            <option  value="me-pa-no">Me-Pa-No</option>
+                                                        </select>
+                                                    </div></div>
+                                                <?php } ?>
                                                 <div class="col-md-2"><div class="form-group" ><strong>Limit:</strong>
                                                         <select class="form-control"  ng-model="filterData.sort_limit" ng-change="loadMore(1, 1);">
 
