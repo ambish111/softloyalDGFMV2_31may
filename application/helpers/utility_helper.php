@@ -19,7 +19,7 @@ if (!function_exists('Restrictedcity')) {
         $ci->load->database();
         if ($super_id == null)
             $super_id = $ci->session->userdata('user_details')['super_id'];
-        $sql = "SELECT restricted_city_id FROM zone_list_fm where cc_id='$cc_id' and restricted_city_id !='null' and super_id='" . $super_id . "'";
+        $sql = "SELECT restricted_city_id FROM zone_list_fm where cc_id='$cc_id' and restricted_city_id !='null' and super_id='" . $super_id . "' and status='Y' and deleted='N'";
         //echo $sql;
         $query = $ci->db->query($sql);
         //   echo $ci->db->last_query();exit;
@@ -1662,7 +1662,7 @@ if (!function_exists('PrintPiclist3PL_bulk')) {
                     //  echo '<pre> twewt'.$forwardCompany. "    ". $slip_no; die; 
 //                    echo $forwardCompany;die;
                     // echo filesize("assets/all_labels/" . $slip_no . ".pdf")."//".$forwardCompany; die; 
-                    if ( $forwardCompany == 'Thabit' || $forwardCompany == 'GLT' || $forwardCompany == 'J&T EG' || $forwardCompany == 'Tamex' || $forwardCompany == 'Aramex' || $forwardCompany == 'Smsa' || $forwardCompany == 'Labaih' || $forwardCompany == 'Shipadelivery' || $forwardCompany == 'Barqfleet' || $forwardCompany == 'Bosta V2' || $forwardCompany == 'KwickBox'  || $forwardCompany == 'J&T' || $forwardCompany == 'IMile' || $forwardCompany == 'Saudi Post' || $forwardCompany == 'Aramex International' || $forwardCompany == 'Aymakan' || $forwardCompany == 'Bawani' || $forwardCompany == 'Beez' || $forwardCompany == 'Bosta' || $forwardCompany == 'Clex' || $forwardCompany == 'Dots' || $forwardCompany == 'FDA' || $forwardCompany == 'Flamingo' || $forwardCompany == 'FLOW'  || $forwardCompany == 'Kasib Logistic' || $forwardCompany == 'Kudhha' || $forwardCompany == 'LAFASTA' || $forwardCompany == 'Lastpoint' || $forwardCompany == 'Mahmool' || $forwardCompany == 'Makhdoom' || $forwardCompany == 'Makhdoom V2' || $forwardCompany == 'MMCCO' ||  $forwardCompany == 'Saee' || $forwardCompany == 'SMB COLD' ||$forwardCompany == 'SMB' ||  $forwardCompany == 'SMSA International' || $forwardCompany == 'SpeedAF'  || $forwardCompany == 'UPS' ||  $forwardCompany == 'Business Flow' ||  $forwardCompany == 'Sprint' || $forwardCompany == 'Shipadelivery v2' || $forwardCompany == 'Ajex' || $forwardCompany == 'Saudi Hajer' || $forwardCompany == 'Nashmi'|| $forwardCompany == 'TD Logistics' || $forwardCompany == 'DRB Logistics' || $forwardCompany=='J&T Reverse') 
+                    if ( $forwardCompany == 'Thabit' || $forwardCompany == 'GLT' || $forwardCompany == 'J&T EG' || $forwardCompany == 'Tamex' || $forwardCompany == 'Aramex' || $forwardCompany == 'Smsa' || $forwardCompany == 'Labaih' || $forwardCompany == 'Shipadelivery' || $forwardCompany == 'Barqfleet' || $forwardCompany == 'Bosta V2' || $forwardCompany == 'KwickBox'  || $forwardCompany == 'J&T' || $forwardCompany == 'IMile' || $forwardCompany == 'Saudi Post' || $forwardCompany == 'Aramex International' || $forwardCompany == 'Aymakan' || $forwardCompany == 'Bawani' || $forwardCompany == 'Beez' || $forwardCompany == 'Bosta' || $forwardCompany == 'Clex' || $forwardCompany == 'Dots' || $forwardCompany == 'FDA' || $forwardCompany == 'Flamingo' || $forwardCompany == 'FLOW'  || $forwardCompany == 'Kasib Logistic' || $forwardCompany == 'Kudhha' || $forwardCompany == 'LAFASTA' || $forwardCompany == 'Lastpoint' || $forwardCompany == 'Mahmool' || $forwardCompany == 'Makhdoom' || $forwardCompany == 'Makhdoom V2' || $forwardCompany == 'MMCCO' ||  $forwardCompany == 'Saee' || $forwardCompany == 'SMB COLD' ||$forwardCompany == 'SMB' ||  $forwardCompany == 'SMSA International' || $forwardCompany == 'SpeedAF'  || $forwardCompany == 'UPS' ||  $forwardCompany == 'Business Flow' ||  $forwardCompany == 'Sprint' || $forwardCompany == 'Shipadelivery v2' || $forwardCompany == 'Ajex' || $forwardCompany == 'Saudi Hajer' || $forwardCompany == 'Nashmi'|| $forwardCompany == 'TD Logistics' || $forwardCompany == 'DRB Logistics' || $forwardCompany=='J&T Reverse' || $forwardCompany == 'Saudi Hajer V2') 
                     {
                         // unlink("assets/all_labels/" . $slip_no . ".pdf"); //die;
                         //    echo '<pre> twewt'.filesize("assets/all_labels/" . $slip_no . ".pdf"); die; 
@@ -1714,7 +1714,8 @@ if (!function_exists('PrintPiclist3PL_bulk')) {
                             $counrierArr['courier_pin_no'] = $courier_pin_no;
                             $counrierArr['account_entity_code'] = $account_entity_code;
                             $counrierArr['account_country_code'] = $account_country_code;
-                           
+                            $counrierArr['cc_id'] = $counrierArr_table['cc_id'];
+                    
 
 
                             if ($forwardCompany == 'J&T' || $forwardCompany == 'J&T Reverse') {
@@ -1818,6 +1819,12 @@ if (!function_exists('PrintPiclist3PL_bulk')) {
 
                             if ($forwardCompany == 'KwickBox') {
                                 $media_data = $ci->Ccompany_model->KwickBoxLabel($awb_no, $counrierArr, $auth_token,$api_url);
+                                $lable = file_get_contents($media_data);
+                            }
+                            if ($forwardCompany == 'Saudi Hajer V2') {
+                                
+                                $media_data = $ci->Ccompany_model->HajerV2Label($slip_no,$counrierArr['cc_id']);
+//                                echo $media_data;die;
                                 $lable = file_get_contents($media_data);
                             }
 

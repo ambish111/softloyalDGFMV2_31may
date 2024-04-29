@@ -220,6 +220,9 @@
                                                             <option  value="Amazon pay">Amazon Pay</option>
                                                             <option  value="same day">Same Day</option>
                                                             <option  value="Mestores">Mestores</option>
+                                                            <option  value="me-ad">Me-Ad</option>
+                                                            <option  value="me-ad-no">Me-Ad-No</option>
+                                                            <option  value="me-pa-no">Me-Pa-No</option>
                                                         </select>
                                                     </div></div>
                                                 <?php } ?>

@@ -10,18 +10,19 @@ date_default_timezone_set("Asia/Riyadh");
 
 
 $exportDataArr = unserialize($argv[1]);
-
+//echo "ss=".json_encode($exportDataArr);die;
 
 $super_id= $exportDataArr['super_id'];
 $slip_no = $exportDataArr['slip_no'];
 $comment = $exportDataArr['comment'];
 $box_pieces = $exportDataArr['box_pieces'];
+$id = $exportDataArr['id'];
 $cc_id = $exportDataArr['cc_id'];
 $open_package_flag = $exportDataArr['open_package_flag'];
 
 
-    $Allarra = array('super_id' =>$super_id,'slip_no' =>$slip_no,'comment' =>$comment,'box_pieces' =>$box_pieces,'cc_id' =>$cc_id, 'open_package_flag'=>$open_package_flag);
-    // echo "<pre> fm file ";   print_r($Allarra); die; 
+    $Allarra = array('super_id' =>$super_id,'slip_no' =>$slip_no,'comment' =>$comment,'box_pieces' =>$box_pieces,'cc_id' =>$cc_id, 'open_package_flag'=>$open_package_flag,'id'=>$id);
+//     echo "<pre> fm file ";   print_r($Allarra); die; 
 
     $url = "https://fm.diggipacks.com/CourierCompany/BulkForwardCompanyReady";
     $dataJson = json_encode($Allarra);

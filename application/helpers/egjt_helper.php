@@ -69,7 +69,7 @@ function JandTArr($sellername=null,$ShipArr= array(), $counrierArr= array(), $c_
     $receiver_country_code = getdestinationfieldshow_auto_array($ShipArr['destination'], 'country_code', $super_id);
     $currency = getdestinationfieldshow_auto_array($ShipArr['destination'], 'currency', $super_id);
     // $currency ="SAR";
-    //  print_r($currency); die;
+//      print_r($ShipArr['destination']); die;
     if(empty($sender_city)){
         $return_array =  array("error"=>"true","msg"=>'Sender City is Empty.');
         return $return_array;
@@ -127,53 +127,19 @@ function JandTArr($sellername=null,$ShipArr= array(), $counrierArr= array(), $c_
     $sdendStartTime = date('Y-m-d H:i:s');
     $sendEndTime =  date('Y-m-d H:i:s',strtotime('+4 hour',strtotime($sdendStartTime)));
 
-    if($ShipArr['mode'] == "COD"){
-        $cod_amount = $ShipArr['total_cod_amt'];
-        $waybillinfoArr['itemsValue'] = $cod_amount;
-    }
+  
 
     $remark = $complete_sku .' - '. $ShipArr['comment'];
     
 
     $waybillinfoArr = array(
-        "customerCode" =>  $counrierArr['courier_pin_no'],
-        "digest" =>  $counrierArr['account_entity_code'], 
-        "network"=> " ",
-        "txlogisticId" => $ShipArr['slip_no'],
-        "expressType" => "EZ",
-        "orderType" =>"2",
+//        "customerCode" =>  $counrierArr['courier_pin_no'],
+//        "digest" =>  $counrierArr['account_entity_code'], 
+//        "network"=> " ",
         "serviceType"=>"02",
+        "orderType" =>"2",
         "deliveryType" =>"04",
-        "payType" => "PP_PM",  //PP_PM
-        "goodsType" => "ITN1",
-        "length" => '0',
-        "weight" => $weight,
-        "height"=>'0',
-        "width"=>'0',
-        "totalQuantity" => $box_pieces,
-        "itemsValue"=> round($cod_amount),
-        "priceCurrency" => $currency,
-        "offerFee" => "",
-        "remark" => $remark,
-        "operateType" => 1,
-        "area" => 0,
         "countryCode" =>$sender_country_code,
-        
-        "sender"=>array(
-            "address" => $store_address,
-            "name" => $sellername_name,
-            "company" => $sellername_name,
-            "postCode" => "",
-            "mailBox" => $senderemail,
-            "mobile"  => $senderphone,
-            "phone" => $senderphone,
-            "countryCode" =>$sender_country_code,
-            "prov" => $sender_city,
-            "city" => $sender_city,
-            "street" => $store_address,
-            "area" => 0,
-          
-        ),
         "receiver"=>array(
             "address"=> $ShipArr['reciever_address'],
             "name" => $ShipArr['reciever_name'],
@@ -189,11 +155,55 @@ function JandTArr($sellername=null,$ShipArr= array(), $counrierArr= array(), $c_
             "street"=> $ShipArr['reciever_address'],
           
         ),
+        "expressType" => "EZ",
+        "length" => '0',
+        "weight" => $weight,
+        "remark" => $remark,
+        "txlogisticId" => $ShipArr['slip_no'],
+        "goodsType" => "ITN1",
+        "priceCurrency" => $currency,
+        "totalQuantity" => $box_pieces,
+        "sender"=>array(
+            "address" => $store_address,
+            "name" => $sellername_name,
+            "company" => $sellername_name,
+            "postCode" => "",
+            "mailBox" => $senderemail,
+            "mobile"  => $senderphone,
+            "phone" => $senderphone,
+            "countryCode" =>$sender_country_code,
+            "prov" => $sender_city,
+            "city" => $sender_city,
+            "street" => $store_address,
+            "area" => 0,
+        ),
+        "offerFee" => 0,
+        "items"=> $item_array,
+        "operateType" => 1,
+        "payType" => "PP_PM",  //PP_PM
+        "isUnpackEnabled"=> 0
+//        
+//        "height"=>'0',
+//        "width"=>'0',
+//        
+//        "itemsValue"=> round($cod_amount),
         
-        "items"=> $item_array      
+        
+        
+        
+//        "area" => 0,
+        
+        
+        
+        
         
 
     );
+    
+    if($ShipArr['mode'] == "COD"){
+        $cod_amount = $ShipArr['total_cod_amt'];
+        $waybillinfoArr['itemsValue'] = $cod_amount;
+    }
 
     
     $waybillinfo = json_encode($waybillinfoArr);
@@ -206,7 +216,7 @@ function JandTArr($sellername=null,$ShipArr= array(), $counrierArr= array(), $c_
     $pwd = $counrierArr['password'];//"Aa123456";
     $bizcontent_digest = $counrierArr['account_entity_code'];//"mPY0eLkI5vVd5bFhN7HpyA==";
     $slipNo =  $ShipArr['slip_no'];
-     $orderData = create_order($customerCode,$pwd,$key,$account,$waybillinfo,$api_url);
+    $orderData = create_order($customerCode,$pwd,$key,$account,$waybillinfo,$api_url);
     $resultData = $orderData['result'];
     $postData = $orderData['postdata'];
    // echo $postData;die;
@@ -298,7 +308,8 @@ function print_order_label($customerCode,$pwd,$key,$account,$waybillinfo,$url){
 
 function create_order($customerCode,$pwd,$key,$account,$waybillinfo,$url){
 
-    $post_data = $waybillinfo; //get_post_data($customerCode,$pwd,$key,$waybillinfo);
+//    $post_data = $waybillinfo; //get_post_data($customerCode,$pwd,$key,$waybillinfo);
+    $post_data = get_post_data($customerCode,$pwd,$key,$waybillinfo);
     
     $head_dagest = get_header_digest($post_data,$key);
     //   print "<pre>";

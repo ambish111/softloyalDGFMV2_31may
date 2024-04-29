@@ -111,11 +111,11 @@ class Shipment extends MY_Controller {
         $param = array('super_id' => $this->session->userdata('user_details')['super_id'],'param'=>$postData);
 
         $paramJsone=json_encode($param);
-        // echo $paramJsone; 
+//         echo $paramJsone; die;
 
-        // exec('/usr/bin/php /var/www/html/diggipacks/fullfillment/autobulk_assign_newfm.php ' . escapeshellarg(serialize($param)) . '  2>&1 &/dev/null 2>&1 & ',$output);
+//         exec('/usr/bin/php /var/www/html/diggipack_new/demofulfillment/autobulk_assign_newfm.php ' . escapeshellarg(serialize($param)) . '  2>&1 &/dev/null 2>&1 & ',$output);
         //exec('/usr/bin/php /var/www/html/diggipack_new/demofulfillment/autobulk_assign_newfm.php ' . escapeshellarg(serialize($param)) . '  /dev/null & ');
-        //    print_r($output);
+//            print_r($output);
         shell_exec('/usr/bin/php /var/www/html/diggipack_new/demofulfillment/autobulk_assign_newfm.php ' . escapeshellarg(serialize($param)) .' > /dev/null 2>/dev/null &');
     }
 

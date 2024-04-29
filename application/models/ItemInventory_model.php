@@ -83,11 +83,11 @@ class ItemInventory_model extends CI_Model {
                     }
                 if (!empty($rdata['awb_no']))
                 {
-                    $activitiesArr = array('exp_date' => $data['expity_date'], 'st_location' => $data['stock_location'], 'item_sku' => $data['item_sku'], 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $data['seller_id'], 'qty' => $item_updated_quantity, 'p_qty' => $item_previous_quantity, 'qty_used' => $rdata['quantity'], 'type' => $activitiesType, 'entrydate' => date("Y-m-d h:i:s"), 'awb_no' => $rdata['awb_no'], 'super_id' => $this->session->userdata('user_details')['super_id'],'shelve_no'=>$data['shelve_no']);
+                    $activitiesArr = array('exp_date' => $data['expity_date'], 'st_location' => $data['stock_location'], 'item_sku' => $data['item_sku'], 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $data['seller_id'], 'qty' => $item_updated_quantity, 'p_qty' => $item_previous_quantity, 'qty_used' => $rdata['quantity'], 'type' => $activitiesType, 'entrydate' => date("Y-m-d h:i:s"), 'awb_no' => $rdata['awb_no'], 'super_id' => $this->session->userdata('user_details')['super_id'],'shelve_no'=>$data['shelve_no'],'comment'=>!empty($data['comment'])?$data['comment']:"");
                 }
                 else
                 {
-                    $activitiesArr = array('exp_date' => $data['expity_date'], 'st_location' => $data['stock_location'], 'item_sku' => $data['item_sku'], 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $data['seller_id'], 'qty' => $item_updated_quantity, 'p_qty' => $item_previous_quantity, 'qty_used' => $rdata['quantity'], 'type' => $activitiesType, 'entrydate' => date("Y-m-d h:i:s"), 'super_id' => $this->session->userdata('user_details')['super_id'],'shelve_no'=>$data['shelve_no']);
+                    $activitiesArr = array('exp_date' => $data['expity_date'], 'st_location' => $data['stock_location'], 'item_sku' => $data['item_sku'], 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $data['seller_id'], 'qty' => $item_updated_quantity, 'p_qty' => $item_previous_quantity, 'qty_used' => $rdata['quantity'], 'type' => $activitiesType, 'entrydate' => date("Y-m-d h:i:s"), 'super_id' => $this->session->userdata('user_details')['super_id'],'shelve_no'=>$data['shelve_no'],'comment'=>!empty($data['comment'])?$data['comment']:"");
                 }
                 GetAddInventoryActivities($activitiesArr);
 
@@ -148,11 +148,11 @@ class ItemInventory_model extends CI_Model {
                     }
                 if (!empty($rdata['awb_no']))
                 {
-                    $activitiesArr[] = array('exp_date' => $rdata['expity_date'], 'st_location' => $rdata['stock_location'], 'item_sku' => $rdata['item_sku'], 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $rdata['seller_id'], 'qty' => $rdata['quantity'], 'p_qty' => 0, 'qty_used' => $rdata['quantity'], 'type' => $activitiesType, 'entrydate' => date("Y-m-d h:i:s"), 'awb_no' => $rdata['awb_no'], 'super_id' => $this->session->userdata('user_details')['super_id'],'shelve_no'=>$shelve_no);
+                    $activitiesArr[] = array('exp_date' => $rdata['expity_date'], 'st_location' => $rdata['stock_location'], 'item_sku' => $rdata['item_sku'], 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $rdata['seller_id'], 'qty' => $rdata['quantity'], 'p_qty' => 0, 'qty_used' => $rdata['quantity'], 'type' => $activitiesType, 'entrydate' => date("Y-m-d h:i:s"), 'awb_no' => $rdata['awb_no'], 'super_id' => $this->session->userdata('user_details')['super_id'],'shelve_no'=>$shelve_no,'comment'=>!empty($rdata['comment'])?$rdata['comment']:"");
                 }
                 else
                 {
-                  $activitiesArr[] = array('exp_date' => $rdata['expity_date'], 'st_location' => $rdata['stock_location'], 'item_sku' => $rdata['item_sku'], 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $rdata['seller_id'], 'qty' => $rdata['quantity'], 'p_qty' => 0, 'qty_used' => $rdata['quantity'], 'type' => $activitiesType, 'entrydate' => date("Y-m-d h:i:s"), 'super_id' => $this->session->userdata('user_details')['super_id'],'shelve_no'=>$shelve_no);
+                  $activitiesArr[] = array('exp_date' => $rdata['expity_date'], 'st_location' => $rdata['stock_location'], 'item_sku' => $rdata['item_sku'], 'user_id' => $this->session->userdata('user_details')['user_id'], 'seller_id' => $rdata['seller_id'], 'qty' => $rdata['quantity'], 'p_qty' => 0, 'qty_used' => $rdata['quantity'], 'type' => $activitiesType, 'entrydate' => date("Y-m-d h:i:s"), 'super_id' => $this->session->userdata('user_details')['super_id'],'shelve_no'=>$shelve_no,'comment'=>!empty($rdata['comment'])?$rdata['comment']:"");
                 }
             }
         }
